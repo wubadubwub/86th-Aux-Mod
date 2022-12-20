@@ -32,8 +32,8 @@ class STB86_BH_CH_SL : STB86_BH_CH_Rifleman {
 	weapons[] = {STB86_BH_CH_VK78, STB86_BH_CH_M33, Throw, Put};
 	respawnWeapons[] = {STB86_BH_CH_VK78, STB86_BH_CH_M33, Throw, Put};
 
-	magazines[] = {MAG_6(Commando_20Rnd_65_Mag), MAG_2(OPTRE_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
-	respawnMagazines[] = {MAG_6(Commando_20Rnd_65_Mag), MAG_2(OPTRE_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
+	magazines[] = {MAG_6(Commando_20Rnd_65_Mag), MAG_2(TCF_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
+	respawnMagazines[] = {MAG_6(Commando_20Rnd_65_Mag), MAG_2(TCF_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
 	linkedItems[] = {STB86_BH_CH_Lead_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 	respawnLinkedItems[] = {STB86_BH_CH_Lead_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 };
@@ -119,8 +119,8 @@ class STB86_BH_CH_Grenadier : STB86_BH_CH_Rifleman {
 	weapons[] = {STB86_BH_CH_HMG38, STB86_BH_CH_M33, Throw, Put};
 	respawnWeapons[] = {STB86_BH_CH_HMG38, STB86_BH_CH_M33, Throw, Put};
 
-	magazines[] = {MAG_6(OPTRE_40Rnd_30x06_Mag), MAG_2(OPTRE_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_4(3Rnd_HE_Grenade_shell), MAG_4(3Rnd_Smoke_Grenade_shell)};
-	respawnMagazines[] = {MAG_6(OPTRE_40Rnd_30x06_Mag), MAG_2(OPTRE_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_4(3Rnd_HE_Grenade_shell), MAG_4(3Rnd_Smoke_Grenade_shell)};
+	magazines[] = {MAG_6(OPTRE_40Rnd_30x06_Mag), MAG_2(TCF_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_4(3Rnd_HE_Grenade_shell), MAG_4(3Rnd_Smoke_Grenade_shell)};
+	respawnMagazines[] = {MAG_6(OPTRE_40Rnd_30x06_Mag), MAG_2(TCF_6Rnd_127x40_Cyl), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_4(3Rnd_HE_Grenade_shell), MAG_4(3Rnd_Smoke_Grenade_shell)};
 	linkedItems[] = {STB86_BH_CH_CQB_Vest, STB86_BH_CH_Helmet, SC_MDFCape, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 	respawnLinkedItems[] = {STB86_BH_CH_CQB_Vest, STB86_BH_CH_Helmet, SC_MDFCape, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 };

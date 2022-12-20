@@ -5,6 +5,8 @@
 
 	Parameter: Car which has called the function
 */
+// Constants
+private _NUM_MAGS = 3;
 //Args
 private _target_car = _this select 0;
 
@@ -29,6 +31,9 @@ if ((isDedicated) OR (hasInterface && isServer)) then{
 	sleep 3;
 	//Variables
 	private _mg = "OPTRE_Static_M247T_Tripod" createVehicle [0,0,0];
+	// Add MG Ammo 
+	for "_i" from 1 to _NUM_MAGS do { _mg addMagazine "OPTRE_100Rnd_95x40_Box"; };
+	
 	
 	//Attaches MG to car
 	_mg attachTo [_target_car, [0,-1.78,.25]];
