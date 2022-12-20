@@ -54,7 +54,6 @@ private _veh_pretty_names = [];
     _veh_class_names pushBack configName _x;
     _veh_pretty_names pushBack [(_x >> "displayName") call BIS_fnc_getCfgData, "Hi zeus!"];
 } forEach _veh;
-systemChat(format["%1",_veh]);
 
 
 [   /* https://zen-mod.github.io/ZEN/#/frameworks/dynamic_dialog */
