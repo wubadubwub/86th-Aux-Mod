@@ -200,14 +200,14 @@
 
 	//Secondary
 	class OPTRE_M6G;
-	class OPTRE_M33;
+	class TCF_M33;
 	
 	class STB86_BH_CH_M6G : OPTRE_M6G {
 		author = "86th STB Auxiliary Mod Team";
 		displayName = "[86th BH] M6G";
 		baseWeapon = "STB86_BH_CH_M6G";
 	};
-	class STB86_BH_CH_M33 : OPTRE_M33 {
+	class STB86_BH_CH_M33 : TCF_M33 {
 		author = "86th STB Auxiliary Mod Team";
 		displayName = "[86th BH] M33";
 		baseWeapon = "STB86_BH_CH_M33";
