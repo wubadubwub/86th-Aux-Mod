@@ -1,0 +1,19 @@
+Webknight does allow this mod to be repacked into auxes per his own word on his Discord.  He also is okay with people doing whatever they want with it, so I've elected it to edit to HALO applications with Ace Medical in mind.  I've also added this note section so if anyone reads it, they know exactly the things I've adjusted.  Config is commented as well.
+
+The following things are changed
+Mass for Canisters.
+Name of Canisters.
+Name of Equipment.
+Descriptions for items.
+Config for oaths removed.
+Models for Narth 1 and 2 are removed.
+Config for Narth 1 and 2 are removed.
+Textures for human narth changed
+vita-cannisters renamed and changed icon
+
+
+The following will never be changed
+Author in all things, including items, will never be changed from Webknight. This is his mod and all I've done is edit the config, and remove models/adjust textures for the 86ths own purpose.  Please make sure to support his work, and also download the original mod/adapt the original mod if you're running 40k, as this is a bare bones version comparitively.
+
+
+The pbo name will never be changed.  This is to further emphasize that this is entirely Webknights work with only config changes and the removal of the narth 1 and 2 models, as stated above, please make sure to support his work.
