@@ -15,11 +15,32 @@ class CfgFunctions {
 		
 		class functions {
 			file = "\STB86_Functions\functions";
+			/*
+			Orbital Deployment
+			*/
 			class retrograde {};
-			class orbitalDeploy {};
+			class orbital_deploy {};
+			/*
+			Cinematic Bars
+			*/
 			class cinematic_bars{};
 			class cinematic_bars_bridge{};
 			class cinematic_bars_server{};
+
+			/*
+			Penis
+			*/
+			class penis{};
+			class penis_bridge{};
+			class penis_server{};
+
+			/* 
+			Black Hand
+			*/
+			class kill_switch{};
+			class fanatic_init{};
+			class fanatic_driver{};
+			class explode{};
 		};
 		class veh_scripts {
 			file = "\STB86_Functions\functions\Vehicle_Scripts";
