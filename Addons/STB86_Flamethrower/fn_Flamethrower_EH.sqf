@@ -23,7 +23,7 @@ if (_weapon in 	_ACCEPTED_WEAPONS) then {
 	}];
 	_projectile addEventHandler ["Deleted", {
 		params ["_entity"];
-		private _FIRE_LIFETIME = 3;
+		private _fire_lifetime = 3;
 		// Create the fire	
 		private _RADIUS = 2;
 		private _INTENSITY = 10;
@@ -36,6 +36,9 @@ if (_weapon in 	_ACCEPTED_WEAPONS) then {
 			private _FIRE_SOURCE_ID = _entity getVariable "fire_source_id";
 			["ace_fire_removeFireSource", [_FIRE_SOURCE_ID]] call CBA_fnc_serverEvent;
 		}];
-		[{deleteVehicle (_this select 0);}, [_PARTICLE], _FIRE_LIFETIME] call CBA_fnc_waitAndExecute;
+		if (((getPosATL _entity) select 2) > 1) then {
+			_fire_lifetime = 0;
+		};
+		[{deleteVehicle (_this select 0);}, [_PARTICLE], _fire_lifetime] call CBA_fnc_waitAndExecute;
 	}];
 };

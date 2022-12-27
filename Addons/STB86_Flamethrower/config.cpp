@@ -26,10 +26,16 @@ class CfgWeapons{
     };
 };
 class CfgAmmo{
-    class M319_HE;
     class B_762x39_Ball_Green_F;
-    class OPTRE_B_127x99_Ball;
-    class STB86_Flame : OPTRE_B_127x99_Ball{};
+    class STB86_Flame : B_762x39_Ball_Green_F{
+        typicalSpeed = 50;
+        timeToLive = 3;
+        deflecting = 1;
+        affectedByWind = true;
+        tracerColorR[] = {0,0,0,0};
+        lightColor[] = {217, 88, 0, 0.8};
+        triggerTime = 0;
+    };
 };
 class CfgMagazines{
     class OPTRE_200Rnd_127x99_M247H_Etilka_Ball;
@@ -37,6 +43,7 @@ class CfgMagazines{
         count=300;
         ammo="STB86_Flame";
         displayName = "Flame Canister";
+        initSpeed = 50;
     };
 };
 
