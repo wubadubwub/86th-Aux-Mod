@@ -7,7 +7,8 @@ Purpose: This handles creating a flamethrower for the 86th STB to use. Because w
 */
 
 params ["_weapon", "_projectile"];
-if ([_weapon, STB86_Flamethrower_ACCEPTED_WEAPONS] call BIS_fnc_inString) then {
+private _ACCEPTED_WEAPONS = ["STB86_Flamethrower"];
+if (_weapon in _ACCEPTED_WEAPONS) then {
 	private _PARTICLE_CLASS = "MediumDestructionFire";
 	private _INTENSITY = 5;
 	
