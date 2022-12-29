@@ -16,8 +16,8 @@ _particle attachTo [_projectile, [0,0,0]];
 _projectile setVariable ["_particle", _particle];
 
 _particle addEventHandler ["Deleted", {
-	params ["_entity"];
-	private _FIRE_SOURCE_ID = _entity getVariable "fire_source_id";
+	params ["_particle"];
+	private _FIRE_SOURCE_ID = _particle getVariable "fire_source_id";
 	["ace_fire_removeFireSource", [_FIRE_SOURCE_ID]] call CBA_fnc_serverEvent;
 
 }];
