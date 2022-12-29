@@ -165,6 +165,10 @@ class CfgWeapons{
 			maxRange=80;
 			maxRangeProbab=0.05;
 		};
+		class EventHandlers
+		{
+			fired = "[(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
+		};
     };
 };
 
@@ -200,11 +204,11 @@ class CfgFunctions{
     };
 };
 
-class Extended_FiredBIS_Eventhandlers {
-    class CAManBase{
-            fired="[(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
-    };
-};
+// class Extended_FiredBIS_Eventhandlers {
+//     class CAManBase{
+//             fired="";
+//     };
+// };
 
 class Extended_PreInit_EventHandlers {
     class STB86_Flamethrower_XEH_PreInit{
