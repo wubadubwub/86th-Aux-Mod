@@ -10,6 +10,7 @@ class CfgPatches{
 		requiredAddons[] = { 
             "A3_Functions_F", 
             "ace_fire",
+			"ace_medical_damage",
             "cba_settings",
             "cba_xeh_a3",
             "cba_main",
@@ -167,14 +168,15 @@ class CfgWeapons{
 		};
 		class EventHandlers
 		{
-			fired = "[(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
+			fired = "0 = [(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
 		};
     };
 };
 
 class CfgAmmo{
-    class B_762x39_Ball_Green_F;
-    class STB86_Flame : B_762x39_Ball_Green_F{
+    class B_762x39_Ball_F;
+    class STB86_Flame : B_762x39_Ball_F{
+		ACE_damageType = "fire";
         typicalSpeed = 50;
         timeToLive = 3;
         deflecting = 1;
@@ -182,9 +184,9 @@ class CfgAmmo{
         tracerColorR[] = {0,0,0,0};
         lightColor[] = {217, 88, 0, 0.8};
         triggerTime = 0;
+		hit = 25;
     };
 };
-
 class CfgMagazines{
     class OPTRE_200Rnd_127x99_M247H_Etilka_Ball;
     class STB86_Flamethrower_Canister : OPTRE_200Rnd_127x99_M247H_Etilka_Ball{
@@ -193,6 +195,7 @@ class CfgMagazines{
         displayName = "Fuel Canister";
         initSpeed = 50;
     };
+
 };
 
 class CfgFunctions{
@@ -203,12 +206,6 @@ class CfgFunctions{
         };
     };
 };
-
-// class Extended_FiredBIS_Eventhandlers {
-//     class CAManBase{
-//             fired="";
-//     };
-// };
 
 class Extended_PreInit_EventHandlers {
     class STB86_Flamethrower_XEH_PreInit{
