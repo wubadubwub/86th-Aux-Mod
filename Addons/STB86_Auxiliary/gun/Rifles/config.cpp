@@ -423,12 +423,11 @@ class CfgWeapons
 			"STB86_Auxiliary\gun\Rifles\Data\MA5_Heathen_upper_co.paa"
 		};
 	};
-	//Vandal ignore
-	class STB86_MA5_Vandal_Grenader : STB86_MA5B {
-		displayName = "[86th] Grenader MA5B";
+	//Misfit ignore
+	class STB86_Misfit_BR55_Herrington : STB86_BR55 {
+		displayName = "[86th] Herrington BR55";
 		hiddenSelectionsTextures[] = {
-			"STB86_Auxiliary\gun\Rifles\Data\MA5_vandal_herrington_co.paa",
-			"STB86_Auxiliary\gun\Rifles\Data\MA5B_86_co.paa"
+			"STB86_Auxiliary\gun\Rifles\Data\BR55_Herrington_CO.paa",
 		};
 	};
 	// SRS99C
