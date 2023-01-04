@@ -1,4 +1,6 @@
 params ["_man"];
+if !(local _man) exitWith {};
+// WILL BREAK IF THE ZEUS LEAVES. THEY WILL JUST STAND STILL.
 /*
 Constants
 */
