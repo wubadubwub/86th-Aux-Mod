@@ -34,7 +34,7 @@ _projectile addEventHandler ["Deleted", {
 	
 	_particle setVariable ["fire_source_id", _ID]; // So the particle knows which fire source
 	
-	if (((getPosATL _projectile) select 2) > 1) then {
+	if (((getPosATL _projectile) select 2) > .01) then {
 		_fire_lifetime = 0;
 	}; // If the fire is in the air, it shouldn't burn once the projectile is dead.
 	

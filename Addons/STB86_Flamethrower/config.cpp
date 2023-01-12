@@ -27,7 +27,6 @@ class Mode_FullAuto;
 class Mode_SemiAuto;
 class CfgWeapons{
     class OPTRE_M247H_Etilka;
-
     class BaseSoundModeType;
     class STB86_Flamethrower : OPTRE_M247H_Etilka {
         baseWeapon = "STB86_Flamethrower";
@@ -36,6 +35,9 @@ class CfgWeapons{
         author = "AJ";
         magazines[] = {"STB86_Flamethrower_Canister"};
 		modes[]={"FullAuto"};
+		dispersion = .002;
+        initSpeed = 30;
+
 		class FullAuto: Mode_FullAuto
 		{
 			sounds[]=
@@ -159,11 +161,11 @@ class CfgWeapons{
 			dispersion=0.00085;
 			recoil="recoil_auto_trg";
 			recoilProne="recoil_auto_prone_trg";
-			minRange=5;
-			minRangeProbab=0.3;
-			midRange=40;
+			minRange=2;
+			minRangeProbab=1;
+			midRange=10;
 			midRangeProbab=0.7;
-			maxRange=80;
+			maxRange=20;
 			maxRangeProbab=0.05;
 		};
 		class EventHandlers
@@ -177,11 +179,11 @@ class CfgAmmo{
     class B_762x39_Ball_F;
     class STB86_Flame : B_762x39_Ball_F{
 		ACE_damageType = "STB86_flamethrower";
-        typicalSpeed = 50;
-        timeToLive = 3;
+        typicalSpeed = 30;
+        timeToLive = 1;
         deflecting = 1;
         affectedByWind = true;
-        tracerColorR[] = {0,0,0,0};
+		coefGravity = 0.1;
         lightColor[] = {217, 88, 0, 0.8};
         triggerTime = 0;
 		hit = 5;
@@ -189,15 +191,15 @@ class CfgAmmo{
 };
 class CfgMagazines{
     class OPTRE_200Rnd_127x99_M247H_Etilka_Ball;
+	class 30Rnd_762x39_AK12_Mag_F;
     class STB86_Flamethrower_Canister : OPTRE_200Rnd_127x99_M247H_Etilka_Ball{
         count=300;
         ammo="STB86_Flame";
         displayName = "Fuel Canister";
-        initSpeed = 50;
+        initSpeed = 30;
 		tracersEvery = 0;
-		lastRoundTracer=0;
+		lastRoundsTracer=0;
     };
-
 };
 
 class CfgFunctions{
