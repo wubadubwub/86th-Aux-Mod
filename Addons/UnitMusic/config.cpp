@@ -139,7 +139,7 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 	class SM13
 	{
 		name = "[86] Fixed Point - Girlsfrontline OST";
-		sound[] = {"UnitMusic\Sinder\DemonsRazgriz.ogg",1,1};
+		sound[] = {"UnitMusic\Sinder\Fixedpoint.ogg",1,1};
 		theme = "SinderMusic";
 		duration = "228";
 		musicClass = "SinderMusic";
@@ -211,7 +211,7 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 	};
 	class MM9
 	{
-		name = "[86] Rolling Storm - You should tell me where these come from";
+		name = "[86] Rolling Storm - I forgot, so I'm not fixing it.";
 		sound[] = {"UnitMusic\McAllister\RollingStorm.ogg",1,1};
 		theme = "McAllisterMusic";
 		duration = "247";
