@@ -39,7 +39,7 @@ class CfgMusicClasses // This is the categories that show up in Menu, the CfgMus
 
 class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .OGG file are Volume and Speed. Classes do not need to be in order, but it looks cleaner.
 {
-	// Sinder Music 10 tracks
+	// Sinder Music 13 tracks
 	class SM1
 	{
 		name = " [86] Theme of the Slayer - Goblinslayer";  // Name of song in list
@@ -118,6 +118,30 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 		sound[] = {"UnitMusic\Sinder\DemonsRazgriz.ogg",1,1};
 		theme = "SinderMusic";
 		duration = "124";
+		musicClass = "SinderMusic";
+	};
+	class SM11
+	{
+		name = "[86] Judgementday - Blackops 2 OST";
+		sound[] = {"UnitMusic\Sinder\Judgementday.ogg",1,1};
+		theme = "SinderMusic";
+		duration = "320";
+		musicClass = "SinderMusic";
+	};
+	class SM12
+	{
+		name = "[86] Poincare Recurrence - Girlsfrontline OST";
+		sound[] = {"UnitMusic\Sinder\PoincareRecurrence.ogg",1,1};
+		theme = "SinderMusic";
+		duration = "215";
+		musicClass = "SinderMusic";
+	};
+	class SM13
+	{
+		name = "[86] Fixed Point - Girlsfrontline OST";
+		sound[] = {"UnitMusic\Sinder\DemonsRazgriz.ogg",1,1};
+		theme = "SinderMusic";
+		duration = "228";
 		musicClass = "SinderMusic";
 	};
 	// McAllister Music 3 Tracks
@@ -199,6 +223,22 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 		sound[] = {"UnitMusic\McAllister\SnakeEater.ogg",1,1};
 		theme = "McAllisterMusic";
 		duration = "173";
+		musicClass = "McAllisterMusic";
+	};
+	class MM11
+	{
+		name = "[86] A Beautiful Song - Nier";
+		sound[] = {"UnitMusic\McAllister\NierBeautifulSong.ogg",1,1};
+		theme = "McAllisterMusic";
+		duration = "241";
+		musicClass = "McAllisterMusic";
+	};
+	class MM12
+	{
+		name = "[86] Song of Ancients Atonement - Nier";
+		sound[] = {"UnitMusic\McAllister\NierSongofAncient.ogg",1,1};
+		theme = "McAllisterMusic";
+		duration = "323";
 		musicClass = "McAllisterMusic";
 	};
 	// Ellis Music 28 tracks  Sidenote: I hated these the most.
