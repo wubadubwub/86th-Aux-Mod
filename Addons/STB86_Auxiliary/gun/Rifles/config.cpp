@@ -438,3 +438,16 @@ class CfgWeapons
 		};
 	};
 };
+class CfgImprecision  // Weapon Sway
+{
+	class Primary  // Obvious
+	{
+		verticalRadius = 0.020;
+		horizontalRadius = 0.015;
+	};
+	class Secondary // Obvious
+	{
+		verticalRadius = 0.015;
+		horizontalRadius = 0.015;
+	};
+};
