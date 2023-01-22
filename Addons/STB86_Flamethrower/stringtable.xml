@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="STB86_Medical_Flamethrower">
+    <Package name="STB86_Medical_Flamethrower_Wounds">
+        <!--Melted Skin-->
+        <Key ID="STR_ACE_Medical_Damage_STB86_Melt_Minor">
+            <English>Melting</English>
+        </Key>
+        <Key ID="STR_ACE_Medical_Damage_STB86_Melt_Medium">
+            <English>Dangerous Melting</English>
+        </Key>
+        <Key ID="STR_ACE_Medical_Damage_STB86_Melt_Large">
+            <English>Severe Melting</English>
+        </Key>
+        <!--Charred Skin-->
+        <Key ID="STR_ACE_Medical_Damage_STB86_Char_Minor">
+            <English>Charring</English>
+        </Key>
+        <Key ID="STR_ACE_Medical_Damage_STB86_Char_Medium">
+            <English>Dangerous Charring</English>
+        </Key>
+        <Key ID="STR_ACE_Medical_Damage_STB86_Char_Large">
+            <English>Severe Charring</English>
+        </Key>
+    </Package>
+</Project>
