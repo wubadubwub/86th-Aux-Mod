@@ -1,16 +1,14 @@
 params ["_man"];
 if !(local _man) exitWith {};
-// WILL BREAK IF THE ZEUS LEAVES. THEY WILL JUST STAND STILL.
+// WILL break if THE ZEUS LEAVES. THEY WILL JUST STAND STILL.
 /*
-Constants
+	Constants
 */
 private _SPEED_MULTI = 1.75;
 
-
-
 _man setAnimSpeedCoef _SPEED_MULTI;
 
-// AI Params
+// AI params
 _man allowFleeing 0;
 _man setUnitPos "UP";
 _man setCombatMode "BLUE";
@@ -27,6 +25,5 @@ _man disableAI "SUPPRESSION";
 _man disableAI "WEAPONAIM";
 [_man] join grpNull;
 
-
-// Driver Function
+// driver Function
 [_man] spawn STB86_fnc_fanatic_driver;

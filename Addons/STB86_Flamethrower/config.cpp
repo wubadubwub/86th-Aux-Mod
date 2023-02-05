@@ -164,9 +164,9 @@ class CfgWeapons{
 			minRange=2;
 			minRangeProbab=1;
 			midRange=10;
-			midRangeProbab=0.7;
-			maxRange=20;
-			maxRangeProbab=0.05;
+			midRangeProbab=0.97;
+			maxRange=30;
+			maxRangeProbab=0.5;
 		};
 		class EventHandlers
 		{
@@ -179,7 +179,7 @@ class CfgAmmo{
     class B_762x39_Ball_F;
     class STB86_Flame : B_762x39_Ball_F{
 		ACE_damageType = "STB86_flamethrower";
-        typicalSpeed = 30;
+        typicalSpeed = 25;
         timeToLive = 1;
         deflecting = 1;
         affectedByWind = true;
@@ -196,7 +196,7 @@ class CfgMagazines{
         count=300;
         ammo="STB86_Flame";
         displayName = "Fuel Canister";
-        initSpeed = 30;
+        initSpeed = 25;
 		tracersEvery = 0;
 		lastRoundsTracer=0;
     };

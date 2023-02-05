@@ -1,6 +1,6 @@
 params ["_logic"];
-private _unit = (_logic nearEntities ["Man", 2]) select 0;
+private _unit = attachedTo _logic;
 if !(isNil "_unit") then {
-	createVehicle ["HelicopterExploSmall", getPos _unit];
+	createVehicle ["HelicopterExploSmall", getPosASL _unit];
 };
 deleteVehicle _logic;
