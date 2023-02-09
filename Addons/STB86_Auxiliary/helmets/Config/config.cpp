@@ -293,6 +293,23 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Phantom_sarc_helmet_co.paa"
 		};
 	};
+	class STB86_CH252D_Sinder_Visible : STB86_CH252D_Base
+	{
+		displayName = "[86th STB] Sinder Visible";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa",
+			"STB86_Auxiliary\helmets\Jester_sinder_visor_co.paa"
+		};
+	};
+	class STB86_CH252D_Sinder_Visible_dp : STB86_CH252D_dp
+	{
+		displayName = "[86th STB] Sinder Visible";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa"
+		};
+	};
 	class STB86_CH252D_Zeus_Sinder : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Sinder (Zeus)";
