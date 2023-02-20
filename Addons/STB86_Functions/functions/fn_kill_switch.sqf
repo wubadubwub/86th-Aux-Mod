@@ -1,6 +1,6 @@
 params ["_logic"];
 private _unit = attachedTo _logic;
-if !(isNil "_unit") then {
-	createVehicle ["HelicopterExploSmall", getPosASL _unit];
+if !(isNull _unit) then {
+	[(getPos _unit)] remoteExec ["STB86_fnc_explode", 2];
 };
 deleteVehicle _logic;

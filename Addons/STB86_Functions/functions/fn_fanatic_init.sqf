@@ -7,7 +7,7 @@ if !(local _man) exitWith {};
 private _SPEED_MULTI = 1.75;
 
 _man setAnimSpeedCoef _SPEED_MULTI;
-
+_man setVariable ["lambs_danger_disableAI", true]; 
 // AI params
 _man allowFleeing 0;
 _man setUnitPos "UP";

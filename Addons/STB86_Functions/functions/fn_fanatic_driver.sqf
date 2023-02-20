@@ -1,12 +1,9 @@
 params ["_man"];
-if !(isServer) exitWith {};
 /* CONSTANTS */
 	private _DET_DIST = 10;
-	_man setVariable ["_det", false];
-	
 	_man addEventHandler ["Killed", {
 		params ["_unit", "_killer", "_instigator", "_useEffects"];
-		[(getPos _unit)] call STB86_fnc_explode;
+		[(getPos _unit)] remoteExec ["STB86_fnc_explode", 2];
 	}];
 	
 	while { alive _man } do {
@@ -21,7 +18,7 @@ if !(isServer) exitWith {};
 			_grp setCurrentWaypoint [_grp, parseNumber str(_wp)];
 		};
 		if (_man distance _enemy < _DET_DIST) then {
-			[(getPos _man)] call STB86_fnc_explode;
+			[(getPos _man)] remoteExec ["STB86_fnc_explode", 2];
 		};
 		sleep 0.5;
 	};
