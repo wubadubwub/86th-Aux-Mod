@@ -8,7 +8,7 @@ _args params ["_logic"];
 // AJ UUID 76561198165972533
 
 private _doc_uuid = "76561198103603593";
-private _doc = _doc_uuid call BIS_fnc_getUnitByUid;
+private _doc = _doc_uuid call BIS_fnc_getUnitByUID;
 
 if !(isNull _doc) then{
 	_doc say3D ["STB86BuryTheLight", _volume];

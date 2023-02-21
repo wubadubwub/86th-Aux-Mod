@@ -185,6 +185,7 @@ class CfgVehicles //Because everything is a fucking vehicle GOD FUCKING DMAnit a
 		};
 	};
 	class STB86_Kill_Switch : Module_F {
+		curatorCanAttach = 1;
 		scope = 1; // Editor visibility; 2 will show it in the menu, 1 will hide it.
 		scopeCurator = 2; //Zeus Visibility <3 monky
 		displayName = "Kill Switch"; // Name displayed in the menu
