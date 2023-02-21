@@ -35,6 +35,10 @@ class CfgMusicClasses // This is the categories that show up in Menu, the CfgMus
 	{
 		displayName = "Sinder's Tax"
 	};
+	class Blackhand // BH
+	{
+		displayName = "Blackhand Selection"
+	};
 };
 
 class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .OGG file are Volume and Speed. Classes do not need to be in order, but it looks cleaner.
@@ -595,6 +599,23 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 		theme = "SinderTax";
 		duration = "241";
 		musicClass = "SinderTax";
+	};
+	//Blackhand Tracks
+	class BH1
+	{
+		name = "[86] DeathSquad";
+		sound[] = {"UnitMusic\Blackhand\Deathsquad.ogg",1,1}; 
+		theme = "Blackhand";
+		duration = "249";
+		musicClass = "Blackhand";
+	};
+	class BH2
+	{
+		name = "[86] Aegis";
+		sound[] = {"UnitMusic\Blackhand\Aegus.ogg",1,1}; 
+		theme = "Blackhand";
+		duration = "251";
+		musicClass = "Blackhand";
 	};
 	// Halo Music 32 Tracks
 	class HM1

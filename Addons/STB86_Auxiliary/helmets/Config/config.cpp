@@ -138,6 +138,23 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Misfit_beckett_helmet_co.paa"
 		};
 	};
+	class STB86_CH252D_Misfit_cress : STB86_CH252D_Base
+	{
+		displayName = "[86th STB] CH252D Cress";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Misfit_cress_helmet_co.paa",
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+		};
+	};
+	class STB86_CH252D_Misfit_cress_dp : STB86_CH252D_dp
+	{
+		displayName = "[86th STB] CH252D Cress";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Misfit_cress_helmet_co.paa"
+		};
+	};
 	class STB86_CH252D_Misfit_wrecker : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Wrecker";
@@ -576,13 +593,13 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Vandal_light_helmet_co.paa"
 		};
 	};
-	class STB86_CH252D_Vandal_Argyle : STB86_CH252D_Base
+	class STB86_CH252D_Vandal_Bub : STB86_CH252D_Base
 	{
-		displayName = "[86th STB] CH252D Argyle";
+		displayName = "[86th STB] CH252D Bub";
 		hiddenSelectionsTextures[] =
 		{
-			"STB86_Auxiliary\helmets\Vandal_Argyle_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_Argyle_visor_co.paa"
+			"STB86_Auxiliary\helmets\Vandal_Bub_helmet_co.paa",
+			"STB86_Auxiliary\helmets\Vandal_Bub_Visor_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -590,12 +607,12 @@ class CfgWeapons
 			   "STB86_Auxiliary\material\VG_2.rvmat"
 		};
 	};
-	class STB86_CH252D_Vandal_Argyle_dp : STB86_CH252D_dp
+	class STB86_CH252D_Vandal_Bub_dp : STB86_CH252D_dp
 	{
-		displayName = "[86th STB] CH252D Argyle";
+		displayName = "[86th STB] CH252D Bub";
 		hiddenSelectionsTextures[] =
 		{
-			"STB86_Auxiliary\helmets\Vandal_Argyle_helmet_co.paa"
+			"STB86_Auxiliary\helmets\Vandal_Bub_helmet_co.paa"
 		};
 	};
 	class STB86_CH252D_Wildcard_AJ : STB86_CH252D_Base
