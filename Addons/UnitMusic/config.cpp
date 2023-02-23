@@ -604,7 +604,7 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 	class BH1
 	{
 		name = "[86] DeathSquad";
-		sound[] = {"UnitMusic\Blackhand\Deathsquad.ogg",1,1}; 
+		sound[] = {"UnitMusic\Blackhand\Deathsquad.ogg",1.5,1}; 
 		theme = "Blackhand";
 		duration = "249";
 		musicClass = "Blackhand";
@@ -612,9 +612,41 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 	class BH2
 	{
 		name = "[86] Aegis";
-		sound[] = {"UnitMusic\Blackhand\Aegus.ogg",1,1}; 
+		sound[] = {"UnitMusic\Blackhand\Aegus.ogg",1.2,1}; 
 		theme = "Blackhand";
 		duration = "251";
+		musicClass = "Blackhand";
+	};
+	class BH3
+	{
+		name = "[86] Assault";
+		sound[] = {"UnitMusic\Blackhand\Assault.ogg",1.2,1}; 
+		theme = "Blackhand";
+		duration = "225";
+		musicClass = "Blackhand";
+	};
+	class BH4
+	{
+		name = "[86] Orders are Orders sir";
+		sound[] = {"UnitMusic\Blackhand\Orders.ogg",1.4,1}; 
+		theme = "Blackhand";
+		duration = "223";
+		musicClass = "Blackhand";
+	};
+	class BH5
+	{
+		name = "[86] Graves by Gunfire";
+		sound[] = {"UnitMusic\Blackhand\Gungrave.ogg",1.2,1}; 
+		theme = "Blackhand";
+		duration = "155";
+		musicClass = "Blackhand";
+	};
+	class BH6
+	{
+		name = "[86] A final flash";
+		sound[] = {"UnitMusic\Blackhand\finalflash.ogg",1.8,1}; 
+		theme = "Blackhand";
+		duration = "211";
 		musicClass = "Blackhand";
 	};
 	// Halo Music 32 Tracks
