@@ -9,7 +9,7 @@
 params ["_weapon", "_projectile"];
 private _PARTICLE_CLASS = "MediumDestructionFire";
 
-_particle = "#particlesource" createVehicleLocal [0, 0, 0];
+_particle = "#particlesource" createVehicle [0, 0, 0];
 _particle setParticleClass _PARTICLE_CLASS;
 _particle attachTo [_projectile, [0, 0, 0]];
 
