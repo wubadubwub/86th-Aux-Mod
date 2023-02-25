@@ -1,6 +1,6 @@
 params ["_logic"];
-private _unit = (_logic nearEntities ["Man", 2]) select 0;
-if !(isNil "_unit") then {
-	createVehicle ["HelicopterExploSmall", getPos _unit];
+private _unit = attachedTo _logic;
+if !(isNull _unit) then {
+	[(getPos _unit)] remoteExec ["STB86_fnc_explode", 2];
 };
 deleteVehicle _logic;
