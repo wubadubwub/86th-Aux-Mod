@@ -649,6 +649,38 @@ class CfgMusic // Music Goes here, follow the schema, the 2 numbers after the .O
 		duration = "211";
 		musicClass = "Blackhand";
 	};
+	class BH7
+	{
+		name = "[86] A sermon, for those who don't believe";
+		sound[] = {"UnitMusic\Blackhand\Sermon.ogg",1.8,1}; 
+		theme = "Blackhand";
+		duration = "143";
+		musicClass = "Blackhand";
+	};
+	class BH8
+	{
+		name = "[86] A patrol in a wasteland";
+		sound[] = {"UnitMusic\Blackhand\patrol.ogg",1.8,1}; 
+		theme = "Blackhand";
+		duration = "118";
+		musicClass = "Blackhand";
+	};
+	class BH9
+	{
+		name = "[86] Awaiting his word, on a baited breath";
+		sound[] = {"UnitMusic\Blackhand\Hiswordonbaitedbreath.ogg",1.8,1}; 
+		theme = "Blackhand";
+		duration = "141";
+		musicClass = "Blackhand";
+	};
+	class BH10
+	{
+		name = "[86] Falling into his palms";
+		sound[] = {"UnitMusic\Blackhand\Inhispalm.ogg",1.8,1}; 
+		theme = "Blackhand";
+		duration = "181";
+		musicClass = "Blackhand";
+	};
 	// Halo Music 32 Tracks
 	class HM1
 	{
