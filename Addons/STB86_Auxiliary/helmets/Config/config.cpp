@@ -425,40 +425,6 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Firebrand_helmet_co.paa"
 		};
 	};
-	class STB86_CH252D_Firebrand_Diplex : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Diplex";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Firebrand_diplex_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
-		};
-	};
-	class STB86_CH252D_Firebrand_Diplex_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Diplex";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Firebrand_diplex_helmet_co.paa"
-		};
-	};
-	class STB86_CH252D_Firebrand_Joker : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Joker";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Firebrand_Joker_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Firebrand_Joker_visor_co.paa"
-		};
-	};
-	class STB86_CH252D_Firebrand_Joker_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Joker";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Firebrand_Joker_helmet_co.paa"
-		};
-	};
 	class STB86_CH252D_Firebrand_Heathen : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Heathen";
@@ -613,6 +579,28 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_Bub_helmet_co.paa"
+		};
+	};
+	class STB86_CH252D_Vandal_Heimdall : STB86_CH252D_Base
+	{
+		displayName = "[86th STB] CH252D Heimdall";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa",
+			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa"
+		};
+		hiddenSelectionsMaterials[] =
+		{
+			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
+			   "STB86_Auxiliary\material\VG_2.rvmat"
+		};
+	};
+	class STB86_CH252D_Vandal_Heimdall_dp : STB86_CH252D_dp
+	{
+		displayName = "[86th STB] CH252D Bub";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa"
 		};
 	};
 	class STB86_CH252D_Wildcard_AJ : STB86_CH252D_Base

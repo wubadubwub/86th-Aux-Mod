@@ -45,6 +45,8 @@ class CfgWeapons
 	class OPTRE_BR55HB;
 	class OPTRE_MA37K;
 	class OPTRE_SRS99C;
+	class TCW_Saw_Gamma;
+	class OPTRE_M7;
 	class InventoryOpticsItem_Base_F;
 	class OPTRE_M41_SSR;
 	class OPTRE_M12_SOC;
@@ -408,20 +410,21 @@ class CfgWeapons
 	};
 
 	//Chaos (There's not really a need to seperate by squad since the guns aren't squad based and are just individual.)  Actually might be better to organize by gun
-	class STB86_BR55_Chaos_Luci : STB86_BR55 {
-		displayName = "[86th] Luci BR55";
+	class STB86_M7_Firebrand_Luci : OPTRE_M7 {
+		displayName = "[86th] Luci SMG";
 		hiddenSelectionsTextures[] =
 		{
-			"STB86_Auxiliary\gun\Rifles\Data\br55_chaos_luci_co.paa"
+			"STB86_Auxiliary\gun\Rifles\Data\m7_luci_co.paa"
 		};
+		baseWeapon="86_LuciSmg";
 	};
-	class STB86_MA5B_Chaos_Heathen : STB86_MA5B {
-		displayName = "[86th] Heathen MA5B";
+	class STB86_Saw_Heathen : TCW_Saw_Gamma {
+		displayName = "[86th] Heathen SAW";
 		hiddenSelectionsTextures[] =
 		{
-			"STB86_Auxiliary\gun\Rifles\Data\MA5_Heathen_co.paa",
-			"STB86_Auxiliary\gun\Rifles\Data\MA5_Heathen_upper_co.paa"
+			"STB86_Auxiliary\gun\Rifles\Data\Heathens_saw_co.paa"
 		};
+		baseWeapon="86_HeathenSaw";
 	};
 	//Misfit ignore
 	class STB86_Misfit_BR55_Herrington : STB86_BR55 {
@@ -443,11 +446,11 @@ class CfgImprecision  // Weapon Sway
 	class Primary  // Obvious
 	{
 		verticalRadius = 0.020;
-		horizontalRadius = 0.015;
+		horizontalRadius = 0.020;
 	};
 	class Secondary // Obvious
 	{
-		verticalRadius = 0.015;
-		horizontalRadius = 0.015;
+		verticalRadius = 0.020;
+		horizontalRadius = 0.025;
 	};
 };
