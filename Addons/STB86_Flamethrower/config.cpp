@@ -36,7 +36,7 @@ class CfgWeapons{
         magazines[] = {"STB86_Flamethrower_Canister"};
 		modes[]={"FullAuto"};
 		dispersion = .002;
-        initSpeed = 30;
+        initSpeed = 250;
 
 		class FullAuto: Mode_FullAuto
 		{
@@ -179,7 +179,7 @@ class CfgAmmo{
     class B_762x39_Ball_F;
     class STB86_Flame : B_762x39_Ball_F{
 		ACE_damageType = "STB86_flamethrower";
-        typicalSpeed = 25;
+        typicalSpeed = 250;
         timeToLive = 1;
         deflecting = 1;
         affectedByWind = true;
@@ -196,7 +196,7 @@ class CfgMagazines{
         count=300;
         ammo="STB86_Flame";
         displayName = "Fuel Canister";
-        initSpeed = 25;
+        initSpeed = 250;
 		tracersEvery = 0;
 		lastRoundsTracer=0;
     };
