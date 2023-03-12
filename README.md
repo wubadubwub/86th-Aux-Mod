@@ -2,6 +2,7 @@
 
 > ## Important Links
 > [Discord](https://discord.gg/C9dAk3Myzw "Join us!")
+> 
 > [ServerBlend](https://my.serverblend.com/index.php?m=public_pay&hash_id=MpKzD74nwdPo "Donate!")
 
 > ## Important Info
