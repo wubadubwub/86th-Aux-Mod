@@ -8,7 +8,7 @@
 
 params ["_weapon", "_projectile"];
 private _PARTICLE_CLASS = "MediumDestructionFire";
-private _INTENDED_SPEED = 25;
+private _INTENDED_SPEED = getNumber (configFile >> "CfgWeapons" >> _weapon >> "STB86_Flamethrower_Speed");
 private _init_speed = getNumber (configFile >> "CfgWeapons" >> _weapon >> "initSpeed");
 private _vel = velocity _projectile;
 

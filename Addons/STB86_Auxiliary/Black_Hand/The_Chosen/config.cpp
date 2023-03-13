@@ -29,7 +29,9 @@ class CfgPatches
 				"STB86_BH_CH_Ghost",
 				// Vics
 				"STB86_BH_CH_MBT",
+				"STB86_BH_CH_MBT_02",
 				"STB86_BH_CH_IFV",
+				"STB86_BH_CH_IFV_02",
 				"STB86_BH_CH_APC",
 		};
 		//unknown
@@ -58,10 +60,14 @@ class CfgPatches
 				"STB86_BH_CH_M6G",
 				"STB86_BH_CH_M33",
 
+				"STB86_BH_CH_MBT_02_LMG",
+				"STB86_BH_CH_IFV_02_FLAK",
+
 		};
 
 		magazines[]={
 			"STB86_BH_CH_12rnd_Railgun_Slug",
+			"STB86_BH_CH_IFV_02_FLAK_Mag",
 		};
 		//unknown
 		requiredVersion = 0.1;
@@ -111,7 +117,8 @@ class CfgWeapons{
 #define MAG_3(a) a,a,a
 #define MAG_2(a) a,a
 
-
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
 class CfgVehicles{
 	class EventHandlers;
 	/*
@@ -133,6 +140,8 @@ class Extended_PreInit_EventHandlers {
         init = "call compile preprocessFileLineNumbers 'STB86_Auxiliary\Black_Hand\The_Chosen\XEH_preInit.sqf'";
     };
 };
+
+
 
 
 class CfgAmmo{

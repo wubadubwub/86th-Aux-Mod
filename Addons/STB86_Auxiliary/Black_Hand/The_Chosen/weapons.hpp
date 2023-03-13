@@ -9,6 +9,10 @@
 	class OPTRE_HMG38;
 	class OPTRE_M247H_Etilka;
 	class srifle_DMR_02_F;
+	class STB86_Flamethrower{
+		class FullAuto;
+	};
+	class lxws_zu23_w;
 	
 
 
@@ -230,4 +234,27 @@
 				slot="MuzzleSlot";
 			};
 		};
+	};
+	
+
+	// Vehicles
+	class STB86_BH_CH_MBT_02_LMG : STB86_Flamethrower {
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		STB86_Flamethrower_Speed = 75;
+		displayName = "Flamethrower";
+		class FullAuto : FullAuto {
+			minRange=10;
+			minRangeProbab=1;
+			midRange=40;
+			midRangeProbab=0.97;
+			maxRange=60;
+			maxRangeProbab=0.5;
+		};
+	};
+
+
+	class STB86_BH_CH_IFV_02_Cannon : lxws_zu23_w {
+		displayName = "20mm AA Cannon";
 	};

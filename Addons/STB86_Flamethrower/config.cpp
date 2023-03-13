@@ -34,10 +34,11 @@ class CfgWeapons{
         descriptionShort = "A FUCKING FLAMETHROWER";
         author = "AJ";
         magazines[] = {"STB86_Flamethrower_Canister"};
+		magazineWell[] = {};
 		modes[]={"FullAuto"};
 		dispersion = .002;
         initSpeed = 250;
-
+		STB86_Flamethrower_Speed = 25;
 		class FullAuto: Mode_FullAuto
 		{
 			sounds[]=
