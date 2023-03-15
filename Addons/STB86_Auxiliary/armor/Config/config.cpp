@@ -1778,7 +1778,7 @@ class CfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\Vest_odst_co.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"STB86_Auxiliary\armor\Vandal_legs_co.paa",
+			"STB86_Auxiliary\armor\Vandal_heimdall_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"STB86_Auxiliary\armor\Vandal_heimdall_armor_co.paa"
 		};
@@ -1827,7 +1827,7 @@ class CfgWeapons
 			//"AS_ODSTRight",
 			//"AS_ODSTSniperLeft",
 			"AS_ODSTSniperRight",
-			//"AS_SmallLeft",
+			"AS_SmallLeft",
 			"AS_SmallRight",
 			"AP_AR",
 			"AP_BR",
