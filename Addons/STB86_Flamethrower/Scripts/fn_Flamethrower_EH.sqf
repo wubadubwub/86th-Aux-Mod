@@ -8,10 +8,21 @@
 
 params ["_weapon", "_projectile"];
 private _PARTICLE_CLASS = "MediumDestructionFire";
+private _INTENDED_SPEED = getNumber (configFile >> "CfgWeapons" >> _weapon >> "STB86_Flamethrower_Speed");
+private _init_speed = getNumber (configFile >> "CfgWeapons" >> _weapon >> "initSpeed");
+private _vel = velocity _projectile;
 
 _particle = "#particlesource" createVehicle [0, 0, 0];
 _particle setParticleClass _PARTICLE_CLASS;
 _particle attachTo [_projectile, [0, 0, 0]];
+
+{
+	private _j = _x / _init_speed;
+	_vel set [_forEachIndex , (_j * _INTENDED_SPEED)];
+} forEach _vel;
+_projectile setVelocity _vel; 
+
+
 
 _projectile setVariable ["_particle", _particle];
 

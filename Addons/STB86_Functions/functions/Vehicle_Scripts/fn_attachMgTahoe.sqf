@@ -36,6 +36,6 @@ if ((isDedicated) or (hasInterface && isServer)) then {
 		};
 
 		// Attaches MG to car
-		_mg attachTo [_target_car, [0, -1.78, .25]];
-		_mg setDir 180;
+		_mg attachTo [_target_car, [0, -0.25, 0.25]];
+		// -1.78 for reversed
 	};

@@ -1,5 +1,5 @@
 class CfgPatches{
-    class STB86_Flamethrower{
+    class STB86_Flamethrower_cfg{
         name = "86th STB Flamethrower";
 		author = "AJ";
 
@@ -34,10 +34,11 @@ class CfgWeapons{
         descriptionShort = "A FUCKING FLAMETHROWER";
         author = "AJ";
         magazines[] = {"STB86_Flamethrower_Canister"};
+		magazineWell[] = {};
 		modes[]={"FullAuto"};
 		dispersion = .002;
-        initSpeed = 30;
-
+        initSpeed = 250;
+		STB86_Flamethrower_Speed = 25;
 		class FullAuto: Mode_FullAuto
 		{
 			sounds[]=
@@ -173,13 +174,29 @@ class CfgWeapons{
 			fired = "0 = [(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
 		};
     };
+	class STB86_Vehicle_Flamethrower : STB86_Flamethrower {
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		STB86_Flamethrower_Speed = 45;
+		displayName = "Flamethrower";
+		baseWeapon = "STB86_Vehicle_Flamethrower";
+		class FullAuto : FullAuto {
+			minRange=10;
+			minRangeProbab=1;
+			midRange=25;
+			midRangeProbab=0.97;
+			maxRange=40;
+			maxRangeProbab=0.5;
+		};
+	};
 };
 
 class CfgAmmo{
     class B_762x39_Ball_F;
     class STB86_Flame : B_762x39_Ball_F{
 		ACE_damageType = "STB86_flamethrower";
-        typicalSpeed = 25;
+        typicalSpeed = 250;
         timeToLive = 1;
         deflecting = 1;
         affectedByWind = true;
@@ -196,7 +213,7 @@ class CfgMagazines{
         count=300;
         ammo="STB86_Flame";
         displayName = "Fuel Canister";
-        initSpeed = 25;
+        initSpeed = 250;
 		tracersEvery = 0;
 		lastRoundsTracer=0;
     };
