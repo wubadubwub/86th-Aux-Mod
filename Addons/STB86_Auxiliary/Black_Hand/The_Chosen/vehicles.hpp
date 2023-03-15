@@ -1,7 +1,11 @@
-class B_MBT_01_cannon_F{
+class MBT_01_base_F;
+class B_MBT_01_base_F: MBT_01_base_F {
+	class Turrets;
+};
+class B_MBT_01_cannon_F : B_MBT_01_base_F{
 	class Turrets {
 		class MainTurret;
-	}
+	};
 };
 
 class STB86_BH_CH_MBT : B_MBT_01_cannon_F {
@@ -59,9 +63,11 @@ class STB86_BH_CH_MBT_02 : STB86_BH_CH_MBT {
 		};
 	};
 };
-
-
-class O_APC_Tracked_02_cannon_F{
+class APC_Tracked_02_base_F;
+class O_APC_Tracked_02_base_F : APC_Tracked_02_base_F {
+	class Turrets;
+};
+class O_APC_Tracked_02_cannon_F : O_APC_Tracked_02_base_F {
 	class Components;
 	class Turrets {
 		class MainTurret;

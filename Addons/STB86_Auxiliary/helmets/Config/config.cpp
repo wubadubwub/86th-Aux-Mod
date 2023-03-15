@@ -755,7 +755,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsMaterials[] =
 		{
-			   
+		   
 			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
 			   "STB86_Auxiliary\material\Luciv2.rvmat"
 		};
@@ -990,4 +990,5 @@ class CfgWeapons
 			};
 		};
 	};
-}
+};
+};

@@ -1,5 +1,5 @@
 class CfgPatches{
-    class STB86_Flamethrower{
+    class STB86_Flamethrower_cfg{
         name = "86th STB Flamethrower";
 		author = "AJ";
 
@@ -174,6 +174,22 @@ class CfgWeapons{
 			fired = "0 = [(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
 		};
     };
+	class STB86_Vehicle_Flamethrower : STB86_Flamethrower {
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		STB86_Flamethrower_Speed = 45;
+		displayName = "Flamethrower";
+		baseWeapon = "STB86_Vehicle_Flamethrower";
+		class FullAuto : FullAuto {
+			minRange=10;
+			minRangeProbab=1;
+			midRange=25;
+			midRangeProbab=0.97;
+			maxRange=40;
+			maxRangeProbab=0.5;
+		};
+	};
 };
 
 class CfgAmmo{
