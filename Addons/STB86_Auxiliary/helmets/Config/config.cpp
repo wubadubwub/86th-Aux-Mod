@@ -760,23 +760,14 @@ class CfgWeapons
 			   "STB86_Auxiliary\material\Luciv2.rvmat"
 		};
 	};
-	class STB86_Recon_dp : OPTRE_UNSC_Recon_Helmet_dp
-	{
-		displayName = "[86th STB] Recon Center OLD";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Center_co.paa",
-		};
-	};
-	class STB86_Recon_Luci : OPTRE_UNSC_Recon_Helmet
-	{
-		displayName = "[86th STB] Recon Luci";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Firebrand_Luci_visor_co.paa"
-		};
-	};
+	class STB86_Recon_Luci_dp : OPTRE_UNSC_Recon_Helmet
+    {
+        displayName = "[86th STB] Recon Luci";
+        hiddenSelectionsTextures[] =
+        {
+            "STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
+            "STB86_Auxiliary\helmets\Firebrand_Luci_visor_dp_co.paa"
+        };
 	class STB86_Recon_Luci_dp : OPTRE_UNSC_Recon_Helmet_dp
 	{
 		displayName = "[86th STB] Recon Luci";
