@@ -728,23 +728,6 @@ class CfgWeapons
 			"STB86_Auxiliary\armor\fox_uniform_co.paa",
 		};
 	};
-	class _Ellis_Recon : OPTRE_UNSC_Recon_Helmet
-	{
-		displayName = "[86th STB] Recon Ellis";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Ellis_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Ellis_visor_co.paa"
-		};
-	};
-	class _Ellis_Recon_dp : OPTRE_UNSC_Recon_Helmet_dp
-	{
-		displayName = "[86th STB] Recon Ellis";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Ellis_helmet_co.paa",
-		};
-	};
 	class STB86_Recon : OPTRE_UNSC_Recon_Helmet
 	{
 		displayName = "[86th STB] Recon Center OLD";
@@ -753,28 +736,34 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Center_co.paa",
 			"STB86_Auxiliary\helmets\Center_visor_co.paa"
 		};
-		hiddenSelectionsMaterials[] =
+	};
+	class STB86_Recon_dp : OPTRE_UNSC_Recon_Helmet_dp
+	{
+		displayName = "[86th STB] Recon Center OLD";
+		hiddenSelectionsTextures[] =
 		{
-		   
-			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
-			   "STB86_Auxiliary\material\Luciv2.rvmat"
+			"STB86_Auxiliary\helmets\Center_co.paa",
 		};
 	};
-	class STB86_Recon_Luci_dp : OPTRE_UNSC_Recon_Helmet
+	class STB86_Recon_Luci : OPTRE_UNSC_Recon_Helmet
     {
         displayName = "[86th STB] Recon Luci";
         hiddenSelectionsTextures[] =
         {
             "STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
+            "STB86_Auxiliary\helmets\Firebrand_Luci_visor_co.paa"
+        };
+	};
+	class STB86_Recon_Luci_dp : OPTRE_UNSC_Recon_Helmet
+    {
+        displayName = "[86th STB] Recon Luci";
+		scope= 1;
+		scopeArsenal= 1;
+        hiddenSelectionsTextures[] =
+        {
+            "STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
             "STB86_Auxiliary\helmets\Firebrand_Luci_visor_dp_co.paa"
         };
-	class STB86_Recon_Luci_dp : OPTRE_UNSC_Recon_Helmet_dp
-	{
-		displayName = "[86th STB] Recon Luci";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
-		};
 	};
 	class STB86_mickyC_CH252D : STB86_CH252D_Base
 	{
@@ -990,5 +979,4 @@ class CfgWeapons
 			};
 		};
 	};
-};
 };
