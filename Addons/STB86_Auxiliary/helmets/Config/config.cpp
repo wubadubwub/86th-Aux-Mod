@@ -671,6 +671,23 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Jester_guilty_helmet_co.paa"
 		};
 	};
+	class STB86_CH252D_Jester_Lewie : STB86_CH252D_Base
+	{
+		displayName = "[86th STB] CH252D Lewie";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa",
+			"STB86_Auxiliary\helmets\jester_Lewie_visor_co.paa"
+		};
+	};
+	class STB86_CH252D_Jester_Lewie_dp : STB86_CH252D_dp
+	{
+		displayName = "[86th STB] CH252D Lewie";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa"
+		};
+	};
 	class STB86_CH252D_Vandal_n3rf : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D n3rf";
