@@ -447,6 +447,28 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Firebrand_heathen_helmet_co.paa"
 		};
 	};
+	class STB86_CH252D_Firebrand_Camestry : STB86_CH252D_Base
+	{
+		displayName = "[86th STB] CH252D Camestry";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Firebrand_camestry_helmet_co.paa",
+			"STB86_Auxiliary\helmets\Firebrand_camestry_visor_co.paa"
+		};
+		hiddenSelectionsMaterials[] =
+		{
+			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
+			   "STB86_Auxiliary\material\VG_2.rvmat"
+		};
+	};
+	class STB86_CH252D_Firebrand_Camestry_dp : STB86_CH252D_dp
+	{
+		displayName = "[86th STB] CH252D Camestry";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Firebrand_camestry_helmet_co.paa"
+		};
+	};
 	class STB86_CH252D_Firebrand_Reject : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Reject";
@@ -557,6 +579,28 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_light_helmet_co.paa"
+		};
+	};
+	class STB86_CH252D_Vandal_Icey : STB86_CH252D_Base
+	{
+		displayName = "[86th STB] CH252D Icey";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Vandal_Icey_helmet_co.paa",
+			"STB86_Auxiliary\helmets\Vandal_Icey_Visor_co.paa"
+		};
+		hiddenSelectionsMaterials[] =
+		{
+			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
+			   "STB86_Auxiliary\material\Vandal.rvmat"
+		};
+	};
+	class STB86_CH252D_Vandal_Icey_dp : STB86_CH252D_dp
+	{
+		displayName = "[86th STB] CH252D Icey";
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\helmets\Vandal_Icey_helmet_co.paa"
 		};
 	};
 	class STB86_CH252D_Vandal_Bub : STB86_CH252D_Base
