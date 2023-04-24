@@ -60,6 +60,13 @@ class CfgWeapons
 	class STB86_CH252D_Base : OPTRE_UNSC_CH252D_Helmet {
 		dlc = "STB86_Auxiliary";
 		author = "86th Mod Team"
+		hiddenSelections[] =
+			{
+			"camo",
+			"camo2",
+			//"H_Collar",
+			//"H_Neck"
+			};
 	};
 	class STB86_CH252D_dp : OPTRE_UNSC_CH252D_Helmet_dp {
 		dlc = "STB86_Auxiliary";
@@ -127,7 +134,8 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_beckett_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"STB86_Auxiliary\Black_Hand\textures\square.paa"
 		};
 	};
 	class STB86_CH252D_Misfit_beckett_dp : STB86_CH252D_dp

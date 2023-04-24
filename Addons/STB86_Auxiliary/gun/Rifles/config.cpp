@@ -286,8 +286,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]= // These do not work on this shotgun
 		{
-			"STB86_Auxiliary\armor\fox_uniform_co.paa",
-			"STB86_Auxiliary\armor\fox_uniform_co.paa"
+			"STB86_Auxiliary\gun\Rifles\Data\MA5B_86_co.paa",
+			"STB86_Auxiliary\gun\Rifles\Data\MA5B_86_co.paa"
 		};
 	};
 	class STB86_SRS99C: OPTRE_SRS99C
@@ -404,8 +404,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] = // these don't actually work on this shotgun
 		{
-			"_86th_Auxilery\armor\fox_uniform_co.paa",
-			"_86th_Auxilery\armor\fox_uniform_co.paa"
+			"STB86_Auxiliary\gun\Rifles\Data\M392_86_co.paa",
+			"STB86_Auxiliary\gun\Rifles\Data\M392_86_co.paa"
 		};
 	};
 
@@ -445,12 +445,12 @@ class CfgImprecision  // Weapon Sway
 {
 	class Primary  // Obvious
 	{
-		verticalRadius = 0.020;
-		horizontalRadius = 0.020;
+		verticalRadius = 0.030;
+		horizontalRadius = 0.030;
 	};
 	class Secondary // Obvious
 	{
-		verticalRadius = 0.020;
-		horizontalRadius = 0.025;
+		verticalRadius = 0.030;
+		horizontalRadius = 0.030;
 	};
 };
