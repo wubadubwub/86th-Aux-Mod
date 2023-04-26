@@ -2269,7 +2269,7 @@ class CfgWeapons
 			"APO_Knife",
 			"APO_SMG",
 			//"APO_Sniper",
-			//"CustomKit_Scorch"
+			"CustomKit_Scorch"
 			};
 			class HitpointsProtectionInfo
 			{
