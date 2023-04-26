@@ -171,7 +171,7 @@ class CfgWeapons{
 		};
 		class EventHandlers
 		{
-			fired = "0 = [(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
+			fired = "0 = [(_this select 1), (_this select 6), (_this select 4)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
 		};
     };
 	class STB86_Vehicle_Flamethrower : STB86_Flamethrower {
