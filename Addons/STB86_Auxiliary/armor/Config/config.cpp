@@ -2195,9 +2195,9 @@ class CfgWeapons
 
 		hiddenSelectionsTextures[] =
 		{
-			"OPTRE_UNSC_Units\Army\data\Vest_odst_co.paa",
-			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"STB86_Auxiliary\armor\Vandal_heimdall_legs_co.paa",
+			"STB86_Auxiliary\armor\Vandal_vest_odst_co.paa",
+			"STB86_Auxiliary\armor\Vandal_armor_odst_co.paa",
+			"STB86_Auxiliary\armor\Vandal_Icey_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"STB86_Auxiliary\armor\Vandal_heimdall_armor_co.paa"
 		};
@@ -2252,15 +2252,15 @@ class CfgWeapons
 			"AP_BR",
 			//"AP_Canteen",
 			"AP_GL",
-			//"AP_Knife",
+			"AP_Knife",
 			"AP_MGThigh",
 			"AP_AR",
 			"AP_Pack",
-			//"AP_Pistol",
+			"AP_Pistol",
 			//"AP_Rounds",
 			"AP_SG",
 			"AP_SMG",
-			//"AP_Sniper",
+			"AP_Sniper",
 			"AP_Thigh",
 			"AP_Frag",
 			"AP_Smoke",
@@ -2269,7 +2269,7 @@ class CfgWeapons
 			"APO_Knife",
 			"APO_SMG",
 			//"APO_Sniper",
-			"CustomKit_Scorch"
+			//"CustomKit_Scorch"
 			};
 			class HitpointsProtectionInfo
 			{

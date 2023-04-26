@@ -643,8 +643,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsMaterials[] =
 		{
-			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
-			   "STB86_Auxiliary\material\VG_2.rvmat"
+			"OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
+			"STB86_Auxiliary\material\Vandal.rvmat"
 		};
 	};
 	class STB86_CH252D_Vandal_Heimdall_dp : STB86_CH252D_dp
