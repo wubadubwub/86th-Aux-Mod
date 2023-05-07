@@ -113,7 +113,8 @@ class STB86_BH_CH_ARC_9 : srifle_DMR_02_F {
 		ace_overheating_slowdownFactor = 0;
 		ace_overheating_dispersion = 0;
 		ace_overheating_closedBolt = 0;
-		scope=2;
+		scope=1;
+		scopeArsenal = 1;
 		author = "86th STB Auxiliary Mod Team";
 		displayName = "[86th BH] ARC-9 Railgun";
 		baseWeapon = "STB86_BH_CH_ARC_9";

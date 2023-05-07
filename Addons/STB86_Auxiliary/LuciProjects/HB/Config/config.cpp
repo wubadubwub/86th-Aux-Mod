@@ -56,8 +56,8 @@ class CfgWeapons
 	class STB86_HB_Armor : V_PlateCarrier2_rgr {
 		dlc = "STB86_Auxiliary";
 		displayname = "HB";
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeArsenal = 1;
 		author = "86th STB Mod Team";
 		model = "\STB86_Auxiliary\LuciProjects\HB\HB.p3d";
 		class ItemInfo : VestItem
