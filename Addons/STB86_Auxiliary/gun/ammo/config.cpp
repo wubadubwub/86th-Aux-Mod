@@ -63,7 +63,7 @@ class CfgMagazines
         displaynameshort=".69 ACP";
         initspeed=1200;
         mass=5.5;
-        ammo="STB86_127x108_HighPow_Ammo"
+        ammo="STB86_127x108_HighPow_Ammo";
         descriptionshort="6rnd Hi-Power Cylinder";
     };
 	class STB86_6Rnd_127x40_EHiPow_Cyl: TCF_6Rnd_127x40_Cyl

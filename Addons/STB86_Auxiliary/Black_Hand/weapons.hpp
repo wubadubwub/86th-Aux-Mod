@@ -98,7 +98,7 @@ class STB86_BH_SRS99C_Prefab : OPTRE_SRS99D {
 				slot="CowsSlot";
 			};
 			class linkedItemsMuzzle{
-				item="optre_srs99d_suppressor"
+				item="optre_srs99d_suppressor";
 				slot="MuzzleSlot";
 			};
 		};

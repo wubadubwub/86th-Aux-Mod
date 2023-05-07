@@ -1047,7 +1047,7 @@ Helmet
 class H_HelmetO_ViperSP_hex_F;
 class STB86_BH_CH_Helmet : H_HelmetO_ViperSP_hex_F {
 	scope=2;
-	author = "86th STB Auxiliary Mod Team"
+	author = "86th STB Auxiliary Mod Team";
 	displayName = "[86th BH] BH Chosen Helmet";
 	hiddenSelectionsTextures[] = {
 		"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Helmet.paa"

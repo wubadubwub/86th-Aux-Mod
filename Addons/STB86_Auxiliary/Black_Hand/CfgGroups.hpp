@@ -6,7 +6,7 @@ class CfgGroups {
 			scopeCurator = 2;
 
 			class Infantry{
-				name="Infantry"
+				name="Infantry";
 				class STB86_BH_Sentry{
 					name="Sentry";
 					side = 0;
@@ -351,13 +351,13 @@ class CfgGroups {
 					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
-						vehicle = "STB86_BH_CH_Rifleman"
+						vehicle = "STB86_BH_CH_Rifleman";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1{
 						side = 0;
-						vehicle = "STB86_BH_CH_Grenadier"
+						vehicle = "STB86_BH_CH_Grenadier";
 						rank = "CORPORAL";
 						position[] = {-1,-1,0};
 					};
@@ -477,13 +477,13 @@ class CfgGroups {
 					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
-						vehicle = "STB86_BH_CH_Marksman"
+						vehicle = "STB86_BH_CH_Marksman";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1{
 						side = 0;
-						vehicle = "STB86_BH_CH_Marksman"
+						vehicle = "STB86_BH_CH_Marksman";
 						rank = "CORPORAL";
 						position[] = {-1,-1,0};
 					};

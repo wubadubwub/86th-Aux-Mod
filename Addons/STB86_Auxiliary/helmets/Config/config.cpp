@@ -59,23 +59,18 @@ class CfgWeapons
 	//Misfit Helmets
 	class STB86_CH252D_Base : OPTRE_UNSC_CH252D_Helmet {
 		dlc = "STB86_Auxiliary";
-		author = "86th Mod Team"
-		hiddenSelections[] =
-			{
-			"camo",
-			"camo2",
-			//"H_Collar",
-			//"H_Neck"
-			};
+		author = "86th Mod Team";
+		hiddenSelections[] = { "camo3","camo4","camo","camo2","H_Ghillie"};
+		hiddenSelectionsTextures[] = {"optre_unsc_units\army\data\ghillie_woodland_co.paa","optre_unsc_units\army\data\soft_packs_co.paa"};
 	};
 	class STB86_CH252D_dp : OPTRE_UNSC_CH252D_Helmet_dp {
 		dlc = "STB86_Auxiliary";
-		author = "86th Mod Team"
+		author = "86th Mod Team";
 	};
 	class STB86_CH252D_Misfit : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Misfit Squad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -84,7 +79,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Misfit Squad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_helmet_co.paa"
 		};
@@ -92,7 +87,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_Herrington : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Herrington";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_herrington_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -101,7 +96,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_Herrington_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Herrington";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_herrington_helmet_co.paa"
 		};
@@ -109,7 +104,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_Center : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Center";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_Center_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Misfit_Center_visor_co.paa"
@@ -123,7 +118,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_Center_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Center";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_Center_helmet_co.paa"
 		};
@@ -131,7 +126,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_beckett : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Beckett";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_beckett_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
@@ -141,7 +136,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_beckett_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Beckett";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_beckett_helmet_co.paa"
 		};
@@ -149,7 +144,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_cress : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Cress";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_cress_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -158,7 +153,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_cress_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Cress";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_cress_helmet_co.paa"
 		};
@@ -166,7 +161,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_wrecker : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Wrecker";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_wrecker_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Misfit_wrecker_visor2_co.paa"
@@ -175,7 +170,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_wrecker_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Wrecker";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_wrecker_helmet_co.paa"
 		};
@@ -183,7 +178,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_vigilance : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Vigilance";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_vigilance_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Misfit_vigilance_visor_co.paa"
@@ -192,7 +187,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_vigilance_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Vigilance";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_vigilance_helmet_co.paa"
 		};
@@ -200,7 +195,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_xey : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Xey";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\vandal_xey_helmet_co.paa",
 			"STB86_Auxiliary\helmets\vandal_xey_visor_co.paa"
@@ -209,7 +204,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_xey_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Xey";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\vandal_xey_helmet_co.paa"
 		};
@@ -217,7 +212,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_Neko : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Neko";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_neko_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -226,7 +221,7 @@ class CfgWeapons
 	class STB86_CH252D_Misfit_Neko_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Neko";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Misfit_neko_helmet_co.paa"
 		};
@@ -234,7 +229,7 @@ class CfgWeapons
 	class STB86_CH252D_vandal_Rithon : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Rithon";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\vandal_rithon_helmet_co.paa",
 			"STB86_Auxiliary\helmets\vandal_rithon_visor_co.paa"
@@ -243,7 +238,7 @@ class CfgWeapons
 	class STB86_CH252D_vandal_Rithon_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Rithon";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\vandal_rithon_helmet_co.paa"
 		};
@@ -251,7 +246,7 @@ class CfgWeapons
 	class STB86_CH252D_jester_rookie : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Rookie";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\jester_rookie_helmet_co.paa",
 			"STB86_Auxiliary\helmets\jester_rookie_visor_co.paa"
@@ -260,7 +255,7 @@ class CfgWeapons
 	class STB86_CH252D_jester_rookie_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Rookie";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\jester_rookie_helmet_co.paa"
 		};
@@ -269,7 +264,7 @@ class CfgWeapons
 	class STB86_CH252D_Phantom : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Reserves";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Phantom_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -278,7 +273,7 @@ class CfgWeapons
 	class STB86_CH252D_Phantom_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Reserves";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Phantom_helmet_co.paa"
 		};
@@ -287,7 +282,7 @@ class CfgWeapons
 	{
 		displayName = "[86th STB] CH252D Hell Hound";
 		scope = 1;
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Devil_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Devil_visor_co.paa"
@@ -296,7 +291,7 @@ class CfgWeapons
 	class STB86_CH252D_Hound_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Hell Hound";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Devil_helmet_co.paa"
 		};
@@ -304,7 +299,7 @@ class CfgWeapons
 	class STB86_CH252D_Phantom_medic : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Reserves SARC";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Phantom_sarc_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -313,7 +308,7 @@ class CfgWeapons
 	class STB86_CH252D_Phantom_medic_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Reserves SARC";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Phantom_sarc_helmet_co.paa"
 		};
@@ -321,7 +316,7 @@ class CfgWeapons
 	class STB86_CH252D_Sinder_Visible : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] Sinder Visible";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Jester_sinder_visor_co.paa"
@@ -330,7 +325,7 @@ class CfgWeapons
 	class STB86_CH252D_Sinder_Visible_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] Sinder Visible";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa"
 		};
@@ -338,7 +333,7 @@ class CfgWeapons
 	class STB86_CH252D_Zeus_Sinder : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Sinder (Zeus)";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Zeus_Sinder_helmet_co.paa"
 		};
@@ -378,7 +373,7 @@ class CfgWeapons
 	class STB86_CH252D_Zeus_Sinder_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Sinder (Zeus)";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Zeus_Sinder_helmet_co.paa"
 		};
@@ -419,7 +414,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Firebrand Squad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -428,7 +423,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Firebrand Squad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_helmet_co.paa"
 		};
@@ -436,7 +431,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand_Heathen : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Heathen";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_heathen_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Firebrand_heathen_visor_co.paa"
@@ -450,7 +445,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand_Heathen_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Heathen";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_heathen_helmet_co.paa"
 		};
@@ -458,7 +453,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand_Camestry : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Camestry";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_camestry_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Firebrand_camestry_visor_co.paa"
@@ -472,7 +467,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand_Camestry_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Camestry";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_camestry_helmet_co.paa"
 		};
@@ -480,7 +475,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand_Reject : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Reject";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_reject_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Firebrand_reject_visor_co.paa"
@@ -494,7 +489,7 @@ class CfgWeapons
 	class STB86_CH252D_Firebrand_Reject_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Reject";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Firebrand_reject_helmet_co.paa"
 		};
@@ -502,7 +497,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Wrath : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Wrath";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Wrath_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Chaos_Wrath_visor_co.paa"
@@ -511,7 +506,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Wrath_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Wrath";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Wrath_helmet_co.paa"
 		};
@@ -519,7 +514,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_Conrad : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Conrad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Jester_Conrad_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Jester_Conrad_visor_co.paa"
@@ -528,7 +523,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_Conrad_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Conrad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Jester_Conrad_helmet_co.paa"
 		};
@@ -536,7 +531,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Vandal Squad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
@@ -545,7 +540,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Vandal Squad";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_helmet_co.paa"
 		};
@@ -553,7 +548,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Bow : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Bow";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Bow_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_Bow_Visor_co.paa"
@@ -562,7 +557,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Bow_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Bow";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Bow_helmet_co.paa"
 		};
@@ -570,7 +565,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Light : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Light";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_light_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_light_Visor_co.paa"
@@ -584,7 +579,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Light_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Light";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_light_helmet_co.paa"
 		};
@@ -592,7 +587,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Icey : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Icey";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Icey_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_Icey_Visor_co.paa"
@@ -606,7 +601,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Icey_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Icey";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Icey_helmet_co.paa"
 		};
@@ -614,7 +609,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Bub : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Bub";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Bub_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_Bub_Visor_co.paa"
@@ -628,7 +623,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Bub_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Bub";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_Bub_helmet_co.paa"
 		};
@@ -636,7 +631,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Heimdall : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Heimdall";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa"
@@ -650,7 +645,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_Heimdall_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Bub";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa"
 		};
@@ -658,7 +653,7 @@ class CfgWeapons
 	class STB86_CH252D_Wildcard_AJ : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D AJ (Battle)";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Wildcard_AJ_battlehelmet_co.paa",
 			"STB86_Auxiliary\helmets\Wildcard_AJ_battlevisor_co.paa"
@@ -667,7 +662,7 @@ class CfgWeapons
 	class STB86_CH252D_Wildcard_AJ_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D AJ";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Wildcard_AJ_battlehelmet_co.paa"
 		};
@@ -675,7 +670,7 @@ class CfgWeapons
 	class STB86_CH252D_Faidan : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] Faidan";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\faidan_helmet_co.paa",
 			"STB86_Auxiliary\helmets\faidan_visor_co.paa"
@@ -684,7 +679,7 @@ class CfgWeapons
 	class STB86_CH252D_Faidan_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] Faidan";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\faidan_helmet_co.paa"
 		};
@@ -692,7 +687,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_celtic : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Celtic";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Jester_celtic_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Jester_celtic_visor_co.paa"
@@ -701,7 +696,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_celtic_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Celtic";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Jester_celtic_helmet_co.paa"
 		};
@@ -709,7 +704,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_guilty : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D guilty";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Jester_guilty_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Jester_guilty_visor_co.paa"
@@ -718,7 +713,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_guilty_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D guilty";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Jester_guilty_helmet_co.paa"
 		};
@@ -726,7 +721,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_Lewie : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Lewie";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa",
 			"STB86_Auxiliary\helmets\jester_Lewie_visor_co.paa"
@@ -735,7 +730,7 @@ class CfgWeapons
 	class STB86_CH252D_Jester_Lewie_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Lewie";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa"
 		};
@@ -743,7 +738,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_n3rf : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D n3rf";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_n3rf_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_n3rf_visor_co.paa"
@@ -757,7 +752,7 @@ class CfgWeapons
 	class STB86_CH252D_Vandal_n3rf_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D n3rf";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Vandal_n3rf_helmet_co.paa"
 		};
@@ -765,7 +760,7 @@ class CfgWeapons
 	class STB86_CH252D_banana : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Monkey";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\banana_monkey_helmet_co.paa",
 			"STB86_Auxiliary\helmets\banana_monkey_visor_co.paa"
@@ -774,7 +769,7 @@ class CfgWeapons
 	class STB86_CH252D_banana_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D Monkey";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\banana_monkey_helmet_co.paa"
 		};
@@ -783,7 +778,7 @@ class CfgWeapons
 	class _Senko_Recon : OPTRE_UNSC_Recon_Helmet
 	{
 		displayName = "Senko";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\armor\fox_uniform_co.paa",
 			"STB86_Auxiliary\helmets\Fox_visor_co.paa"
@@ -792,7 +787,7 @@ class CfgWeapons
 	class _Senko_Recon_dp : OPTRE_UNSC_Recon_Helmet_dp
 	{
 		displayName = "Senko";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\armor\fox_uniform_co.paa",
 		};
@@ -800,7 +795,7 @@ class CfgWeapons
 	class STB86_Recon : OPTRE_UNSC_Recon_Helmet
 	{
 		displayName = "[86th STB] Recon Center OLD";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Center_co.paa",
 			"STB86_Auxiliary\helmets\Center_visor_co.paa"
@@ -809,7 +804,7 @@ class CfgWeapons
 	class STB86_Recon_dp : OPTRE_UNSC_Recon_Helmet_dp
 	{
 		displayName = "[86th STB] Recon Center OLD";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Center_co.paa",
 		};
@@ -817,7 +812,7 @@ class CfgWeapons
 	class STB86_Recon_Luci : OPTRE_UNSC_Recon_Helmet
     {
         displayName = "[86th STB] Recon Luci";
-        hiddenSelectionsTextures[] =
+        hiddenSelectionsTextures[] +=
         {
             "STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
             "STB86_Auxiliary\helmets\Firebrand_Luci_visor_co.paa"
@@ -828,7 +823,7 @@ class CfgWeapons
         displayName = "[86th STB] Recon Luci";
 		scope= 1;
 		scopeArsenal= 1;
-        hiddenSelectionsTextures[] =
+        hiddenSelectionsTextures[] +=
         {
             "STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
             "STB86_Auxiliary\helmets\Firebrand_Luci_visor_dp_co.paa"
@@ -837,7 +832,7 @@ class CfgWeapons
 	class STB86_mickyC_CH252D : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D McAllister";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\McAllister_helmet_co.paa",
 			"STB86_Auxiliary\helmets\McAllister_visor_co.paa"
@@ -846,7 +841,7 @@ class CfgWeapons
 	class STB86_mickyC_CH252D_dp : STB86_CH252D_dp
 	{
 		displayName = "[86th STB] CH252D McAllister";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\McAllister_helmet_co.paa",
 		};
@@ -854,7 +849,7 @@ class CfgWeapons
 	class STB86_Ouroboros : OPTRE_UNSC_Commando_Helmet
 	{
 		displayName = "[Innie] Ouroboros";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Ouroboros_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Ouroboros_visor_co.paa"
@@ -863,7 +858,7 @@ class CfgWeapons
 	class STB86_Ouroboros_dp : OPTRE_UNSC_Commando_Helmet_dp
 	{
 		displayName = "[Innie] Ouroboros";
-		hiddenSelectionsTextures[] =
+		hiddenSelectionsTextures[] +=
 		{
 			"STB86_Auxiliary\helmets\Ouroboros_helmet_co.paa"
 		};

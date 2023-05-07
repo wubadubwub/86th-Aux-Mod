@@ -130,7 +130,7 @@ class STB86_BH_AA : STB86_BH_AT {
 
 class STB86_BH_Engineer : STB86_BH_Rifleman { 
 	displayName = "Engineer";
-	backpack="B_AssaultPack_blk"
+	backpack="B_AssaultPack_blk";
 
 	Items[] = {MAG_3(FirstAidKit), Toolkit};
 	RespawnItems[] = {MAG_3(FirstAidKit), Toolkit};

@@ -36,7 +36,7 @@ class CfgWeapons
 		displayName="[86th] Trauma Kit";
 		picture="STB86_Medical\icons\trauma_kit.paa";
 		model="\OPTRE_Weapons\items\Medkit.p3d";
-		descriptionShort = "An emergency Trauma kit for serious wounds."
+		descriptionShort = "An emergency Trauma kit for serious wounds.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
 			mass=25;
@@ -49,7 +49,7 @@ class CfgWeapons
 		displayName="[86th] Biofoam Pack";
 		picture="STB86_Medical\icons\biofoam.paa";
 		model="\OPTRE_Weapons\items\Biofoam.p3d";
-		descriptionShort = "A large pack of Biofoam for Medics."
+		descriptionShort = "A large pack of Biofoam for Medics.";
 		class ItemInfo: ItemInfo
 		{
 			mass=30;

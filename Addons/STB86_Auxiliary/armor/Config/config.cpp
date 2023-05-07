@@ -1637,7 +1637,7 @@ class CfgWeapons
 	class STB86_Firebrand_Camestry_vest/*STB86_M52D_Armor*/ : STB86_M52D_Armor
 	{
 
-		displayName = "[86th STB] M52D Camestry"
+		displayName = "[86th STB] M52D Camestry";
 
 
 

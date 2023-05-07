@@ -308,7 +308,7 @@ class cfgFactionClasses
     };
     class STB86_Black_Hand
     {
-        displayName = "Black Hand"
+        displayName = "Black Hand";
         scope = 2;
         scopeCurator = 2;
         priority = 3;

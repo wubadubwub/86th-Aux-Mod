@@ -7,8 +7,8 @@ class CfgPatches
 	class Ghost
 	{
 		//Meta information
-		name = "Ghost"
-		author = "Luci"
+		name = "Ghost";
+		author = "Luci";
 		//unkown
 		requiredVersion = 0.1;
 		//unknown

@@ -7,8 +7,8 @@ class CfgPatches
 	class LuciProjects
 	{
 		//Meta information
-		name = "LuciProjects"
-		author = "Luci"
+		name = "LuciProjects";
+		author = "Luci";
 		//unkown
 		requiredVersion = 0.1;
 		//unknown

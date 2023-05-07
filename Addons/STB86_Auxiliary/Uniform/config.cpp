@@ -43,8 +43,8 @@ class CfgVehicles
 	{
 			author="Sinder";
 			scope=2;
-			displayName= "[86th] Battlesuit"
-			camoflauge=0.555555 // This might be a thing, pulling it from a reference
+			displayName= "[86th] Battlesuit";
+			camoflauge=0.555555; // This might be a thing, pulling it from a reference
 		hiddenSelections[] =
 		{
 			"camo",

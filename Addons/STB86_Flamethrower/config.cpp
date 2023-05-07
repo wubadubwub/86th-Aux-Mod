@@ -263,7 +263,7 @@ class ACE_Medical_Injuries {
             // one class for each type of wound this damage type is allowed to create
             // must match a wound type defined above
 			class woundHandlers : woundHandlers {
-				STB86_Medical_Flamethrower_WH = "STB86_Flamethrower_fnc_Flamethrower_WH"
+				STB86_Medical_Flamethrower_WH = "STB86_Flamethrower_fnc_Flamethrower_WH";
 			};
 
             class STB86_Melt {

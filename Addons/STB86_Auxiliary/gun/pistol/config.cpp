@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class Custom_weapons
 	{
-		author="Sinder"
+		author="Sinder";
 		requiredAddons[]=
 		{
 			"A3_Weapons_F",

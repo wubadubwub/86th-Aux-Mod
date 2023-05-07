@@ -6,9 +6,9 @@ class CfgPatches
 	class LuciEars
 	{
 		//Meta information
-		name = "Ears"
-		author = "Luci"
-		//unkown
+		name = "Ears";
+		author = "Luci";
+		//unknown
 		requiredVersion = 0.1;
 		//unknown
 		units[] = {};

@@ -21,7 +21,7 @@ class STB86_BH_CH_VK78 : OPTRE_Commando{
 	baseWeapon = "STB86_BH_CH_VK78";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
@@ -32,7 +32,7 @@ class STB86_BH_CH_SRS99D : OPTRE_SRS99D {
 	baseWeapon = "STB86_BH_CH_SRS99D";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
@@ -43,7 +43,7 @@ class STB86_BH_CH_MA37K : OPTRE_MA37K {
 	baseWeapon = "STB86_BH_CH_MA37K";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
@@ -60,7 +60,7 @@ class STB86_BH_CH_MA5B : OPTRE_MA5B {
 	baseWeapon = "STB86_BH_CH_MA5B";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
@@ -71,7 +71,7 @@ class STB86_BH_CH_M7 : OPTRE_M7 {
 	baseWeapon = "STB86_BH_CH_M7";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_m7_silencer"
+			item="optre_m7_silencer";
 			slot="MuzzleSlot";
 		};
 	};
@@ -82,7 +82,7 @@ class STB86_BH_CH_BR55 : OPTRE_BR55 {
 	baseWeapon = "STB86_BH_CH_BR55";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
@@ -93,7 +93,7 @@ class STB86_BH_CH_HMG38 : OPTRE_HMG38 {
 	baseWeapon = "STB86_BH_CH_HMG38";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
@@ -226,7 +226,7 @@ class STB86_BH_CH_SRS99C_Prefab : STB86_BH_CH_SRS99D {
 			slot="CowsSlot";
 		};
 		class linkedItemsMuzzle{
-			item="optre_srs99d_suppressor"
+			item="optre_srs99d_suppressor";
 			slot="MuzzleSlot";
 		};
 	};

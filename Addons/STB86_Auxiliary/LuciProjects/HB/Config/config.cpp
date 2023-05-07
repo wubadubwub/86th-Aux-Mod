@@ -4,7 +4,7 @@
 
 class CfgPatches
 {
-	class STB86_Auxiliary_Armor
+	class STB86_Auxiliary_HB_Armor
 	{
 		//General mod info
 		author = "86th STB Modding Team";

@@ -127,38 +127,36 @@ class 30Rnd_556x45_Stanag;
 class 30Rnd_762x39_AK12_Mag_F;
 
 class CfgMagazines {
-	class STB86_556x45_30rnd : 30Rnd_556x45_Stanag 
-		
-{		displayname="BH HKammo 9x5";
+	class STB86_556x45_30rnd : 30Rnd_556x45_Stanag 	{
+		displayname="BH HKammo 9x5";
 		ammo="OPTRE_B_95x40_Ball";		
 		descriptionshort="30 Round Magazine<br>9.5 ";
 		tracersEvery=15;
-
-}
-class STB86_556x45_30rnd_Tracer :  STB86_556x45_30rnd 
-{	displayname="BH HKammo 9x5";
+	};
+	class STB86_556x45_30rnd_Tracer :  STB86_556x45_30rnd {	
+		displayname="BH HKammo 9x5";
 		ammo="OPTRE_B_95x40_Ball";		
 		descriptionshort="30 Round Magazine<br>9.5 ";
 		tracersEvery=1;
-} 
-class STB86_762x39_32rnd : 30Rnd_762x39_AK12_Mag_F
-
-{		dispayname="BH AK12ammo 762x51";
+	};
+	class STB86_762x39_32rnd : 30Rnd_762x39_AK12_Mag_F {		
+		dispayname="BH AK12ammo 762x51";
 		ammo="OPTRE_B_762x51_Ball";
 		count=32;
-		descriptionshort="32 Round Magazine<ma5>7.62 "
-		tracersEvery=15;}
-class STB86_762x39_32rnd_Tracer : STB86_762x39_32rnd
-
-{		dispayname="BH AK12ammo 762x51";
+		descriptionshort="32 Round Magazine<ma5>7.62 ";
+		tracersEvery=15;
+	};
+	class STB86_762x39_32rnd_Tracer : STB86_762x39_32rnd{		
+		dispayname="BH AK12ammo 762x51";
 		ammo="OPTRE_B_762x51_Ball";
-		descriptionshort="32 Round Magazine<ma5>7.62 "
-		tracersEvery=1;}
-class STB86_762x39_60rnd : STB86_762x39_32rnd
-
-{		dispayname="BH AK12ammo 762x51";
+		descriptionshort="32 Round Magazine<ma5>7.62 ";
+		tracersEvery=1;
+	};
+	class STB86_762x39_60rnd : STB86_762x39_32rnd{		
+		dispayname="BH AK12ammo 762x51";
 		ammo="OPTRE_B_762x51_Ball";
 		count=60;
-		descriptionshort="60 Round Magazine<ma5>7.62 "
-		tracersEvery=1;}
-}
+		descriptionshort="60 Round Magazine<ma5>7.62 ";
+		tracersEvery=1;
+	};
+};
