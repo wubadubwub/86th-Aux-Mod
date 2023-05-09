@@ -5032,7 +5032,7 @@ class CfgWeapons
 		CBRN_protection = 1;
 		class ItemInfo : UniformItem
 		{
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			mass = 40;
 			uniformType = "Neopren";
 			uniformModel = "";
@@ -5049,7 +5049,7 @@ class CfgWeapons
 		CBRN_protection = 1;
 		class ItemInfo : UniformItem
 		{
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			mass = 40;
 			uniformType = "Neopren";
 			uniformModel = "";
