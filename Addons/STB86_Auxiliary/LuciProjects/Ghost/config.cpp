@@ -31,7 +31,7 @@ class CfgWeapons
 		class ItemInfo;
 	};
 	
-	class 86th_Ghost: NVGoggles
+	class STB86_Ghost_Mask: NVGoggles
 	{
 		displayName = "[86th] Ghost";
 		author = "Luci";
