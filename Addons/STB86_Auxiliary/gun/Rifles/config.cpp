@@ -45,7 +45,7 @@ class CfgWeapons
 	class OPTRE_BR55HB;
 	class OPTRE_MA37K;
 	class OPTRE_SRS99C;
-	class TCW_Saw_Gamma;
+	class TCF_Saw_Gamma;
 	class OPTRE_M7;
 	class InventoryOpticsItem_Base_F;
 	class OPTRE_M41_SSR;
@@ -424,7 +424,7 @@ class CfgWeapons
 		};
 		baseWeapon="86_LuciSmg";
 	};
-	class STB86_Saw_Heathen : TCW_Saw_Gamma {
+	class STB86_Saw_Heathen : TCF_Saw_Gamma {
 		displayName = "[86th] Heathen SAW";
 		hiddenSelectionsTextures[] =
 		{
