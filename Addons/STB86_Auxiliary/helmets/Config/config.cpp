@@ -637,7 +637,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa"
+			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa",
+			"",
+			"STB86_Auxiliary\armor\Vandal_soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{

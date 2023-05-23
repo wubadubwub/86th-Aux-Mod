@@ -2197,7 +2197,7 @@ class CfgWeapons
 		{
 			"STB86_Auxiliary\armor\Vandal_vest_odst_co.paa",
 			"STB86_Auxiliary\armor\Vandal_armor_odst_co.paa",
-			"STB86_Auxiliary\armor\Vandal_Icey_legs_co.paa",
+			"STB86_Auxiliary\armor\Vandal_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"STB86_Auxiliary\armor\Vandal_heimdall_armor_co.paa"
 		};
