@@ -149,6 +149,7 @@ class CfgWeapons
 		author="Sinder";
 		scope=2;
 		scopeArsenal=2;
+		canShootInWater=1;
 		displayName="[86TH] MA5B";
 		baseWeapon="86_MA5B";
 		magazines[]=
@@ -163,6 +164,7 @@ class CfgWeapons
 			"OPTRE_32Rnd_762X51_Mag",
 			"OPTRE_32Rnd_762X51_Mag_Tracer",
 			"OPTRE_32Rnd_762X51_Mag_Tracer_Yellow",
+			"STB86_MA5B_UW_Mag"
 		};
 		hiddenSelections[]=
 		{
@@ -194,6 +196,7 @@ class CfgWeapons
 		author="Sinder";
 		scope=2;
 		scopeArsenal=2;
+		canShootInWater=1;
 		displayName="[86TH] MA5BGL";
 		baseWeapon="86_MA5BGL";
 		magazines[]=
@@ -208,6 +211,7 @@ class CfgWeapons
 			"OPTRE_32Rnd_762X51_Mag",
 			"OPTRE_32Rnd_762X51_Mag_Tracer",
 			"OPTRE_32Rnd_762X51_Mag_Tracer_Yellow",
+			"STB86_MA5B_UW_Mag"
 		};
 		hiddenSelections[]=
 		{
@@ -226,6 +230,7 @@ class CfgWeapons
 		author="Sinder";
 		scope=2;
 		scopeArsenal=2;
+		canShootInWater=1;
 		displayName="[86TH] MA5B [Nerf]";
 		baseWeapon="NERF_MA5B";
 		magazines[]=
@@ -240,6 +245,7 @@ class CfgWeapons
 			"OPTRE_32Rnd_762X51_Mag",
 			"OPTRE_32Rnd_762X51_Mag_Tracer",
 			"OPTRE_32Rnd_762X51_Mag_Tracer_Yellow",
+			"STB86_MA5B_UW_Mag"
 		};
 		hiddenSelections[]=
 		{
@@ -445,12 +451,12 @@ class CfgImprecision  // Weapon Sway
 {
 	class Primary  // Obvious
 	{
-		verticalRadius = 0.030;
-		horizontalRadius = 0.030;
+		verticalRadius = 0.035;
+		horizontalRadius = 0.035;
 	};
 	class Secondary // Obvious
 	{
-		verticalRadius = 0.030;
-		horizontalRadius = 0.030;
+		verticalRadius = 0.035;
+		horizontalRadius = 0.035;
 	};
 };
