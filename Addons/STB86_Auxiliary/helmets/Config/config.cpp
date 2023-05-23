@@ -64,7 +64,17 @@ class CfgWeapons
 			{
 			"camo",
 			"camo2",
+			"camo3",
+			"camo4",
+			"H_Ghillie"
 			};
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\Black_Hand\textures\square.paa",
+			"STB86_Auxiliary\Black_Hand\textures\square.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
+		};
 	};
 	class STB86_CH252D_dp : OPTRE_UNSC_CH252D_Helmet_dp {
 		dlc = "STB86_Auxiliary";
@@ -76,7 +86,10 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
+			
 		};
 	};
 	class STB86_CH252D_Misfit_dp : STB86_CH252D_dp
@@ -93,7 +106,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_herrington_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Misfit_Herrington_dp : STB86_CH252D_dp
@@ -110,7 +125,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_Center_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Misfit_Center_visor_co.paa"
+			"STB86_Auxiliary\helmets\Misfit_Center_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -133,7 +150,8 @@ class CfgWeapons
 		{
 			"STB86_Auxiliary\helmets\Misfit_beckett_helmet_co.paa",
 			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
-			"STB86_Auxiliary\Black_Hand\textures\square.paa"
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Misfit_beckett_dp : STB86_CH252D_dp
@@ -150,7 +168,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_cress_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Misfit_cress_dp : STB86_CH252D_dp
@@ -167,7 +187,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_wrecker_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Misfit_wrecker_visor2_co.paa"
+			"STB86_Auxiliary\helmets\Misfit_wrecker_visor2_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Misfit_wrecker_dp : STB86_CH252D_dp
@@ -184,7 +206,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_vigilance_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Misfit_vigilance_visor_co.paa"
+			"STB86_Auxiliary\helmets\Misfit_vigilance_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Misfit_vigilance_dp : STB86_CH252D_dp
@@ -201,7 +225,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\vandal_xey_helmet_co.paa",
-			"STB86_Auxiliary\helmets\vandal_xey_visor_co.paa"
+			"STB86_Auxiliary\helmets\vandal_xey_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Vandal_xey_dp : STB86_CH252D_dp
@@ -218,7 +244,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Misfit_neko_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Misfit_Neko_dp : STB86_CH252D_dp
@@ -235,7 +263,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\vandal_rithon_helmet_co.paa",
-			"STB86_Auxiliary\helmets\vandal_rithon_visor_co.paa"
+			"STB86_Auxiliary\helmets\vandal_rithon_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_vandal_Rithon_dp : STB86_CH252D_dp
@@ -252,7 +282,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\jester_rookie_helmet_co.paa",
-			"STB86_Auxiliary\helmets\jester_rookie_visor_co.paa"
+			"STB86_Auxiliary\helmets\jester_rookie_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_jester_rookie_dp : STB86_CH252D_dp
@@ -270,7 +302,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Phantom_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Phantom_dp : STB86_CH252D_dp
@@ -288,7 +322,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Devil_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Devil_visor_co.paa"
+			"STB86_Auxiliary\helmets\Devil_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Hound_dp : STB86_CH252D_dp
@@ -305,7 +341,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Phantom_sarc_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Phantom_medic_dp : STB86_CH252D_dp
@@ -322,7 +360,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_sinder_visor_co.paa"
+			"STB86_Auxiliary\helmets\Jester_sinder_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Sinder_Visible_dp : STB86_CH252D_dp
@@ -420,7 +460,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Firebrand_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Firebrand_dp : STB86_CH252D_dp
@@ -437,7 +479,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Firebrand_heathen_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Firebrand_heathen_visor_co.paa"
+			"STB86_Auxiliary\helmets\Firebrand_heathen_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -459,7 +503,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Firebrand_camestry_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Firebrand_camestry_visor_co.paa"
+			"STB86_Auxiliary\helmets\Firebrand_camestry_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -481,7 +527,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Firebrand_reject_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Firebrand_reject_visor_co.paa"
+			"STB86_Auxiliary\helmets\Firebrand_reject_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -503,7 +551,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_Wrath_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Chaos_Wrath_visor_co.paa"
+			"STB86_Auxiliary\helmets\Chaos_Wrath_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Vandal_Wrath_dp : STB86_CH252D_dp
@@ -520,7 +570,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Jester_Conrad_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_Conrad_visor_co.paa"
+			"STB86_Auxiliary\helmets\Jester_Conrad_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Jester_Conrad_dp : STB86_CH252D_dp
@@ -537,7 +589,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_helmet_co.paa",
-			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa"
+			"OPTRE_UNSC_Units\Army\data\ODST_Helmet_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Vandal_dp : STB86_CH252D_dp
@@ -554,7 +608,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_Bow_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_Bow_Visor_co.paa"
+			"STB86_Auxiliary\helmets\Vandal_Bow_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Vandal_Bow_dp : STB86_CH252D_dp
@@ -571,7 +627,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_light_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_light_Visor_co.paa"
+			"STB86_Auxiliary\helmets\Vandal_light_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -587,57 +645,15 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Vandal_light_helmet_co.paa"
 		};
 	};
-	class STB86_CH252D_Vandal_Icey : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Icey";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Vandal_Icey_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_Icey_Visor_co.paa"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
-			   "STB86_Auxiliary\material\Vandal.rvmat"
-		};
-	};
-	class STB86_CH252D_Vandal_Icey_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Icey";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Vandal_Icey_helmet_co.paa"
-		};
-	};
-	class STB86_CH252D_Vandal_Bub : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Bub";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Vandal_Bub_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_Bub_Visor_co.paa"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			   "\OPTRE_UNSC_Units\Army\data\odst_helmet.rvmat",
-			   "STB86_Auxiliary\material\VG_2.rvmat"
-		};
-	};
-	class STB86_CH252D_Vandal_Bub_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Bub";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Vandal_Bub_helmet_co.paa"
-		};
-	};
 	class STB86_CH252D_Vandal_Heimdall : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Heimdall";
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa"
+			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -659,7 +675,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Wildcard_AJ_battlehelmet_co.paa",
-			"STB86_Auxiliary\helmets\Wildcard_AJ_battlevisor_co.paa"
+			"STB86_Auxiliary\helmets\Wildcard_AJ_battlevisor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Wildcard_AJ_dp : STB86_CH252D_dp
@@ -693,7 +711,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Jester_celtic_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_celtic_visor_co.paa"
+			"STB86_Auxiliary\helmets\Jester_celtic_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Jester_celtic_dp : STB86_CH252D_dp
@@ -710,7 +730,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Jester_guilty_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_guilty_visor_co.paa"
+			"STB86_Auxiliary\helmets\Jester_guilty_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Jester_guilty_dp : STB86_CH252D_dp
@@ -727,7 +749,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa",
-			"STB86_Auxiliary\helmets\jester_Lewie_visor_co.paa"
+			"STB86_Auxiliary\helmets\jester_Lewie_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_Jester_Lewie_dp : STB86_CH252D_dp
@@ -744,7 +768,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Vandal_n3rf_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Vandal_n3rf_visor_co.paa"
+			"STB86_Auxiliary\helmets\Vandal_n3rf_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -766,7 +792,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\banana_monkey_helmet_co.paa",
-			"STB86_Auxiliary\helmets\banana_monkey_visor_co.paa"
+			"STB86_Auxiliary\helmets\banana_monkey_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_CH252D_banana_dp : STB86_CH252D_dp
@@ -801,7 +829,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Center_co.paa",
-			"STB86_Auxiliary\helmets\Center_visor_co.paa"
+			"STB86_Auxiliary\helmets\Center_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_Recon_dp : OPTRE_UNSC_Recon_Helmet_dp
@@ -818,7 +848,9 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         {
             "STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
-            "STB86_Auxiliary\helmets\Firebrand_Luci_visor_co.paa"
+            "STB86_Auxiliary\helmets\Firebrand_Luci_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
         };
 	};
 	class STB86_Recon_Luci_dp : OPTRE_UNSC_Recon_Helmet
@@ -829,7 +861,9 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         {
             "STB86_Auxiliary\helmets\Firebrand_Luci_helmet_co.paa",
-            "STB86_Auxiliary\helmets\Firebrand_Luci_visor_dp_co.paa"
+            "STB86_Auxiliary\helmets\Firebrand_Luci_visor_dp_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
         };
 	};
 	class STB86_mickyC_CH252D : STB86_CH252D_Base
@@ -838,7 +872,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\McAllister_helmet_co.paa",
-			"STB86_Auxiliary\helmets\McAllister_visor_co.paa"
+			"STB86_Auxiliary\helmets\McAllister_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_mickyC_CH252D_dp : STB86_CH252D_dp
@@ -855,7 +891,9 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Ouroboros_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Ouroboros_visor_co.paa"
+			"STB86_Auxiliary\helmets\Ouroboros_visor_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa"
 		};
 	};
 	class STB86_Ouroboros_dp : OPTRE_UNSC_Commando_Helmet_dp
