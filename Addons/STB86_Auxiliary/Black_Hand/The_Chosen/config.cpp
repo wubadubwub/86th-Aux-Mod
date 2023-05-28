@@ -96,6 +96,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "TC (Vehicles)"; // Name visible in the list
 	};
+	class STB86_BH_CH_Air_SubCat
+	{
+		displayName = "TC (Air)";
+	};
 };
 
 class Mode_SemiAuto;

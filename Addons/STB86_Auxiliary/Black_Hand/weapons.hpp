@@ -11,7 +11,7 @@ class OPTRE_MA5K;
 class STB86_BH_HK416: arifle_SPAR_01_blk_F
 {
 	author="Sinder";
-	displayName="[86th BH] HK416";
+	displayName="HK416 [BH]";
 	class linkedItems{
 		class linkedItemsOptic{
 			item="optic_holosight_blk_f";
@@ -33,7 +33,7 @@ class STB86_BH_HK416: arifle_SPAR_01_blk_F
 class STB86_BH_AK15: arifle_AK12_F 
 {
 	author="Sinder";
-	displayName="[86th BH] AK15";
+	displayName="AK15 [BH]";
 	magazines[]=
 	{
 		"STB86_762x39_32rnd",
@@ -50,7 +50,7 @@ class STB86_BH_AK15: arifle_AK12_F
 class STB86_BH_AK15GL: arifle_AK12_GL_F 
 {
 	author="Sinder";
-	displayName="[86th BH] AK15 (GL)";
+	displayName="AK15G [BH]";
 	magazines[]=
 	{
 		"STB86_762x39_32rnd",
@@ -80,7 +80,7 @@ class STB86_BH_AK15GL: arifle_AK12_GL_F
 };
 
 class STB86_BH_BR55XHB : OPTRE_BR55HB { 
-	displayName = "[86th BH] BR-55XHB";
+	displayName = "BR-55XHB [BH]";
 	class linkedItems{
 			class linkedItemsOptic{
 				item="OPTRE_M73_Smartlink_v2";
@@ -105,15 +105,15 @@ class STB86_BH_SRS99C_Prefab : OPTRE_SRS99D {
 	};
 
 class STB86_BH_MA5K : OPTRE_MA5K { 
-	displayName = "[86th BH] MA5K";
+	displayName = "MA5K [BH]";
 };
 
 class STB86_BH_RPK : arifle_RPK12_F {
-	displayName="[86th BH] RPK";
+	displayName="RPK [BH]";
 };
 
 class STB86_BH_M7 : OPTRE_M7 {
-	displayName="[86th BH] M7";
+	displayName="M7 [BH]";
 };
 
 
@@ -121,7 +121,7 @@ class STB86_BH_M7 : OPTRE_M7 {
 class STB86_BH_M6G: OPTRE_M6G
 {
 	author="Sinder";
-	displayName="[86th BH] M6G";
+	displayName="M6G [BH]";
 	baseWeapon="STB86_BH_M6G";
 	hiddenSelectionsTextures[]=
 	{

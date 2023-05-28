@@ -216,3 +216,283 @@ class STB86_BH_CH_APC : O_APC_Wheeled_02_rcws_v2_F {
 		libTextDesc="The Chosen's APC";
 	};
 };
+// Air Vehicles
+
+class O_Heli_Attack_02_dynamicLoadout_F;
+
+class STB86_BH_CH_Heli_Attack : O_Heli_Attack_02_dynamicLoadout_F {
+	displayName = "A-40 Shuriken";
+
+	crew = "STB86_BH_CH_HeliPilot";
+    faction = "STB86_Black_Hand";
+    side = 0; 	
+    editorSubcategory = "STB86_BH_CH_Air_SubCat";
+	class TextureSources
+	{
+		class STB86_BH_CH_Heli_Attack_Tex
+		{
+			displayName="The Chosen";
+			author="86th Dev team";
+			textures[]=
+			{
+				"A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body1_black_CO.paa",
+				"A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body2_black_CO.paa",
+			};
+			factions[]=
+			{
+				"STB86_Black_Hand"
+			};
+		};
+	};
+	textureList[]=
+	{
+		"STB86_BH_CH_Heli_Attack_Tex",
+		1
+	};
+	hiddenSelectionsTextures[] = {
+		"A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body1_black_CO.paa",
+		"A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body2_black_CO.paa",
+	};
+	class Library
+	{
+		libTextDesc="The Chosen's Main Attack Helicopter. A force to be reckoned with.";
+	};
+};
+
+class C_Heli_Light_01_civil_F; // hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_co.paa"};
+class B_Heli_Light_01_F;
+class B_Heli_Light_01_dynamicLoadout_F; // hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_Blufor_CO.paa","a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"};
+
+class STB86_BH_CH_Heli_Light_O : C_Heli_Light_01_civil_F {
+	displayname = "OH-4 Silkworm";
+	crew = "STB86_BH_CH_HeliPilot";
+    faction = "STB86_Black_Hand";
+    side = 0; 	
+    editorSubcategory = "STB86_BH_CH_Air_SubCat";
+	class TextureSources
+	{
+		class STB86_BH_CH_Heli_Light_O_Tex
+		{
+			displayName="The Chosen";
+			author="86th Dev team";
+			textures[]=
+			{
+				"\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa",
+			};
+			factions[]=
+			{
+				"STB86_Black_Hand",
+			};
+		};
+	};
+	textureList[]=
+	{
+		"STB86_BH_CH_Heli_Light_O_Tex",
+		1
+	};
+	hiddenSelectionsTextures[] = {
+		"\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa",
+	};
+	class Library
+	{
+		libTextDesc="The Chosen's Main Scout Helicopter.";
+	};
+};
+class STB86_BH_CH_Heli_Light_M : B_Heli_Light_01_F {
+	displayname = "MH-4 Silkworm";
+
+	crew = "STB86_BH_CH_HeliPilot";
+    faction = "STB86_Black_Hand";
+    side = 0; 	
+    editorSubcategory = "STB86_BH_CH_Air_SubCat";
+	class TextureSources
+	{
+		class STB86_BH_CH_Heli_Light_M_Tex
+		{
+			displayName="The Chosen";
+			author="86th Dev team";
+			textures[]=
+			{
+				"\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa",
+			};
+			factions[]=
+			{
+				"STB86_Black_Hand",
+			};
+		};
+	};
+	textureList[]=
+	{
+		"STB86_BH_CH_Heli_Light_M_Tex",
+		1
+	};
+	hiddenSelectionsTextures[] = {
+		"\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa",
+	};
+	class Library
+	{
+		libTextDesc="The Chosen's main light multipurpose Helicopter.";
+	};
+};
+class STB86_BH_CH_Heli_Light_A : B_Heli_Light_01_dynamicLoadout_F {
+	displayname = "AH-4 Silkworm";
+
+	crew = "STB86_BH_CH_HeliPilot";
+    faction = "STB86_Black_Hand";
+    side = 0; 	
+    editorSubcategory = "STB86_BH_CH_Air_SubCat";
+	class TextureSources
+	{
+		class STB86_BH_CH_Heli_Light_A_Tex
+		{
+			displayName="The Chosen";
+			author="86th Dev team";
+			textures[]=
+			{
+				"\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa",
+				"a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa",
+			};
+			factions[]=
+			{
+				"STB86_Black_Hand",
+			};
+		};
+	};
+	textureList[]=
+	{
+		"STB86_BH_CH_Heli_Light_A_Tex",
+		1
+	};
+	hiddenSelectionsTextures[] = {
+		"\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa",
+		"a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa",
+	};
+	class Library
+	{
+		libTextDesc="The Chosen's main light attack Helicopter.";
+	};
+};
+
+class I_Heli_light_03_unarmed_F;
+class I_Heli_light_03_dynamicLoadout_F;  // hiddenSelectionsTextures[] = {"\A3\Air_F_EPB\Heli_Light_03\data\Heli_Light_03_base_INDP_CO.paa","a3\weapons_f\ammoboxes\data\ammobox_co.paa","a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa"};
+
+class STB86_BH_CH_Heli_Medium_M : I_Heli_light_03_unarmed_F {
+	displayname = "MH-16 Cheetah";
+
+	crew = "STB86_BH_CH_HeliPilot";
+    faction = "STB86_Black_Hand";
+    side = 0; 	
+    editorSubcategory = "STB86_BH_CH_Air_SubCat";
+	class TextureSources
+	{
+		class STB86_BH_CH_Heli_Medium_M_Tex
+		{
+			displayName="The Chosen";
+			author="86th Dev team";
+			textures[]=
+			{
+				"STB86_Auxiliary\Black_Hand\textures\square.paa",
+			};
+			factions[]=
+			{
+				"STB86_Black_Hand",
+			};
+		};
+	};
+	textureList[]=
+	{
+		"STB86_BH_CH_Heli_Medium_M_Tex",
+		1
+	};
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Black_Hand\textures\square.paa",
+	};
+	class Library
+	{
+		libTextDesc="The Chosen's Main Medium Multipurpose Helicopter.";
+	};
+};
+class STB86_BH_CH_Heli_Medium_A : I_Heli_light_03_dynamicLoadout_F {
+	displayname = "AH-16 Cheetah";
+
+	crew = "STB86_BH_CH_HeliPilot";
+    faction = "STB86_Black_Hand";
+    side = 0; 	
+    editorSubcategory = "STB86_BH_CH_Air_SubCat";
+	class TextureSources
+	{
+		class STB86_BH_CH_Heli_Medium_A_Tex
+		{
+			displayName="The Chosen";
+			author="86th Dev team";
+			textures[]=
+			{
+				"STB86_Auxiliary\Black_Hand\textures\square.paa", 
+				"a3\weapons_f\ammoboxes\data\ammobox_co.paa",
+				"a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa",
+			};
+			factions[]=
+			{
+				"STB86_Black_Hand",
+			};
+		};
+	};
+	textureList[]=
+	{
+		"STB86_BH_CH_Heli_Medium_A_Tex",
+		1
+	};
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Black_Hand\textures\square.paa", 
+		"a3\weapons_f\ammoboxes\data\ammobox_co.paa",
+		"a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa",
+	};
+	class Library
+	{
+		libTextDesc="The Chosen's Main Medium Attack Helicopter.";
+	};
+};
+class I_Heli_Transport_02_F; // hiddenSelectionsTextures[] = {"A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_1_INDP_CO.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_2_INDP_CO.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_3_INDP_CO.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
+
+class STB86_BH_CH_Heli_Heavy : I_Heli_Transport_02_F {
+	displayname = "UH-113 Behemoth";
+
+	crew = "STB86_BH_CH_HeliPilot";
+    faction = "STB86_Black_Hand";
+    side = 0; 	
+    editorSubcategory = "STB86_BH_CH_Air_SubCat";
+	class TextureSources
+	{
+		class STB86_BH_CH_Heli_Heavy_U_Tex
+		{
+			displayName="The Chosen";
+			author="86th Dev team";
+			textures[]=
+			{
+				"STB86_Auxiliary\Black_Hand\textures\square.paa",
+				"STB86_Auxiliary\Black_Hand\textures\square.paa",
+				"STB86_Auxiliary\Black_Hand\textures\square.paa",
+				"A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa",
+			};
+			factions[]=
+			{
+				"STB86_Black_Hand",
+			};
+		};
+	};
+	textureList[]=
+	{
+		"STB86_BH_CH_Heli_Heavy_U_Tex",
+		1
+	};
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Black_Hand\textures\square.paa",
+		"STB86_Auxiliary\Black_Hand\textures\square.paa",
+		"STB86_Auxiliary\Black_Hand\textures\square.paa",
+		"A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa",
+	};
+	class Library
+	{
+		libTextDesc="The Chosen's Main Medium Attack Helicopter.";
+	};
+};
