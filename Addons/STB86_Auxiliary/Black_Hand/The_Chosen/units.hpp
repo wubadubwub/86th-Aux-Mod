@@ -105,12 +105,12 @@ class STB86_BH_CH_Engineer : STB86_BH_CH_Rifleman {
 	backpack = "STB86_BH_CH_Rucksack";
 	icon = "iconManEngineer";	
 	engineer = true;
-	weapons[] = {STB86_BH_CH_M7, STB86_BH_M6G, DMNS_M96_LAW, Throw, Put};
-	respawnWeapons[] = {STB86_BH_CH_M7, STB86_BH_M6G, DMNS_M96_LAW, Throw, Put};
+	weapons[] = {STB86_BH_CH_M7, STB86_BH_M6G, Throw, Put};
+	respawnWeapons[] = {STB86_BH_CH_M7, STB86_BH_M6G, Throw, Put};
 	Items[] = {MAG_3(FirstAidKit), Toolkit};
 	RespawnItems[] = {MAG_3(FirstAidKit), Toolkit};
-	magazines[] = {MAG_4(OPTRE_60Rnd_5x23mm_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), DMNS_M96_HEAT};
-	respawnMagazines[] = {MAG_4(OPTRE_60Rnd_5x23mm_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), DMNS_M96_HEAT};
+	magazines[] = {MAG_4(OPTRE_60Rnd_5x23mm_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
+	respawnMagazines[] = {MAG_4(OPTRE_60Rnd_5x23mm_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
 	linkedItems[] = {STB86_BH_CH_CQB_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 	respawnLinkedItems[] = {STB86_BH_CH_CQB_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 };

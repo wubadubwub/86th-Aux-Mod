@@ -24,6 +24,7 @@ class CfgPatches
 				"STB86_BH_CH_Engineer",
 				"STB86_BH_CH_Grenadier",
 				"STB86_BH_CH_Crewmate",
+				"STB86_BH_CH_HeliPilot",
 				"STB86_BH_CH_Devastator",
 				"STB86_BH_CH_Fanatic",
 				"STB86_BH_CH_Ghost",
