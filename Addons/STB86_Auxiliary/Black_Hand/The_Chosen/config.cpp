@@ -33,6 +33,20 @@ class CfgPatches
 				"STB86_BH_CH_IFV",
 				"STB86_BH_CH_IFV_02",
 				"STB86_BH_CH_APC",
+				// Helis
+				"STB86_BH_CH_Heli_Attack",
+				"STB86_BH_CH_Heli_Light_O",
+				"STB86_BH_CH_Heli_Light_M",
+				"STB86_BH_CH_Heli_Light_A",
+				"STB86_BH_CH_Heli_Medium_M",
+				"STB86_BH_CH_Heli_Medium_A",
+				"STB86_BH_CH_Heli_Heavy",
+				// Jets
+				"STB86_BH_CH_Jet_CAS",
+				"STB86_BH_CH_Jet_CAP",
+				// UAVs
+				"STB86_BH_CH_UAV_01",
+				"STB86_BH_CH_UAV_02",
 		};
 		//unknown
 		weapons[] = {
@@ -96,9 +110,17 @@ class CfgEditorSubcategories
 	{
 		displayName = "TC (Vehicles)"; // Name visible in the list
 	};
-	class STB86_BH_CH_Air_SubCat
+	class STB86_BH_CH_Heli_SubCat
 	{
-		displayName = "TC (Air)";
+		displayName = "TC (Helis)";
+	};
+	class STB86_BH_CH_Jet_SubCat
+	{
+		displayName = "TC (Jets)";
+	};
+	class STB86_BH_CH_UAV_SubCat
+	{
+		displayName = "TC (UAVs)";
 	};
 };
 
