@@ -59,7 +59,7 @@ class CfgWeapons
 	//Misfit Helmets
 	class STB86_CH252D_Base : OPTRE_UNSC_CH252D_Helmet {
 		dlc = "STB86_Auxiliary";
-		author = "86th Mod Team"
+		author = "86th Mod Team";
 		hiddenSelections[] =
 			{
 			"camo",
@@ -78,7 +78,7 @@ class CfgWeapons
 	};
 	class STB86_CH252D_dp : OPTRE_UNSC_CH252D_Helmet_dp {
 		dlc = "STB86_Auxiliary";
-		author = "86th Mod Team"
+		author = "86th Mod Team";
 	};
 	class STB86_CH252D_Misfit : STB86_CH252D_Base
 	{

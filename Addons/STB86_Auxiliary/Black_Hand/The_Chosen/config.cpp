@@ -24,6 +24,7 @@ class CfgPatches
 				"STB86_BH_CH_Engineer",
 				"STB86_BH_CH_Grenadier",
 				"STB86_BH_CH_Crewmate",
+				"STB86_BH_CH_HeliPilot",
 				"STB86_BH_CH_Devastator",
 				"STB86_BH_CH_Fanatic",
 				"STB86_BH_CH_Ghost",
@@ -33,6 +34,20 @@ class CfgPatches
 				"STB86_BH_CH_IFV",
 				"STB86_BH_CH_IFV_02",
 				"STB86_BH_CH_APC",
+				// Helis
+				"STB86_BH_CH_Heli_Attack",
+				"STB86_BH_CH_Heli_Light_O",
+				"STB86_BH_CH_Heli_Light_M",
+				"STB86_BH_CH_Heli_Light_A",
+				"STB86_BH_CH_Heli_Medium_M",
+				"STB86_BH_CH_Heli_Medium_A",
+				"STB86_BH_CH_Heli_Heavy",
+				// Jets
+				"STB86_BH_CH_Jet_CAS",
+				"STB86_BH_CH_Jet_CAP",
+				// UAVs
+				"STB86_BH_CH_UAV_01",
+				"STB86_BH_CH_UAV_02",
 		};
 		//unknown
 		weapons[] = {
@@ -95,6 +110,18 @@ class CfgEditorSubcategories
 	class STB86_BH_CH_Veh_SubCat // Category class, you point to it in editorSubcategory property
 	{
 		displayName = "TC (Vehicles)"; // Name visible in the list
+	};
+	class STB86_BH_CH_Heli_SubCat
+	{
+		displayName = "TC (Helis)";
+	};
+	class STB86_BH_CH_Jet_SubCat
+	{
+		displayName = "TC (Jets)";
+	};
+	class STB86_BH_CH_UAV_SubCat
+	{
+		displayName = "TC (UAVs)";
 	};
 };
 
