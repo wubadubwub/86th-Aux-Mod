@@ -97,6 +97,21 @@ class CfgPatches
 			"OPTRE_Vehicles",
 			"OPTRE_UNSC_Units",
 			"OPTRE_Weapons",
+			// Ground vics
+			"A3_Armor_F_Gamma_MBT_01",
+			"A3_Armor_F_Exp_APC_Tracked_02",
+			"A3_Armor_F_Exp_APC_Wheeled_02",
+			// Air vics
+			"A3_Air_F_Beta_Heli_Attack_02",
+			"A3_Air_F_Heli_Heli_Light_01",
+			"A3_Air_F_Heli_Heli_Light_03",
+			"A3_Air_F_Heli_Heli_Transport_02",
+			"A3_Air_F_EPC_Plane_CAS_01",
+			"A3_Air_F_Jets_Plane_Fighter_04",
+			"A3_Air_F_Jets_UAV_05",
+			"A3_Air_F_Exp_UAV_03",
+			// Units
+			"A3_Characters_F_Exp",
 		};
 	};
 };

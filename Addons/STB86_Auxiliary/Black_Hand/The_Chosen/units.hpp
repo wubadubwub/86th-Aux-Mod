@@ -1,4 +1,4 @@
-class O_V_Soldier_Viper_F;
+class O_V_Soldier_Viper_F; // A3_Characters_F_Exp
 
 class STB86_BH_CH_Rifleman : O_V_Soldier_Viper_F {
 	scope = 2;

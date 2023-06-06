@@ -1,10 +1,10 @@
 
 class O_LSV_02_unarmed_F;
-class O_LSV_02_armed_F;
+class O_LSV_02_armed_F; // A3_Soft_F_Exp_LSV_02
 class O_LSV_02_AT_F;
 
 class O_truck_02_covered_F;
-class O_truck_02_transport_F;
+class O_truck_02_transport_F; // A3_Soft_F_Exp_Truck_02
 
 class STB86_BH_Car_unarmed : O_LSV_02_unarmed_F {
 	displayName = "Bastard Unarmed";

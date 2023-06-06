@@ -7,7 +7,7 @@ class B_MBT_01_cannon_F : B_MBT_01_base_F{
 		class MainTurret;
 	};
 };
-
+// A3_Armor_F_Gamma_MBT_01
 class STB86_BH_CH_MBT : B_MBT_01_cannon_F {
     editorSubcategory = "STB86_BH_CH_Veh_SubCat";
 	author="86th Dev team";
@@ -73,7 +73,7 @@ class O_APC_Tracked_02_cannon_F : O_APC_Tracked_02_base_F {
 	class Turrets {
 		class MainTurret;
 	};
-};
+}; // A3_Armor_F_Exp_APC_Tracked_02
 
 class STB86_BH_CH_IFV : O_APC_Tracked_02_cannon_F {
 	author="86th Dev team";
@@ -139,7 +139,7 @@ class STB86_BH_CH_IFV_02 : STB86_BH_CH_IFV {
 	class Turrets : Turrets {
 		class MainTurret : MainTurret {
 			canUseScanner = 1;
-			magazines[] = {"lxws_100rnd_23x152_truck_mag","lxws_100rnd_23x152_truck_mag","lxws_100rnd_23x152_truck_mag","lxws_100rnd_23x152_truck_mag","200Rnd_762x51_Belt_Green","200Rnd_762x51_Belt_Green","200Rnd_762x51_Belt_Green","200Rnd_762x51_Belt_Green","200Rnd_762x51_Belt_Green","200Rnd_762x51_Belt_Green","200Rnd_762x51_Belt_Green","200Rnd_762x51_Belt_Green","2Rnd_GAT_missiles_O","2Rnd_GAT_missiles_O"};
+			magazines[] = {MAG_4(680Rnd_35mm_AA_shells_Tracer_Green),MAG_6(200Rnd_762x51_Belt_Green),MAG_2(2Rnd_GAT_missiles_O)};
 			weapons[] = {"STB86_BH_CH_IFV_02_Cannon","LMG_coax_ext","missiles_titan"};
 		};
 	};
@@ -169,7 +169,7 @@ class STB86_BH_CH_IFV_02 : STB86_BH_CH_IFV {
 };
 
 
-class O_APC_Wheeled_02_rcws_v2_F;
+class O_APC_Wheeled_02_rcws_v2_F; // A3_Armor_F_Exp_APC_Wheeled_02
 class STB86_BH_CH_APC : O_APC_Wheeled_02_rcws_v2_F {
     editorSubcategory = "STB86_BH_CH_Veh_SubCat";
     smokeLauncherGrenadeCount = 20;
@@ -223,7 +223,7 @@ class STB86_BH_CH_APC : O_APC_Wheeled_02_rcws_v2_F {
 // Helis
 
 class O_Heli_Attack_02_dynamicLoadout_F; // hiddenSelectionsTextures[] = {"A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body1_CO.paa","A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body2_CO.paa"};
-
+// A3_Air_F_Beta_Heli_Attack_02
 class STB86_BH_CH_Heli_Attack : O_Heli_Attack_02_dynamicLoadout_F {
 	displayName = "A-40 Shuriken";
 
@@ -266,6 +266,7 @@ class STB86_BH_CH_Heli_Attack : O_Heli_Attack_02_dynamicLoadout_F {
 };
 
 class C_Heli_Light_01_civil_F; // hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_co.paa"};
+// A3_Air_F_Heli_Heli_Light_01
 class B_Heli_Light_01_F;
 class B_Heli_Light_01_dynamicLoadout_F; // hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_Blufor_CO.paa","a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"};
 
@@ -387,7 +388,7 @@ class STB86_BH_CH_Heli_Light_A : B_Heli_Light_01_dynamicLoadout_F {
 
 class I_Heli_light_03_unarmed_F;
 class I_Heli_light_03_dynamicLoadout_F;  // hiddenSelectionsTextures[] = {"\A3\Air_F_EPB\Heli_Light_03\data\Heli_Light_03_base_INDP_CO.paa","a3\weapons_f\ammoboxes\data\ammobox_co.paa","a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa"};
-
+// A3_Air_F_Heli_Heli_Light_03
 class STB86_BH_CH_Heli_Medium_M : I_Heli_light_03_unarmed_F {
 	displayname = "MH-16 Cheetah";
 
@@ -469,7 +470,7 @@ class STB86_BH_CH_Heli_Medium_A : I_Heli_light_03_dynamicLoadout_F {
 	};
 };
 class I_Heli_Transport_02_F; // hiddenSelectionsTextures[] = {"A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_1_INDP_CO.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_2_INDP_CO.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_3_INDP_CO.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
-
+// A3_Air_F_Heli_Heli_Transport_02
 class STB86_BH_CH_Heli_Heavy : I_Heli_Transport_02_F {
 	displayname = "UH-113 Behemoth";
 
@@ -518,7 +519,7 @@ class STB86_BH_CH_Heli_Heavy : I_Heli_Transport_02_F {
 // Jets
 
 class B_Plane_CAS_01_dynamicLoadout_F; // hiddenSelectionsTextures[] = {"A3\Air_F_EPC\Plane_CAS_01\Data\plane_cas_01_ext01_co.paa","A3\Air_F_EPC\Plane_CAS_01\Data\plane_cas_01_ext02_co.paa"};
-
+// A3_Air_F_EPC_Plane_CAS_01
 class STB86_BH_CH_Jet_CAS : B_Plane_CAS_01_dynamicLoadout_F {
 	displayname = "A-1 Silverfish";
 
@@ -561,7 +562,7 @@ class STB86_BH_CH_Jet_CAS : B_Plane_CAS_01_dynamicLoadout_F {
 };
 
 class I_Plane_Fighter_04_F; // hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_01_green_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_02_green_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
-
+// A3_Air_F_Jets_Plane_Fighter_04
 class STB86_BH_CH_Jet_CAP : I_Plane_Fighter_04_F {
 	displayname = "F-240 Silvertongue";
 
@@ -614,7 +615,7 @@ class STB86_BH_CH_Jet_CAP : I_Plane_Fighter_04_F {
 // UAVs
 
 class B_UAV_05_F; // hiddenSelectionsTextures[] = {"A3\Air_F_Jets\UAV_05\Data\UAV05_fuselage_01_co.paa","A3\Air_F_Jets\UAV_05\Data\UAV05_fuselage_02_co.paa","A3\Air_F_Jets\UAV_05\Data\UAV05_engine_fire_ca.paa"};
-
+// A3_Air_F_Jets_UAV_05
 class STB86_BH_CH_UAV_01 : B_UAV_05_F { // The jet
 	displayname = "UAV-59 Stonewall";
 
@@ -657,7 +658,7 @@ class STB86_BH_CH_UAV_01 : B_UAV_05_F { // The jet
 };
 
 class B_T_UAV_03_dynamicLoadout_F; // hiddenSelectionsTextures[] = {"\A3\Air_F_Exp\UAV_03\Data\UAV_03_1_CO.paa","\A3\Air_F_Exp\UAV_03\Data\UAV_03_2_CO.paa","\a3\air_f_exp\uav_03\data\uav_03_mlod_co.paa"};
-
+// A3_Air_F_Exp_UAV_03
 class STB86_BH_CH_UAV_02 : B_T_UAV_03_dynamicLoadout_F { // The helicopter
 	displayname = "UAV-10 Sunspot";
 

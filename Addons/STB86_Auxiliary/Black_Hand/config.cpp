@@ -63,6 +63,9 @@ class CfgPatches
 			"OPTRE_Vehicles",
 			"OPTRE_UNSC_Units",
 			"OPTRE_Weapons",
+			// Ground vehicles
+			"A3_Soft_F_Exp_LSV_02",
+			"A3_Soft_F_Exp_Truck_02",
 		};
 	};
 };
