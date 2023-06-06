@@ -354,25 +354,6 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Phantom_sarc_helmet_co.paa"
 		};
 	};
-	class STB86_CH252D_Sinder_Visible : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] Sinder Visible";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_sinder_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
-		};
-	};
-	class STB86_CH252D_Sinder_Visible_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] Sinder Visible";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa"
-		};
-	};
 	class STB86_CH252D_Zeus_Sinder : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Sinder (Zeus)";
@@ -564,25 +545,6 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Vandal_Wrath_helmet_co.paa"
 		};
 	};
-	class STB86_CH252D_Jester_Conrad : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Conrad";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Jester_Conrad_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_Conrad_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
-		};
-	};
-	class STB86_CH252D_Jester_Conrad_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Conrad";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Jester_Conrad_helmet_co.paa"
-		};
-	};
 	class STB86_CH252D_Vandal : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Vandal Squad";
@@ -741,25 +703,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Jester_guilty_helmet_co.paa"
-		};
-	};
-	class STB86_CH252D_Jester_Lewie : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Lewie";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa",
-			"STB86_Auxiliary\helmets\jester_Lewie_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
-		};
-	};
-	class STB86_CH252D_Jester_Lewie_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Lewie";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa"
 		};
 	};
 	class STB86_CH252D_Vandal_n3rf : STB86_CH252D_Base
