@@ -7,7 +7,7 @@ class OPTRE_CMA_Helmet_chops;
 
 class STB86_BH_Battledress : U_B_CTRG_3 {
 	author = "86th STB Mod team";
-	displayName = "[86th BH] Uniform";
+	displayName = "Uniform [BH]";
 	hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_hand\textures\Blackhand_Uniform.paa"};
 	class ItemInfo : UniformItem{
 		containerClass = "Supply80";
