@@ -1136,7 +1136,7 @@ class CfgWeapons
 			"AS_SmallLeft",
 			"AS_SmallRight",
 			"AP_AR",
-			//"AP_BR",
+			"AP_BR",
 			"AP_Canteen",
 			"AP_GL",
 			//"AP_Knife",
@@ -1151,10 +1151,10 @@ class CfgWeapons
 			//"AP_Thigh",
 			"AP_Frag",
 			//"AP_Smoke",
-			//"APO_AR",
-			//"APO_BR",
+			"APO_AR",
+			"APO_BR",
 			"APO_Knife",
-			//"APO_SMG",
+			"APO_SMG",
 			"APO_Sniper",
 			"CustomKit_Scorch"
 			};
@@ -1561,8 +1561,8 @@ class CfgWeapons
 			"AP_MGThigh",
 			"AP_AR",
 			"AP_Pack",
-			//"AP_Pistol",
-			"AP_Rounds",
+			"AP_Pistol",
+			//"AP_Rounds",
 			"AP_SG",
 			"AP_SMG",
 			"AP_Sniper",
@@ -1572,7 +1572,7 @@ class CfgWeapons
 			"APO_AR",
 			"APO_BR",
 			"APO_Knife",
-			//"APO_SMG",
+			"APO_SMG",
 			"APO_Sniper",
 			"CustomKit_Scorch"
 			};
