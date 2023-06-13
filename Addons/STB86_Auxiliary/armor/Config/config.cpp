@@ -1082,11 +1082,11 @@ class CfgWeapons
 
 		hiddenSelectionsTextures[] =
 		{
-			"OPTRE_UNSC_Units\Army\data\Vest_odst_co.paa",
-			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"STB86_Auxiliary\armor\vandal_legs_co.paa",
+			"STB86_Auxiliary\armor\Vandal_vest_odst_co.paa",
+			"STB86_Auxiliary\armor\Vandal_armor_odst_co.paa",
+			"STB86_Auxiliary\armor\Vandal_Xey_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"STB86_Auxiliary\armor\vandal_Xey_armor_co.paa"
+			"STB86_Auxiliary\armor\Vandal_Xey_armor_co.paa"
 		};
 
 		class ItemInfo : VestItem

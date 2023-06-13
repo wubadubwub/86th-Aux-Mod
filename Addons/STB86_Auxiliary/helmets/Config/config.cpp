@@ -226,8 +226,8 @@ class CfgWeapons
 		{
 			"STB86_Auxiliary\helmets\vandal_xey_helmet_co.paa",
 			"STB86_Auxiliary\helmets\vandal_xey_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa", // You know who you are, if you read this, I'm going to fuck you up, very hard for even putting forward these collar changes.  I'm not happy to do it and I think it's retarded.  Also you fucked up the naming schema, I'm not fixing it, but know that I hate you very much.
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa" // Dumb change
 		};
 	};
 	class STB86_CH252D_Vandal_xey_dp : STB86_CH252D_dp
@@ -614,8 +614,8 @@ class CfgWeapons
 		{
 			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa", // Dumb change
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa" // the dumb change ends here
 		};
 		hiddenSelectionsMaterials[] =
 		{
