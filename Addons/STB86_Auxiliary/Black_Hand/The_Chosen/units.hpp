@@ -173,7 +173,7 @@ class STB86_BH_CH_Fanatic : STB86_BH_CH_Rifleman {
 	linkedItems[] = {G_RegulatorMask_F};
 	respawnLinkedItems[] = {G_RegulatorMask_F};
 	class EventHandlers : EventHandlers {
-		init = "[(_this select 0)] remoteExec [""STB86_fnc_fanatic_init"", 0, true]";
+		postInit = "[(_this select 0)] remoteExec [""STB86_fnc_fanatic_init"", 0, true]";
 	};
 };
 class STB86_BH_CH_Ghost : STB86_BH_CH_Rifleman {
