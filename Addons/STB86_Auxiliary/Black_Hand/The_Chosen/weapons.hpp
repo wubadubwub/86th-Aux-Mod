@@ -13,7 +13,7 @@ class STB86_Flamethrower;
 class STB86_Vehicle_Flamethrower : STB86_Flamethrower {
 	class FullAuto;
 };
-class lxws_zu23_w;
+class autocannon_35mm;
 
 class STB86_BH_CH_VK78 : OPTRE_Commando{
 	author = "86th STB Auxiliary Mod Team";
@@ -240,6 +240,6 @@ class STB86_BH_CH_MBT_02_LMG : STB86_Vehicle_Flamethrower {
 		maxRangeProbab=0.5;
 	};
 };
-class STB86_BH_CH_IFV_02_Cannon : lxws_zu23_w {
+class STB86_BH_CH_IFV_02_Cannon : autocannon_35mm {
 	displayName = "20mm AA Cannon";
 };
