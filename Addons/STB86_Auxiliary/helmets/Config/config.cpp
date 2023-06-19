@@ -226,8 +226,8 @@ class CfgWeapons
 		{
 			"STB86_Auxiliary\helmets\vandal_xey_helmet_co.paa",
 			"STB86_Auxiliary\helmets\vandal_xey_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa", // You know who you are, if you read this, I'm going to fuck you up, very hard for even putting forward these collar changes.  I'm not happy to do it and I think it's retarded.  Also you fucked up the naming schema, I'm not fixing it, but know that I hate you very much.
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa" // Dumb change
 		};
 	};
 	class STB86_CH252D_Vandal_xey_dp : STB86_CH252D_dp
@@ -352,25 +352,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Phantom_sarc_helmet_co.paa"
-		};
-	};
-	class STB86_CH252D_Sinder_Visible : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] Sinder Visible";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_sinder_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
-		};
-	};
-	class STB86_CH252D_Sinder_Visible_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] Sinder Visible";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Sinder_helmet_co.paa"
 		};
 	};
 	class STB86_CH252D_Zeus_Sinder : STB86_CH252D_Base
@@ -564,25 +545,6 @@ class CfgWeapons
 			"STB86_Auxiliary\helmets\Vandal_Wrath_helmet_co.paa"
 		};
 	};
-	class STB86_CH252D_Jester_Conrad : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Conrad";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Jester_Conrad_helmet_co.paa",
-			"STB86_Auxiliary\helmets\Jester_Conrad_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
-		};
-	};
-	class STB86_CH252D_Jester_Conrad_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Conrad";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\Jester_Conrad_helmet_co.paa"
-		};
-	};
 	class STB86_CH252D_Vandal : STB86_CH252D_Base
 	{
 		displayName = "[86th STB] CH252D Vandal Squad";
@@ -652,8 +614,8 @@ class CfgWeapons
 		{
 			"STB86_Auxiliary\helmets\Vandal_heimdall_helmet_co.paa",
 			"STB86_Auxiliary\helmets\Vandal_heimdall_Visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa", // Dumb change
+			"STB86_Auxiliary\armor\Xey_Soft_Packs_co.paa" // the dumb change ends here
 		};
 		hiddenSelectionsMaterials[] =
 		{
@@ -741,25 +703,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\helmets\Jester_guilty_helmet_co.paa"
-		};
-	};
-	class STB86_CH252D_Jester_Lewie : STB86_CH252D_Base
-	{
-		displayName = "[86th STB] CH252D Lewie";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa",
-			"STB86_Auxiliary\helmets\jester_Lewie_visor_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa",
-			"optre_unsc_units\army\data\soft_packs_co.paa"
-		};
-	};
-	class STB86_CH252D_Jester_Lewie_dp : STB86_CH252D_dp
-	{
-		displayName = "[86th STB] CH252D Lewie";
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\helmets\jester_Lewie_helmet_co.paa"
 		};
 	};
 	class STB86_CH252D_Vandal_n3rf : STB86_CH252D_Base
