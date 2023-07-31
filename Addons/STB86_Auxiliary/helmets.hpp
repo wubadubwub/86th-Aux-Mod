@@ -49,3 +49,22 @@ class STB86_Sinder_Helmet : STB86_M56SR_Base_Helmet {
 		uniformModel = "STB86_Auxiliary\Data\Empty.p3d";
 	};
 };
+
+class H_HelmetB;
+class H_CrewHelmetHeli_B : H_HelmetB {
+	class ItemInfo;
+};
+
+class STB86_AJ_HelmetHeli : H_CrewHelmetHeli_B {
+	displayName = "[86th] AJ's Pilot Helmet";
+	author = AUTHOR;
+	dlc = DLC;
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\AJ_HeliHelmet.paa",
+	};
+	class ItemInfo : ItemInfo {
+		hiddenSelectionsTextures[] = {
+			"STB86_Auxiliary\Data\Helmets\AJ_HeliHelmet.paa",
+		};
+	};
+};
