@@ -2,12 +2,14 @@
 //*****        Mod information             *****
 //**********************************************
 
+#include "defines.hpp"
+
 class CfgPatches
 {
 	class STB86_Auxiliary
 	{
 		//General mod info
-		author = "86th STB Modding Team";
+		author = AUTHOR;
 		name = "86th Auxiliary skins";
 		//unknown
 		units[] = {};
@@ -22,7 +24,8 @@ class CfgPatches
 			"OPTRE_Core",
 			"OPTRE_Vehicles",
 			"OPTRE_UNSC_Units",
-			"OPTRE_Weapons"
+			"OPTRE_Weapons",
+			"MA_Armor",
 		};
 	};
 };
@@ -38,9 +41,10 @@ class CfgVehicles
 	class iteminfo;
 	class VES_BDU_V_Base;
 	class OPTRE_UNSC_Army_Uniform_BLK;
+	#include "units.hpp"
 	class STB86_Ins_ER_Rebel_green : OPTRE_Ins_ER_Rebel_tan
 	{
-		dlc = "86th Auxilliary";
+		dlc = DLC;
 		scope = 1;
 		displayName = "Waters Base";
 		uniformClass = "STB86_INS_ER_uniform_GAgreen";
@@ -135,7 +139,7 @@ class CfgVehicles
 	};
 	class ILCS_RS_B : B_Bergen_Base
 	{
-		dlc = "";
+		dlc = DLC;
 		author = "Quiet";
 		scope = 2;
 		scopeArsenal = 2;
@@ -163,7 +167,7 @@ class CfgVehicles
 	};
 	class STB86_back_pack : ILCS_RS_B
 	{
-		dlc = "";
+		dlc = DLC;
 		author = "Center";
 		displayName = "[86th STB] Infantry Rucksack";
 		maximumLoad = 350;
@@ -178,7 +182,7 @@ class CfgVehicles
 	};
 	class STB86_medic_pack : ILCS_RS_B
 	{
-		dlc = "";
+		dlc = DLC;
 		author = "Center";
 		displayName = "[86th STB] Medic Rucksack";
 		maximumLoad = 400;
@@ -193,7 +197,7 @@ class CfgVehicles
 	};
 	class STB86_heavy_pack : ILCS_RS_B
 	{
-		dlc = "";
+		dlc = DLC;
 		author = "Center";
 		displayName = "[86th STB] Heavy Rucksack";
 		maximumLoad = 400;
@@ -208,7 +212,7 @@ class CfgVehicles
 	};
 	class STB86_radio_pack : OPTRE_ANPRC_521_Green
 	{
-		dlc = "OPTRE";
+		dlc = DLC;
 		author = "Center";
 		displayName = "[86th STB] AN/PRC-521";
 		descriptionShort = "AN/PRC-521<br>UNSC Long Range Radio<br>25km Effective Range";
@@ -236,7 +240,7 @@ class CfgVehicles
 	};
 	class STB86_waters_Rucksack : OPTRE_ILCS_Rucksack_Black
 	{
-		dlc = "OPTRE";
+		dlc = DLC;
 		author = "Center";
 		displayName = "[86th STB] Crew Rucksack";
 		model = "\OPTRE_unsc_units\army\rucksack.p3d";
@@ -258,7 +262,7 @@ class CfgVehicles
 	};
 	class STB86_Virtual_Long_Range : ILCS_RS_B
 	{
-		dlc = "";
+		dlc = DLC;
 		author = "Center";
 		picture = "";
 		displayName = "[86th STB] Compact LR";
@@ -275,7 +279,7 @@ class CfgVehicles
 	};
 	class STB86_concealed_radio_pack : ILCS_RS_B
 	{
-		dlc = "";
+		dlc = DLC;
 		author = "Center";
 		displayName = "[86th STB] Concealed LR";
 		maximumLoad = 300;
@@ -294,6 +298,13 @@ class CfgVehicles
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio = 1;
 	};
+};
+
+
+class CfgWeapons {
+	#include "helmets.hpp"
+	#include "vests.hpp"
+	#include "uniforms.hpp"
 };
 
 class cfgFactionClasses
