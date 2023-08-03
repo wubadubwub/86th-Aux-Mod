@@ -31,11 +31,20 @@ class MA_M56R_Vest : MA_Vest_Base {
 
 // M56R
 class STB86_M56R_Base_Vest : MA_M56R_Vest {
-	scope = 0;
-	scopeArsenal = 0;
+	scope = 2;
+	scopeArsenal = 2;
 	author = AUTHOR;
 	dlc=DLC;
-	displayName = "";
+	displayName = "[86th] M56R";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Reach_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Reach_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+	};
 	hiddenSelectionsMaterials[] = {
         "MA_Armor\data\Vests\H3_ODST\odst_armor_lower.rvmat",
         "MA_Armor\data\Vests\H3_ODST\odst_armor_upper.rvmat",
@@ -47,6 +56,15 @@ class STB86_M56R_Base_Vest : MA_M56R_Vest {
 	};
 	class ItemInfo : ItemInfo {
 		author = AUTHOR;
+		hiddenSelectionsTextures[] = {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"STB86_Auxiliary\Data\Vests\Reach_Upper_co.paa",
+			"STB86_Auxiliary\Data\Vests\Reach_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+		};
 		hiddenSelectionsMaterials[] = {
         	"MA_Armor\data\Vests\H3_ODST\odst_armor_lower.rvmat",
         	"MA_Armor\data\Vests\H3_ODST\odst_armor_upper.rvmat",
@@ -59,9 +77,32 @@ class STB86_M56R_Base_Vest : MA_M56R_Vest {
 	};
 };
 
+class STB86_M56R_Reserves_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R [Reserves]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Reserves_Reach_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Reserves_Reach_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+	};
+
+	class ItemInfo : ItemInfo {
+		hiddenSelectionsTextures[] = {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"STB86_Auxiliary\Data\Vests\Reserves_Reach_Upper_co.paa",
+			"STB86_Auxiliary\Data\Vests\Reserves_Reach_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+		};
+	};
+};
+
 class STB86_M56R_Vandal_Vest : STB86_M56R_Base_Vest {
-	scope = 2;
-	scopeArsenal = 2;
 	displayName = "[86th] M56R [Vandal]";
 	hiddenSelectionsTextures[] = {
 		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
@@ -80,6 +121,31 @@ class STB86_M56R_Vandal_Vest : STB86_M56R_Base_Vest {
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
 			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Upper_co.paa",
 			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+		};
+	};
+};
+
+class STB86_M56R_Misfit_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R [Misfit]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Reach_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Reach_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+	};
+
+	class ItemInfo : ItemInfo {
+		hiddenSelectionsTextures[] = {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"STB86_Auxiliary\Data\Vests\Misfit_Reach_Upper_co.paa",
+			"STB86_Auxiliary\Data\Vests\Misfit_Reach_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
 		};
