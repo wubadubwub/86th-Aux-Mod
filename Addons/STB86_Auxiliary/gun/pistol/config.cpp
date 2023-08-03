@@ -79,7 +79,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"STB86_Auxiliary\armor\fox_uniform_co.paa"
+			"STB86_Auxiliary\Data\SenkoPat.paa"
 		};
 	};
 	class M33_86: TCF_M33
