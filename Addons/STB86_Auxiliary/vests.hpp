@@ -134,6 +134,58 @@ class STB86_M56R_Vandal_Vest : STB86_M56R_Base_Vest {
 		};
 	};
 };
+class STB86_M56R_Heathen_Vandal_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R Heathen [Vandal]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+	};
+
+	class ItemInfo : ItemInfo {
+		maximumLoad = 100;
+		containerClass = "Supply100";
+		hiddenSelectionsTextures[] = {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Upper_co.paa",
+			"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+		};
+	};
+};
+class STB86_M56R_Camestry_Vandal_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R Camestry [Vandal]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_Cam_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_Cam_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+	};
+
+	class ItemInfo : ItemInfo {
+		maximumLoad = 100;
+		containerClass = "Supply100";
+		hiddenSelectionsTextures[] = {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"STB86_Auxiliary\Data\Vests\Vandal_Cam_Upper_co.paa",
+			"STB86_Auxiliary\Data\Vests\Vandal_Cam_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+		};
+	};
+};
 // Misfit
 class STB86_M56R_Misfit_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R [Misfit]";
@@ -156,6 +208,32 @@ class STB86_M56R_Misfit_Vest : STB86_M56R_Base_Vest {
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
 			"STB86_Auxiliary\Data\Vests\Misfit_Reach_Upper_co.paa",
 			"STB86_Auxiliary\Data\Vests\Misfit_Reach_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+		};
+	};
+};
+class STB86_M56R_Misfit_Cress_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R Cress [Misfit]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Cress_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Cress_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+	};
+
+	class ItemInfo : ItemInfo {
+		maximumLoad = 100;
+		containerClass = "Supply100";
+		hiddenSelectionsTextures[] = {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"STB86_Auxiliary\Data\Vests\Misfit_Cress_Upper_co.paa",
+			"STB86_Auxiliary\Data\Vests\Misfit_Cress_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
 		};
