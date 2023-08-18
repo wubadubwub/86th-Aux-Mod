@@ -1,5 +1,10 @@
 class MA_Helmet_Base;
+class MA_M56E_Helmet;
+
 class MA_M56SR_Helmet : MA_Helmet_Base {
+	class ItemInfo;
+};
+class MA_M56SEOD_Helmet : MA_M56E_Helmet {
 	class ItemInfo;
 };
 
@@ -98,6 +103,25 @@ class STB86_M56SR_Vandal_Helmet : STB86_M56SR_Base_Helmet
 		};
 	};
 };
+	class STB86_M556E_Vandal_N3rf_Helmet : MA_M56SEOD_Helmet
+{
+	displayName = "[86th] M56SE N3rf [Vandal]";
+	author = AUTHOR;
+	dlc = DLC;
+	scope = 2;
+	scopeArsenal = 2;
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Vandal_N3rf_Helmet_EOD_co.paa",
+		"STB86_Auxiliary\Data\Visors\Vandal_N3rf_Visor_EOD_co.paa",
+	};
+
+	class ItemInfo : ItemInfo {
+		hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Vandal_N3rf_Helmet_EOD_co.paa",
+		"STB86_Auxiliary\Data\Visors\Vandal_N3rf_Visor_EOD_co.paa",
+		};
+	};
+};
 // Misfit
 class STB86_M56SR_Misfit_Helmet : STB86_M56SR_Base_Helmet {
 	displayName = "[86th] M56SR [Misfit]";
@@ -143,6 +167,22 @@ class STB86_M56SR_Misfit_Helmet : STB86_M56SR_Base_Helmet {
 		hiddenSelectionsTextures[] = {
 			"STB86_Auxiliary\Data\Helmets\Misfit_Reach_Helmet_co.paa",
 			"STB86_Auxiliary\Data\Visors\Misfit_Toki_Visor_co.paa",
+		};
+	};
+};
+class STB86_M56SR_Misfit_Clanka_Helmet : STB86_M56SR_Base_Helmet 
+{
+	displayName = "[86th] M56SR Clanka [Misfit]";
+
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Misfit_Clanka_Helmet_co.paa",
+		"STB86_Auxiliary\Data\Visors\Misfit_Clanka_Visor_co.paa",
+	};
+
+	class ItemInfo : ItemInfo {
+		hiddenSelectionsTextures[] = {
+			"STB86_Auxiliary\Data\Helmets\Misfit_Clanka_Helmet_co.paa",
+			"STB86_Auxiliary\Data\Visors\Misfit_Clanka_Visor_co.paa",
 		};
 	};
 };

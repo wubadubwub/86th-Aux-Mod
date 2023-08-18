@@ -55,6 +55,19 @@ class CfgWeapons
 			mass=30;
 		};
 	};
+	class STB86_UMP45andUMP40_Pic: OPTRE_Biofoam
+	{
+		scope=2;
+		author="Sinder&AJ";
+		displayName="[86th] Picture of UMP45 and UMP40";
+		picture="STB86_Medical\icons\UMP45UMP40.paa";
+		model="\OPTRE_Weapons\items\Biofoam.p3d";
+		descriptionShort = "A reminder of what we fight for.";
+		class ItemInfo: ItemInfo
+		{
+			mass=1;
+		};
+	};
 };
 class ACE_Medical_Treatment
 {
@@ -80,6 +93,18 @@ class ACE_Medical_Treatment
 			timeInSystem=300; // How many seconds in your system
 			timeTillMaxEffect=30; // How long does it take to take effect
 			maxDose=10000; // Probably how many till you die
+			incompatibleMedication[]={}; // What medicines fuck you over if taken with this
+			viscosityChange=0; // How much does it change viscoscity of your blood. Affects bleedout from wounds
+		}
+		class STB86_UMP45andUMP40_Pic: Morphine
+		{
+			painReduce=0.95;
+			hrIncreaseLow[]={30};
+			hrIncreaseNormal[]={20};
+			hrIncreaseHigh[]={15};
+			timeInSystem=45;
+			timeTillMaxEffect=3; // How long does it take to take effect
+			maxDose=3; // Probably how many till you die
 			incompatibleMedication[]={}; // What medicines fuck you over if taken with this
 			viscosityChange=0; // How much does it change viscoscity of your blood. Affects bleedout from wounds
 		}
@@ -121,6 +146,7 @@ class ACE_Medical_Treatment_Actions // Handles the stuff you see in the menu
 {
 	class OPTRE_Medigel;
 	class OPTRE_Biofoam;
+	class Morphine;
 	class STB86_Biofoam_pack: OPTRE_Biofoam
 	{
 		displayName="Use biofoam from biofoam pack"; // What you see in the menu
@@ -132,6 +158,22 @@ class ACE_Medical_Treatment_Actions // Handles the stuff you see in the menu
 		consumeItem=0; // Do we get rid of the item when we do this
 		category="bandage"; // Where does it show up 
 		medicRequired=1; // Do you need to be a medic
+	};
+	class STB86_UMP45andUMP40_Pic: Morphine
+	{
+		displayName="What am I fighting for?";
+		displayNameProgress="Reminding your self what you're fighting for.";
+		items[]=
+		{
+			"STB86_UMP45andUMP40_Pic" // The item it uses 
+		};
+		consumeItem=0; // Do we get rid of the item when we do this
+		medicRequired=0; // Do you need to be a medic
+		treatmentTime=15;
+		allowedSelections[]=
+		{
+		"Head"
+		};
 	};
 	class STB86_Trauma_Kit: OPTRE_Medigel
 	{
