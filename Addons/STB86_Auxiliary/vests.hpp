@@ -1,32 +1,40 @@
 class MA_Vest_Base;
 class MA_M56R_Vest : MA_Vest_Base {
 	class ItemInfo;
-	maximumLoad = 100;
-	containerClass = "Supply100";
-	// hiddenSelections[] = { We should probably play with these a bit in game at some point/Give pictures/Set up thing so they can request their hiddenselections.
-    //     "camo1",
-    //     "camo2",
-    //     "camo3",
-    //     "camo4",
-    //     "camo5",
-    //     "camo6",
-    //     "camo7",
-    //     "Left_Forearm_H3",
-    //     "Right_Forearm_H3",
-    //     "Left_Pauldron_H3",
-    //     "Right_Pauldron_H3",
-    //     "Reach_Pauldron_Left",
-    //     "Reach_Pauldron_Right",
-    //     "Thigh_Pouch",
-    //     "Armor_Upper_H3",
-    //     "Armor_Lower_H3",
-    //     "Armor_Upper_Reach",
-    //     "Armor_Lower_Reach",
-    //     "Forearm_Reach_Left",
-    //     "Forearm_Reach_Right",
-    //     "Forearm_Vent_Left",
-    //     "Forearm_Vent_Right",
-    //     "Canisters"
+	// hiddenSelections[]=
+	// {
+    //       "camo1",
+    //       "camo2",
+    //       "camo3",
+    //       "camo4",
+    //       "camo5",
+    //       "camo6",
+    //       "camo7",
+    //       "camo8",
+    //       "camo9",
+    //       "camo10",
+    //       "H3_Forearm_Left",
+    //       "H3_Forearm_Right",
+    //       "Reach_Forearm_Left",
+    //       "Reach_Forearm_Right",
+    //       "H3_Pauldron_Left",
+    //       "H3_Pauldron_Right",
+    //       "Reach_Pauldron_Left",
+    //       "Reach_Pauldron_Right",
+    //       "Reach_Shoulder_Radio_Left",
+    //       "Reach_Shoulder_Radio_Right",
+    //       "Reach_Sniper_Pauldron_Left",
+    //       "Reach_Sniper_Pauldron_Right",
+    //       "Reach_CQB_Pauldron_Left",
+    //       "Reach_CQB_Pauldron_Right",
+    //       "Thigh_Pouch",
+    //       "H3_Armor_Upper",
+    //       "H3_Armor_Lower",
+    //       "Reach_Armor_Upper",
+    //       "Reach_Armor_Lower",
+    //       "Forearm_Vent_Left",
+    //       "Forearm_Vent_Right",
+    //       "Canisters"
 	// };
 };
 
@@ -46,6 +54,9 @@ class STB86_M56R_Base_Vest : MA_M56R_Vest {  // Please set a carry amount next t
 		"STB86_Auxiliary\Data\Vests\Reach_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 	hiddenSelectionsMaterials[] = {
         "MA_Armor\data\Vests\H3_ODST\odst_armor_lower.rvmat",
@@ -68,6 +79,9 @@ class STB86_M56R_Base_Vest : MA_M56R_Vest {  // Please set a carry amount next t
 			"STB86_Auxiliary\Data\Vests\Reach_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 		hiddenSelectionsMaterials[] = {
         	"MA_Armor\data\Vests\H3_ODST\odst_armor_lower.rvmat",
@@ -91,11 +105,12 @@ class STB86_M56R_Reserves_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Reserves_Reach_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -104,6 +119,9 @@ class STB86_M56R_Reserves_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Reserves_Reach_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
@@ -118,11 +136,12 @@ class STB86_M56R_Vandal_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -131,6 +150,9 @@ class STB86_M56R_Vandal_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
@@ -144,11 +166,12 @@ class STB86_M56R_Heathen_Vandal_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -157,6 +180,9 @@ class STB86_M56R_Heathen_Vandal_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
@@ -170,11 +196,12 @@ class STB86_M56R_Camestry_Vandal_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Vandal_Cam_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -183,6 +210,9 @@ class STB86_M56R_Camestry_Vandal_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Vandal_Cam_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
@@ -196,11 +226,12 @@ class STB86_M56R_N3rf_Vandal_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Vandal_N3rf_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -209,6 +240,73 @@ class STB86_M56R_N3rf_Vandal_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Vandal_N3rf_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
+		};
+	};
+};
+class STB86_M56R_AJ_Vandal_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R AJ [Vandal]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_Reach_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
+	};
+
+	class ItemInfo : ItemInfo {
+		hiddenSelectionsTextures[] = {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Upper_co.paa",
+			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+    	    "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+    	    "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+    	    "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
+		};
+		hiddenSelections[] = {
+        	"camo1",
+        	"camo2",
+        	"camo3",
+        	"camo4",
+        	"camo5",
+        	"camo6",
+        	"camo7",
+        	"camo8",
+        	"camo9",
+        	"camo10",
+        	"H3_Forearm_Left",
+        	"H3_Forearm_Right",
+        	// "Reach_Forearm_Left",
+        	// "Reach_Forearm_Right",
+        	"H3_Pauldron_Left",
+        	"H3_Pauldron_Right",
+        	"Reach_Pauldron_Left",
+        	// "Reach_Pauldron_Right",
+        	"Reach_Shoulder_Radio_Left",
+        	// "Reach_Shoulder_Radio_Right",
+        	// "Reach_Sniper_Pauldron_Left",
+        	"Reach_Sniper_Pauldron_Right",
+        	"Reach_CQB_Pauldron_Left",
+        	"Reach_CQB_Pauldron_Right",
+        	// "Thigh_Pouch",
+        	"H3_Armor_Upper",
+        	"H3_Armor_Lower",
+        	// "Reach_Armor_Upper",
+        	// "Reach_Armor_Lower",
+        	"Forearm_Vent_Left",
+        	// "Forearm_Vent_Right",
+        	"Canisters"
 		};
 	};
 };
@@ -223,11 +321,12 @@ class STB86_M56R_Misfit_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Misfit_Reach_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -236,6 +335,9 @@ class STB86_M56R_Misfit_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Misfit_Reach_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
@@ -249,11 +351,12 @@ class STB86_M56R_Misfit_Cress_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Misfit_Cress_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -262,6 +365,9 @@ class STB86_M56R_Misfit_Cress_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Misfit_Cress_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
@@ -275,11 +381,12 @@ class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Misfit_Clanka_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo {
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -288,6 +395,9 @@ class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Misfit_Clanka_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
@@ -302,11 +412,12 @@ class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
 		"STB86_Auxiliary\Data\Vests\Jester_Luci_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 
 	class ItemInfo : ItemInfo { 
-		maximumLoad = 100;
-		containerClass = "Supply100";
 		hiddenSelectionsTextures[] = { // Do we need these here twice?
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
@@ -315,6 +426,9 @@ class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
 			"STB86_Auxiliary\Data\Vests\Jester_Luci_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 		};
 	};
 };
