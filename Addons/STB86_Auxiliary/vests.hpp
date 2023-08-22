@@ -92,6 +92,40 @@ class STB86_M56R_Base_Vest : MA_M56R_Vest {  // Please set a carry amount next t
         	"MA_Armor\data\Vests\Reach_ODST\canisters.rvmat",
         	"MA_Armor\data\Vests\Reach_ODST\forearm_vents.rvmat",
 		};
+		hiddenSelections[] = {
+        	"camo1",
+        	"camo2",
+        	"camo3",
+        	"camo4",
+        	"camo5",
+        	"camo6",
+        	"camo7",
+        	"camo8",
+        	"camo9",
+        	"camo10",
+        	"H3_Forearm_Left",
+        	"H3_Forearm_Right",
+        	// "Reach_Forearm_Left",
+        	// "Reach_Forearm_Right",
+        	"H3_Pauldron_Left",
+        	"H3_Pauldron_Right",
+        	// "Reach_Pauldron_Left",
+        	// "Reach_Pauldron_Right",
+        	"Reach_Shoulder_Radio_Left",
+        	"Reach_Shoulder_Radio_Right",
+        	"Reach_Sniper_Pauldron_Left",
+        	"Reach_Sniper_Pauldron_Right",
+        	"Reach_CQB_Pauldron_Left",
+        	"Reach_CQB_Pauldron_Right",
+        	"Thigh_Pouch",
+        	"H3_Armor_Upper",
+        	"H3_Armor_Lower",
+        	// "Reach_Armor_Upper",
+        	// "Reach_Armor_Lower",
+        	// "Forearm_Vent_Left",
+        	// "Forearm_Vent_Right",
+        	"Canisters"
+		};
 	};
 };
 
@@ -109,21 +143,6 @@ class STB86_M56R_Reserves_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Reserves_Reach_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Reserves_Reach_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
-	};
 };
 // Vandal
 class STB86_M56R_Vandal_Vest : STB86_M56R_Base_Vest {
@@ -140,21 +159,6 @@ class STB86_M56R_Vandal_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
-	};
 };
 class STB86_M56R_Heathen_Vandal_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R Heathen [Vandal]";
@@ -169,21 +173,6 @@ class STB86_M56R_Heathen_Vandal_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Heathen_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
 	};
 };
 class STB86_M56R_Camestry_Vandal_Vest : STB86_M56R_Base_Vest {
@@ -200,21 +189,6 @@ class STB86_M56R_Camestry_Vandal_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Cam_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Cam_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
-	};
 };
 class STB86_M56R_N3rf_Vandal_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R N3rf [Vandal]";
@@ -230,21 +204,6 @@ class STB86_M56R_N3rf_Vandal_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_N3rf_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_N3rf_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
-	};
 };
 class STB86_M56R_AJ_Vandal_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R AJ [Vandal]";
@@ -252,28 +211,15 @@ class STB86_M56R_AJ_Vandal_Vest : STB86_M56R_Base_Vest {
 		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
 		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
 		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-		"STB86_Auxiliary\Data\Vests\Vandal_Reach_Upper_co.paa",
-		"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_AJ_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Vandal_AJ_Lower_co.paa",
 		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "STB86_Auxiliary\Data\Misc\Vandal_AJ_SniperShoulder_co.paa",
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
 	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Vandal_Reach_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-    	    "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-    	    "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-    	    "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
 		hiddenSelections[] = {
         	"camo1",
         	"camo2",
@@ -325,21 +271,6 @@ class STB86_M56R_Misfit_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Misfit_Reach_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Misfit_Reach_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
-	};
 };
 class STB86_M56R_Misfit_Cress_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R Cress [Misfit]";
@@ -354,21 +285,6 @@ class STB86_M56R_Misfit_Cress_Vest : STB86_M56R_Base_Vest {
     	"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
     	"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
     	"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Misfit_Cress_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Misfit_Cress_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
 	};
 };
 class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
@@ -385,24 +301,9 @@ class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
-	class ItemInfo : ItemInfo {
-		hiddenSelectionsTextures[] = {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Misfit_Clanka_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Misfit_Clanka_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
-	};
 };
 // Jester
-	class STB86_M56R_Jester_Luci_Vest : STB86_M56R_Base_Vest {
+class STB86_M56R_Jester_Luci_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R Luci [Jester]";
 	hiddenSelectionsTextures[] = {
 		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
@@ -416,22 +317,24 @@ class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
-
-	class ItemInfo : ItemInfo { 
-		hiddenSelectionsTextures[] = { // Do we need these here twice?
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"STB86_Auxiliary\Data\Vests\Jester_Luci_Upper_co.paa",
-			"STB86_Auxiliary\Data\Vests\Jester_Luci_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-            "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-            "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-		};
+};
+// Misc
+class STB86_M56R_Kitty_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R Kitty";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Kitty_Reach_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Kitty_Reach_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 };
+
 
 class OPTRE_UNSC_M52A_Armor1_WDL;
 class OPTRE_UNSC_M52D_Armor : OPTRE_UNSC_M52A_Armor1_WDL { 
