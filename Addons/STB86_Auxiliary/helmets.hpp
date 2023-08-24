@@ -67,7 +67,30 @@ class STB86_M56SR_Vandal_Camestry_Helmet : STB86_M56SR_Base_Helmet {
 		"STB86_Auxiliary\Data\Helmets\Vandal_Cam_Helmet_co.paa",
 		"STB86_Auxiliary\Data\Visors\Vandal_Cam_Visor_co.paa",
 	};
+};
+class STB86_M56SR_Vandal_Heimdall_Helmet : STB86_M56SR_Base_Helmet {
+	displayName = "[86th] M56SR Heimdall [Vandal]";
 
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Vandal_Heimdall_Helmet_co.paa",
+		"STB86_Auxiliary\Data\Visors\Vandal_Heimdall_Visor_co.paa",
+	};
+};
+class STB86_M56SR_Vandal_Shadow_Helmet : STB86_M56SR_Base_Helmet {
+	displayName = "[86th] M56SR Shadow [Vandal]";
+
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Vandal_Shadow_Helmet_co.paa",
+		"STB86_Auxiliary\Data\Visors\Vandal_Shadow_Visor_co.paa",
+	};
+};
+class STB86_M56SR_Vandal_Reject_Helmet : STB86_M56SR_Base_Helmet {
+	displayName = "[86th] M56SR Reject [Vandal]";
+
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Vandal_Reject_Helmet_co.paa",
+		"STB86_Auxiliary\Data\Visors\Vandal_Reach_Visor_co.paa",
+	};
 };
 class STB86_M56E_Vandal_N3rf_Helmet : MA_M56E_Helmet {
 	displayName = "[86th] M56E N3rf [Vandal]";
