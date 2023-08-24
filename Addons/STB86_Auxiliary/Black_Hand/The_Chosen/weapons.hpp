@@ -13,94 +13,94 @@ class STB86_Flamethrower;
 class STB86_Vehicle_Flamethrower : STB86_Flamethrower {
 	class FullAuto;
 };
-class lxws_zu23_w;
+class autocannon_35mm;
 
 class STB86_BH_CH_VK78 : OPTRE_Commando{
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] VK78";
+	displayName = "VK78 [CH]";
 	baseWeapon = "STB86_BH_CH_VK78";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
 };
 class STB86_BH_CH_SRS99D : OPTRE_SRS99D {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] SRS99D";
+	displayName = "SRS99D [CH]";
 	baseWeapon = "STB86_BH_CH_SRS99D";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
 };
 class STB86_BH_CH_MA37K : OPTRE_MA37K {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] MA37K";
+	displayName = "MA37K [CH]";
 	baseWeapon = "STB86_BH_CH_MA37K";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
 };
 class STB86_BH_CH_M247 : OPTRE_M247 {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] M247";
+	displayName = "M247 [CH]";
 	baseWeapon = "STB86_BH_CH_M247";
 	hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_Hand\textures\square.paa","STB86_Auxiliary\Black_Hand\textures\square.paa","\OPTRE_Weapons\MG\data\M247_magazine_CO.paa","\OPTRE_Weapons\MG\data\M247_stock_CO.paa","\OPTRE_Weapons\MG\data\M247_details_CO.paa","\OPTRE_Weapons\MG\data\M247_barrel_sights_CO.paa"};
 };
 class STB86_BH_CH_MA5B : OPTRE_MA5B {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] MA5B";
+	displayName = "MA5B [CH]";
 	baseWeapon = "STB86_BH_CH_MA5B";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
 };
 class STB86_BH_CH_M7 : OPTRE_M7 {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] M7";
+	displayName = "M7 [CH]";
 	baseWeapon = "STB86_BH_CH_M7";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_m7_silencer"
+			item="optre_m7_silencer";
 			slot="MuzzleSlot";
 		};
 	};
 };
 class STB86_BH_CH_BR55 : OPTRE_BR55 {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] BR55";
+	displayName = "BR55 [CH]";
 	baseWeapon = "STB86_BH_CH_BR55";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
 };
 class STB86_BH_CH_HMG38 : OPTRE_HMG38 {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] HMG38";
+	displayName = "HMG38 [CH]";
 	baseWeapon = "STB86_BH_CH_HMG38";
 	class linkedItems{
 		class linkedItemsMuzzle{
-			item="optre_ma5suppressor"
+			item="optre_ma5suppressor";
 			slot="MuzzleSlot";
 		};
 	};
 };
 class STB86_BH_CH_M247H : OPTRE_M247H_Etilka{
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] M247H";
+	displayName = "M247H [CH]";
 	baseWeapon = "STB86_BH_CH_M247H";
 	hiddenSelectionsTextures[] = {
 		"STB86_Auxiliary\Black_Hand\The_Chosen\textures\weapons\M247H.paa",
@@ -113,9 +113,10 @@ class STB86_BH_CH_ARC_9 : srifle_DMR_02_F {
 		ace_overheating_slowdownFactor = 0;
 		ace_overheating_dispersion = 0;
 		ace_overheating_closedBolt = 0;
-		scope=2;
+		scope=1;
+		scopeArsenal = 1;
 		author = "86th STB Auxiliary Mod Team";
-		displayName = "[86th BH] ARC-9 Railgun";
+		displayName = "ARC-9 Railgun [CH]";
 		baseWeapon = "STB86_BH_CH_ARC_9";
 		magazines[] = {"STB86_BH_CH_12rnd_Railgun_Slug"};
 		modes[] = {"Single","FullAuto"};
@@ -200,17 +201,11 @@ class STB86_BH_CH_ARC_9 : srifle_DMR_02_F {
 		};
 };
 //Secondary
-class OPTRE_M6G;
 class TCF_M33;
 
-class STB86_BH_CH_M6G : OPTRE_M6G {
-	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] M6G";
-	baseWeapon = "STB86_BH_CH_M6G";
-};
 class STB86_BH_CH_M33 : TCF_M33 {
 	author = "86th STB Auxiliary Mod Team";
-	displayName = "[86th BH] M33";
+	displayName = "M33 [CH]";
 	baseWeapon = "STB86_BH_CH_M33";
 };
 /*
@@ -226,7 +221,7 @@ class STB86_BH_CH_SRS99C_Prefab : STB86_BH_CH_SRS99D {
 			slot="CowsSlot";
 		};
 		class linkedItemsMuzzle{
-			item="optre_srs99d_suppressor"
+			item="optre_srs99d_suppressor";
 			slot="MuzzleSlot";
 		};
 	};
@@ -245,6 +240,6 @@ class STB86_BH_CH_MBT_02_LMG : STB86_Vehicle_Flamethrower {
 		maxRangeProbab=0.5;
 	};
 };
-class STB86_BH_CH_IFV_02_Cannon : lxws_zu23_w {
+class STB86_BH_CH_IFV_02_Cannon : autocannon_35mm {
 	displayName = "20mm AA Cannon";
 };

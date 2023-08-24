@@ -27,12 +27,20 @@ class CfgAmmo
         hit = 30;
         caliber = 3;
     };
+	class STB86_MA5UW_Ammo : B_127X108_Ball
+	{
+		hit = 12;
+		caliber = 2;
+		waterFriction= -0.00096;
+		effectFly="AmmoUnderwater";
+	};
 };
 class CfgMagazines
 {
 	class OPTRE_4Rnd_145x114_HEDP_Mag;
-	class TCF_6Rnd_127x40_Cyl ;
+	class TCF_6Rnd_127x40_Cyl;
 	class ACE_2Rnd_12Gauge_Pellets_No2_Buck;
+	class 20Rnd_556x45_UW_mag;
 	class STB86_M45_UR_SLUG: OPTRE_4Rnd_145x114_HEDP_Mag
 	{
 		dlc="OPTRE";
@@ -56,6 +64,17 @@ class CfgMagazines
 		descriptionshort="Street Sweeper Drum Magazine";
 		mass=40;
 	};
+	class STB86_MA5B_UW_Mag: 20Rnd_556x45_UW_mag
+	{
+		displayname="(86th)Under Water Munitions";
+		displaynameshort="Ammo for underwater shooting";
+		count=60;
+		descriptionshort="Underwater Ammo";
+		mass=8;
+		initspeed=600;
+		tracersEvery=1;
+		lastRoundsTracer=0;
+	};
 	class STB86_6Rnd_127x40_HiPow_Cyl : TCF_6Rnd_127x40_Cyl
 	{
         dlc = "86th STB";
@@ -63,7 +82,7 @@ class CfgMagazines
         displaynameshort=".69 ACP";
         initspeed=1200;
         mass=5.5;
-        ammo="STB86_127x108_HighPow_Ammo"
+        ammo="STB86_127x108_HighPow_Ammo";
         descriptionshort="6rnd Hi-Power Cylinder";
     };
 	class STB86_6Rnd_127x40_EHiPow_Cyl: TCF_6Rnd_127x40_Cyl

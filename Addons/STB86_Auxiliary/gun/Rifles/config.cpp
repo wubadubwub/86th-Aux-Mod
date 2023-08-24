@@ -45,7 +45,7 @@ class CfgWeapons
 	class OPTRE_BR55HB;
 	class OPTRE_MA37K;
 	class OPTRE_SRS99C;
-	class TCW_Saw_Gamma;
+	class TCF_Saw_Gamma;
 	class OPTRE_M7;
 	class InventoryOpticsItem_Base_F;
 	class OPTRE_M41_SSR;
@@ -149,6 +149,7 @@ class CfgWeapons
 		author="Sinder";
 		scope=2;
 		scopeArsenal=2;
+		canShootInWater=1;
 		displayName="[86TH] MA5B";
 		baseWeapon="86_MA5B";
 		magazines[]=
@@ -163,6 +164,7 @@ class CfgWeapons
 			"OPTRE_32Rnd_762X51_Mag",
 			"OPTRE_32Rnd_762X51_Mag_Tracer",
 			"OPTRE_32Rnd_762X51_Mag_Tracer_Yellow",
+			"STB86_MA5B_UW_Mag"
 		};
 		hiddenSelections[]=
 		{
@@ -194,6 +196,7 @@ class CfgWeapons
 		author="Sinder";
 		scope=2;
 		scopeArsenal=2;
+		canShootInWater=1;
 		displayName="[86TH] MA5BGL";
 		baseWeapon="86_MA5BGL";
 		magazines[]=
@@ -208,6 +211,7 @@ class CfgWeapons
 			"OPTRE_32Rnd_762X51_Mag",
 			"OPTRE_32Rnd_762X51_Mag_Tracer",
 			"OPTRE_32Rnd_762X51_Mag_Tracer_Yellow",
+			"STB86_MA5B_UW_Mag"
 		};
 		hiddenSelections[]=
 		{
@@ -226,6 +230,7 @@ class CfgWeapons
 		author="Sinder";
 		scope=2;
 		scopeArsenal=2;
+		canShootInWater=1;
 		displayName="[86TH] MA5B [Nerf]";
 		baseWeapon="NERF_MA5B";
 		magazines[]=
@@ -240,6 +245,7 @@ class CfgWeapons
 			"OPTRE_32Rnd_762X51_Mag",
 			"OPTRE_32Rnd_762X51_Mag_Tracer",
 			"OPTRE_32Rnd_762X51_Mag_Tracer_Yellow",
+			"STB86_MA5B_UW_Mag"
 		};
 		hiddenSelections[]=
 		{
@@ -286,8 +292,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]= // These do not work on this shotgun
 		{
-			"STB86_Auxiliary\armor\fox_uniform_co.paa",
-			"STB86_Auxiliary\armor\fox_uniform_co.paa"
+			"STB86_Auxiliary\gun\Rifles\Data\MA5B_86_co.paa",
+			"STB86_Auxiliary\gun\Rifles\Data\MA5B_86_co.paa"
 		};
 	};
 	class STB86_SRS99C: OPTRE_SRS99C
@@ -404,8 +410,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] = // these don't actually work on this shotgun
 		{
-			"_86th_Auxilery\armor\fox_uniform_co.paa",
-			"_86th_Auxilery\armor\fox_uniform_co.paa"
+			"STB86_Auxiliary\gun\Rifles\Data\M392_86_co.paa",
+			"STB86_Auxiliary\gun\Rifles\Data\M392_86_co.paa"
 		};
 	};
 
@@ -418,7 +424,7 @@ class CfgWeapons
 		};
 		baseWeapon="86_LuciSmg";
 	};
-	class STB86_Saw_Heathen : TCW_Saw_Gamma {
+	class STB86_Saw_Heathen : TCF_Saw_Gamma {
 		displayName = "[86th] Heathen SAW";
 		hiddenSelectionsTextures[] =
 		{
@@ -445,12 +451,12 @@ class CfgImprecision  // Weapon Sway
 {
 	class Primary  // Obvious
 	{
-		verticalRadius = 0.020;
-		horizontalRadius = 0.020;
+		verticalRadius = 0.035;
+		horizontalRadius = 0.035;
 	};
 	class Secondary // Obvious
 	{
-		verticalRadius = 0.020;
-		horizontalRadius = 0.025;
+		verticalRadius = 0.035;
+		horizontalRadius = 0.035;
 	};
 };

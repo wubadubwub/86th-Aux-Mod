@@ -13,31 +13,31 @@ class CfgMusicClasses // This is the categories that show up in Menu, the CfgMus
 {
 	class SinderMusic // SM
 	{
-		displayName = "Sinder Selection" 
+		displayName = "Sinder Selection";
 	};
 	class McAllisterMusic // MM
 	{
-		displayName = "McAllister Selection" 
+		displayName = "McAllister Selection";
 	};
 	class EllisMusic // EM
 	{
-		displayName = "Ellis Selection" 
+		displayName = "Ellis Selection";
 	};
 	class UnitPick // UC
 	{
-		displayName = "Unit Selection" 
+		displayName = "Unit Selection";
 	};
 	class HaloSongs // HM
 	{
-		displayName = "Exclusively Halo Music" 
+		displayName = "Exclusively Halo Music";
 	};
 	class SinderTax // ST
 	{
-		displayName = "Sinder's Tax"
+		displayName = "Sinder's Tax";
 	};
 	class Blackhand // BH
 	{
-		displayName = "Blackhand Selection"
+		displayName = "Blackhand Selection";
 	};
 };
 

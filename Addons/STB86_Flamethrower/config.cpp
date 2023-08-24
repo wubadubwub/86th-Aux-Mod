@@ -171,7 +171,7 @@ class CfgWeapons{
 		};
 		class EventHandlers
 		{
-			fired = "0 = [(_this select 1), (_this select 6)] spawn STB86_Flamethrower_fnc_Flamethrower_EH";
+			fired = "0 = [(_this select 1), (_this select 6), (_this select 4)] call STB86_Flamethrower_fnc_Flamethrower_EH";
 		};
     };
 	class STB86_Vehicle_Flamethrower : STB86_Flamethrower {
@@ -202,8 +202,9 @@ class CfgAmmo{
         affectedByWind = true;
 		coefGravity = 0.1;
         lightColor[] = {217, 88, 0, 0.8};
-        triggerTime = 0;
-		hit = 5;
+        triggerTime = 0.1;
+		hit = 10;
+		brightness = 10;
     };
 };
 class CfgMagazines{
@@ -225,6 +226,7 @@ class CfgFunctions{
 			file = "\STB86_Flamethrower\Scripts";
             class Flamethrower_EH{};
 			class Flamethrower_WH{};
+			class Flamethrower_DH{};
         };
     };
 };
@@ -263,7 +265,7 @@ class ACE_Medical_Injuries {
             // one class for each type of wound this damage type is allowed to create
             // must match a wound type defined above
 			class woundHandlers : woundHandlers {
-				STB86_Medical_Flamethrower_WH = "STB86_Flamethrower_fnc_Flamethrower_WH"
+				STB86_Medical_Flamethrower_WH = "STB86_Flamethrower_fnc_Flamethrower_WH";
 			};
 
             class STB86_Melt {
@@ -280,4 +282,13 @@ class ACE_Medical_Injuries {
         };
     };
 
+};
+
+class CfgCloudlets {
+	class MediumDestructionFire;
+	class STB86_Flamethrower_Fire : MediumDestructionFire {
+		moveVelocity[] = {0,0,0};
+		moveVelocityVar[] = {0.02,0.02,0.02};
+		size[] = {0.5,0.05};
+	};
 };

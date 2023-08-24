@@ -7,7 +7,7 @@ class Supply250 : ContainerSupply		// The class name does not really matter, but
 };
 /* VEST */
 class STB86_BH_CH_Base_Vest : OPTRE_UNSC_M52D_Armor{
-		displayName = "[86th BH] BH Chosen Rifleman Vest";
+		displayName = "Rifleman Vest [CH]";
 		dlc = "STB86_Auxiliary";
 		scope = 2;
 		scopeArsenal = 2;
@@ -144,7 +144,7 @@ class STB86_BH_CH_Base_Vest : OPTRE_UNSC_M52D_Armor{
 		};
 };
 class STB86_BH_CH_Heavy_Vest : STB86_BH_CH_Base_Vest {
-		displayName = "[86th BH] BH Chosen Heavy Vest";
+		displayName = "Heavy Vest [CH]";
 		class ItemInfo : VestItem
 		{
 
@@ -269,7 +269,7 @@ class STB86_BH_CH_Heavy_Vest : STB86_BH_CH_Base_Vest {
 		};
 };
 class STB86_BH_CH_CQB_Vest : STB86_BH_CH_Base_Vest {
-		displayName = "[86th BH] BH Chosen CQB Vest";
+		displayName = "CQB Vest [CH]";
 		class ItemInfo : VestItem
 		{
 
@@ -394,7 +394,7 @@ class STB86_BH_CH_CQB_Vest : STB86_BH_CH_Base_Vest {
 		};
 };
 class STB86_BH_CH_Marksman_Vest : STB86_BH_CH_Base_Vest {
-		displayName = "[86th BH] BH Chosen Marksman Vest";
+		displayName = "Marksman Vest [CH]";
 		class ItemInfo : VestItem
 		{
 
@@ -519,7 +519,7 @@ class STB86_BH_CH_Marksman_Vest : STB86_BH_CH_Base_Vest {
 		};
 };
 class STB86_BH_CH_Lead_Vest : STB86_BH_CH_Base_Vest {
-		displayName = "[86th BH] BH Chosen Lead Vest";
+		displayName = "Teamleader Vest [CH]";
 		class ItemInfo : VestItem
 		{
 
@@ -644,7 +644,7 @@ class STB86_BH_CH_Lead_Vest : STB86_BH_CH_Base_Vest {
 		};
 };
 class STB86_BH_CH_Medic_Vest : STB86_BH_CH_Base_Vest {
-		displayName = "[86th BH] BH Chosen Medic Vest";
+		displayName = "Medic Vest [CH]";
 		class ItemInfo : VestItem
 		{
 
@@ -769,7 +769,7 @@ class STB86_BH_CH_Medic_Vest : STB86_BH_CH_Base_Vest {
 		};
 };
 class STB86_BH_CH_Autorifleman_Vest : STB86_BH_CH_Base_Vest {
-		displayName = "[86th BH] BH Chosen Autorifleman Vest";
+		displayName = "Autorifleman Vest [CH]";
 		class ItemInfo : VestItem
 		{
 
@@ -894,7 +894,7 @@ class STB86_BH_CH_Autorifleman_Vest : STB86_BH_CH_Base_Vest {
 		};
 };
 class STB86_BH_CH_Devastator_Vest : STB86_BH_CH_Base_Vest {
-		displayName = "[86th BH] BH Chosen Devastator Vest";
+		displayName = "Devastator Vest [CH]";
 		hiddenSelectionsTextures[] =
 		{
 			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Armor.paa", // Vest
@@ -1031,7 +1031,7 @@ class UniformItem;
 class U_O_V_Soldier_Viper_F;
 class STB86_BH_CH_Battledress : U_O_V_Soldier_Viper_F {
 		author = "86th STB Mod team";
-		displayName = "[86th BH] BH Chosen Uniform";
+		displayName = "Combat Uniform [CH]";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Uniform.paa"};
 		class ItemInfo : UniformItem{
@@ -1047,17 +1047,15 @@ Helmet
 class H_HelmetO_ViperSP_hex_F;
 class STB86_BH_CH_Helmet : H_HelmetO_ViperSP_hex_F {
 	scope=2;
-	author = "86th STB Auxiliary Mod Team"
-	displayName = "[86th BH] BH Chosen Helmet";
+	author = "86th STB Auxiliary Mod Team";
+	displayName = "Combat Helmet [CH]";
 	hiddenSelectionsTextures[] = {
 		"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Helmet.paa"
 	};
 };
-class OPCOS_CrewHelmet_Urban;
-class STB86_BH_CH_Crew_Helmet : OPCOS_CrewHelmet_Urban {
-	displayName = "[86th BH] BH Chosen Creman Helmet";
-	hiddenSelectionsTextures[] = {
-		"STB86_Auxiliary\Black_hand\textures\Square.paa"
-	};
+class H_PilotHelmetHeli_B;
+class STB86_BH_CH_PilotHelmetHeli : H_PilotHelmetHeli_B {
+	scope=2;
+	author = "86ths STB Auxiliary Mod Team";
+	displayName = "Heli Pilot Helmet [CH]";
 };
-
