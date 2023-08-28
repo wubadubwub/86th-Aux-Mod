@@ -215,9 +215,19 @@ class ACE_Medical_Treatment_Actions // Handles the stuff you see in the menu
 		medicRequired = 0;
 		allowSelfTreatment = 1;
 		callbackSuccess = "STB86_Medical_fnc_cocaine";
+		callbackStart = "STB86_Medical_fnc_cocaine_start";
 		callbackFailure = "STB86_Medical_fnc_cocaine_fail";
 		items[] = {
 			"STB86_Cocaine"
 		};
+	};
+};
+
+class CfgSounds {
+	sounds[] = {};
+	class STB86_CocaineSniff {
+		name = "White lightning down the hatch";
+		sound[] = {"STB86_Medical\sounds\sniff.ogg",1,1,20};
+		titles[] = {0, ""};
 	};
 };
