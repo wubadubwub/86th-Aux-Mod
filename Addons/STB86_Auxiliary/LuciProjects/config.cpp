@@ -103,7 +103,7 @@ class CfgWeapons
 		displayName = "[86th] Senko Ears";
 		hiddenSelectionsTextures[]=
 		{
-			"STB86_Auxiliary\armor\fox_uniform_co.paa"
+			"STB86_Auxiliary\LuciProjects\Textures\AJ_Ears_co.paa"
 		};
 	};
 	class STB86_Holo_Ears: STB86_Ears {

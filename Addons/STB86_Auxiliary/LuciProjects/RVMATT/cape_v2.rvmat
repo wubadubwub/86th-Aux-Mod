@@ -9,21 +9,13 @@
 //Class armor_f_gamma : MBT_01\Data\MBT_01_body.rvmat{
 class StageTI
 {
-<<<<<<< Updated upstream
-	texture="#(argb,8,8,3)color(0,0,0,0)";
-=======
 	texture = "a3\armor_f_gamma\mbt_01\data\mbt_01_body_ti_ca.paa";
->>>>>>> Stashed changes
 };
 ambient[] = {1,1,1,1};
 diffuse[] = {1,1,1,1};
 forcedDiffuse[] = {0,0,0,0};
 emmisive[] = {0,0,0,0};
-<<<<<<< Updated upstream
-specular[] = {.5,.5,.5,.5};
-=======
 specular[] = {.15,.15,.15,.15};
->>>>>>> Stashed changes
 specularPower = 80;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
