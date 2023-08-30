@@ -149,12 +149,12 @@ class CfgWeapons
 class CfgGlasses
 {
 	class None;
-	class Iteminfo;
 	
 	class G_Katana : None {
 		author = "Luci";
 		_generalMacro="86th_katana";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "Katana";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\Sword.p3d";
@@ -172,12 +172,12 @@ class CfgGlasses
 			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
 			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
 		};
-		mass = 4;
 	};
 	class G_cape : None {
 		author = "Luci";
 		_generalMacro="86th_cape";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "cape";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape.p3d";
@@ -195,19 +195,19 @@ class CfgGlasses
 			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
 			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
 		};
-		class ItemInfo : ItemInfo
+		class ItemInfo
 		{
 			hiddenSelections[]=
 			{
 				"camo"
 			};
-		mass = 4;
 		};	
 	};
 	class G_cape_v2	: None {
 		author = "Luci";
 		_generalMacro="86th_cape_v2";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "capev2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape_v2.p3d";
@@ -225,19 +225,19 @@ class CfgGlasses
 			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
 			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
 		};
-		class ItemInfo : ItemInfo
+		class ItemInfo
 		{
 			hiddenSelections[]=
 			{
 				"camo"
 			};
-		mass = 4;
 		};	
 	};
 	class G_Katana_v2 : None {
 		author = "Luci";
 		_generalMacro="86th_katana_v2";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "Katana_v2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\katana.p3d";
@@ -255,13 +255,12 @@ class CfgGlasses
 			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
 			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
 		};
-		class ItemInfo : ItemInfo
+		class ItemInfo
 		{
 			hiddenSelections[]=
 			{
 				"camo"
 			};
-		mass = 4;
 		};
 	};
 };
