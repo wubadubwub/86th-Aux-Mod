@@ -4,7 +4,7 @@
 
 class CfgPatches
 {
-	class STB86_Auxiliary_HB_Armor
+	class STB86_Auxiliary_Armor
 	{
 		//General mod info
 		author = "86th STB Modding Team";
@@ -53,18 +53,18 @@ class CfgWeapons
 	//**********************************************
 	//*****        Body Armor                  *****
 	//**********************************************
-	class STB86_HB_Armor : V_PlateCarrier2_rgr {
+	class STB86_TestArmor : V_PlateCarrier2_rgr {
 		dlc = "STB86_Auxiliary";
-		displayname = "HB";
-		scope = 1;
-		scopeArsenal = 1;
+		displayname = "TestArmor";
+		scope = 2;
+		scopeArsenal = 2;
 		author = "86th STB Mod Team";
-		model = "\STB86_Auxiliary\LuciProjects\HB\HB.p3d";
+		model = "\STB86_Auxiliary\LuciProjects\TestArmor\TestArmor.p3d";
 		class ItemInfo : VestItem
 		{
 
 			vestType = "Rebreather";
-			uniformModel = "\STB86_Auxiliary\LuciProjects\HB\HB.p3d";
+			uniformModel = "\STB86_Auxiliary\LuciProjects\TestArmor\TestArmor.p3d";
 
 			mass = 80;
 

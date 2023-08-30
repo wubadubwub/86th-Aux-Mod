@@ -22,6 +22,7 @@ class CfgPatches
 };
 
 #include "CfgFunctions.hpp"
+#include "defines.hpp"
 
 
 class CfgWeapons
@@ -68,6 +69,18 @@ class CfgWeapons
 			mass=1;
 		};
 	};
+	class STB86_Cocaine : OPTRE_Biofoam {
+		scope = 2;
+		author = AUTHOR;
+		dlc = DLC;
+		displayName = "[86th] Cocaine";
+		picture = "STB86_Medical\icons\cocaine.paa";
+		descriptionShort = "1Lb of pure colombian cocaine.";
+		class ItemInfo : ItemInfo {
+			mass = 10;
+		};
+
+	};
 };
 class ACE_Medical_Treatment
 {
@@ -95,7 +108,7 @@ class ACE_Medical_Treatment
 			maxDose=10000; // Probably how many till you die
 			incompatibleMedication[]={}; // What medicines fuck you over if taken with this
 			viscosityChange=0; // How much does it change viscoscity of your blood. Affects bleedout from wounds
-		}
+		};
 		class STB86_UMP45andUMP40_Pic: Morphine
 		{
 			painReduce=0.95;
@@ -107,7 +120,7 @@ class ACE_Medical_Treatment
 			maxDose=3; // Probably how many till you die
 			incompatibleMedication[]={}; // What medicines fuck you over if taken with this
 			viscosityChange=0; // How much does it change viscoscity of your blood. Affects bleedout from wounds
-		}
+		};
 		class STB86_Biofoam_pack: Morphine
 		{
 			painReduce=0.45;
@@ -119,7 +132,11 @@ class ACE_Medical_Treatment
 			maxDose=10000;
 			incompatibleMedication[]={};
 			viscosityChange=0;
-		}
+		};
+		class STB86_Cocaine : Morphine {
+			timeInSystem = 30;
+			timeTillMaxEffect = 20;
+		};
 	};	
 	class Bandaging //This class determines what wounds are closed
 	{
@@ -189,5 +206,28 @@ class ACE_Medical_Treatment_Actions // Handles the stuff you see in the menu
 		{
 			"STB86_Trauma_Kit"
 		};
+	};
+	class STB86_Cocaine : STB86_UMP45andUMP40_Pic {
+		displayName = "Snort the entire brick";
+		displayNameProgress = "Pure colombian down the hatch.";
+		consumeItem = 1;
+		treatmentTime = 10;
+		medicRequired = 0;
+		allowSelfTreatment = 1;
+		callbackSuccess = "STB86_Medical_fnc_cocaine";
+		callbackStart = "STB86_Medical_fnc_cocaine_start";
+		callbackFailure = "STB86_Medical_fnc_cocaine_fail";
+		items[] = {
+			"STB86_Cocaine"
+		};
+	};
+};
+
+class CfgSounds {
+	sounds[] = {};
+	class STB86_CocaineSniff {
+		name = "White lightning down the hatch";
+		sound[] = {"STB86_Medical\sounds\sniff.ogg",1,1,20};
+		titles[] = {0, ""};
 	};
 };
