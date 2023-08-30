@@ -368,6 +368,21 @@ class STB86_M56R_Misfit_Cress_Vest : STB86_M56R_Base_Vest {
     	"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 };
+class STB86_M56R_Beckett_Cress_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R Beckett [Misfit]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Beckett_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Beckett_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+    	"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
+	};
+};
 class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R Clanka [Misfit]";
 	hiddenSelectionsTextures[] = {

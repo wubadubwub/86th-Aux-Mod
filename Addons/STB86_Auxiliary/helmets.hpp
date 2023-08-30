@@ -129,6 +129,14 @@ class STB86_M56SR_Misfit_Cress_Helmet : STB86_M56SR_Base_Helmet {
 		"STB86_Auxiliary\Data\Visors\Misfit_Cress_Visor_co.paa",
 	};
 };
+class STB86_M56SR_Misfit_Beckett_Helmet : STB86_M56SR_Base_Helmet {
+	displayName = "[86th] M56SR Beckett [Misfit]";
+
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Misfit_Beckett_Helmet_co.paa",
+		"STB86_Auxiliary\Data\Visors\Misfit_Beckett_Visor_co.paa",
+	};
+};
 class STB86_M56SR_Misfit_Toki_Helmet : STB86_M56SR_Base_Helmet {
 	displayName = "[86th] M56SR Toki [Misfit]";
 
