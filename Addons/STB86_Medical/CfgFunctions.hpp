@@ -6,6 +6,7 @@ class CfgFunctions{
 			class cocaine {};
 			class cocaine_start {};
 			class cocaine_fail {};
+			class medic_is_self {};
 								
 		}//This function is stated as: STB86_Medical_fnc_trauma_kit
 	} 
