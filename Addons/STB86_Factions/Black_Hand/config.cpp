@@ -1,3 +1,4 @@
+#include "\STB86_Factions\defines.hpp"
 class CfgPatches
 {
 	class STB86_BH
@@ -73,17 +74,6 @@ class CfgPatches
 
 
 
-class CfgEditorSubcategories
-{
-	class STB86_BH_SubCat // Category class, you point to it in editorSubcategory property
-	{
-		displayName = "Infantry"; // Name visible in the list
-	};
-	class STB86_BH_Veh_SubCat // Category class, you point to it in editorSubcategory property
-	{
-		displayName = "Vehicles"; // Name visible in the list
-	};
-};
 
 
 class CfgWeapons{

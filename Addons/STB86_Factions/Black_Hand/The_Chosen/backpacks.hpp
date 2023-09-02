@@ -2,12 +2,13 @@ class OPTRE_ANPRC_521_Black;
 class OPTRE_UNSC_Rucksack;
 class OPTRE_ILCS_Rucksack_Black;
 class STB86_BH_CH_ANPRC521 : OPTRE_ANPRC_521_Black {
-	author = "86th STB Aux Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "ANPRC-521 [CH]";
 	descriptionShort = "A Blackhand Modified ANPRC, it's communication range is massive";
 	hiddenSelectionsTextures[] = {
-		"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Rucksack.paa",
-		"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_LR.paa"
+		"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Rucksack.paa",
+		"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_LR.paa"
 	};	
 	mass=10;
 	maximumLoad = 400;
@@ -15,14 +16,16 @@ class STB86_BH_CH_ANPRC521 : OPTRE_ANPRC_521_Black {
 	tf_range = 105000;
 };
 class STB86_BH_CH_Rucksack : OPTRE_UNSC_Rucksack {
-	author = "86th STB Aux Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "Rucksack [CH]";
-	hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Rucksack.paa"};
+	hiddenSelectionsTextures[] = {"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Rucksack.paa"};
 };
 class STB86_BH_CH_Medic_Rucksack : OPTRE_ILCS_Rucksack_Black {
-	author = "86th STB Aux Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "Medic Rucksack [CH]";
-	hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_ILCS"};
+	hiddenSelectionsTextures[] = {"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_ILCS"};
 };
 class STB86_BH_CH_Rucksack_AA : STB86_BH_CH_Rucksack {
 	scope=1;

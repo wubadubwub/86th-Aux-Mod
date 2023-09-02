@@ -4,7 +4,8 @@ class STB86_BH_CH_Rifleman : O_V_Soldier_Viper_F {
 	scope = 2;
 	scopeCurator = 2;
 	side = 0; 			
-	author = "86th STB Mod team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "Rifleman";
 	faction = "STB86_Black_Hand";
 	editorSubcategory = "STB86_BH_CH_SubCat";
@@ -12,7 +13,7 @@ class STB86_BH_CH_Rifleman : O_V_Soldier_Viper_F {
 	identityTypes[] = {"LanguageFRE_F","Head_Tanoan"};
 
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Uniform.paa"};
+	hiddenSelectionsTextures[] = {"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Uniform.paa"};
 
 	weapons[] = {STB86_BH_CH_BR55, STB86_BH_M6G, Throw, Put};
 	respawnWeapons[] = {STB86_BH_CH_BR55, STB86_BH_M6G, Throw, Put};

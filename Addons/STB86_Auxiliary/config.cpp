@@ -44,23 +44,3 @@ class CfgWeapons {
 	#include "vests.hpp"
 	#include "uniforms.hpp"
 };
-
-class cfgFactionClasses
-{
-    class STB86_Faction
-    {
-        displayName = "86th STB";
-        scope = 2;
-        scopeCurator = 2;
-        priority = 3;
-        side = 1;
-    };
-    class STB86_Black_Hand
-    {
-        displayName = "Black Hand";
-        scope = 2;
-        scopeCurator = 2;
-        priority = 3;
-        side = 0;
-    };
-};

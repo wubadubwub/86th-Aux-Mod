@@ -8,17 +8,17 @@ class Supply250 : ContainerSupply		// The class name does not really matter, but
 /* VEST */
 class STB86_BH_CH_Base_Vest : OPTRE_UNSC_M52D_Armor{
 		displayName = "Rifleman Vest [CH]";
-		dlc = "STB86_Auxiliary";
+		dlc = DLC;
 		scope = 2;
 		scopeArsenal = 2;
-		author = "86th STB Mod Team";
+		author = AUTHOR;
 		hiddenSelectionsTextures[] =
 		{
 			"", // Vest
 			"", // Vest 2
-			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Legs.paa", //Legs
+			"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Legs.paa", //Legs
 			"", //No clue lol
-			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Armor.paa" //Armor
+			"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Armor.paa" //Armor
 		};
 		class ItemInfo : VestItem
 		{
@@ -897,11 +897,11 @@ class STB86_BH_CH_Devastator_Vest : STB86_BH_CH_Base_Vest {
 		displayName = "Devastator Vest [CH]";
 		hiddenSelectionsTextures[] =
 		{
-			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Armor.paa", // Vest
-			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Armor.paa", // Vest 2
-			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Legs.paa", //Legs
-			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Armor.paa", //No clue lol
-			"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Armor.paa" //Armor
+			"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Armor.paa", // Vest
+			"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Armor.paa", // Vest 2
+			"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Legs.paa", //Legs
+			"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Armor.paa", //No clue lol
+			"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Armor.paa" //Armor
 		};
 		class ItemInfo : VestItem
 		{
@@ -1030,10 +1030,11 @@ class STB86_BH_CH_Devastator_Vest : STB86_BH_CH_Base_Vest {
 class UniformItem;
 class U_O_V_Soldier_Viper_F;
 class STB86_BH_CH_Battledress : U_O_V_Soldier_Viper_F {
-		author = "86th STB Mod team";
+		author = AUTHOR;
+		dlc = DLC;
 		displayName = "Combat Uniform [CH]";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Uniform.paa"};
+		hiddenSelectionsTextures[] = {"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Uniform.paa"};
 		class ItemInfo : UniformItem{
 			containerClass = "Supply80";
 			mass = 40;
@@ -1047,15 +1048,17 @@ Helmet
 class H_HelmetO_ViperSP_hex_F;
 class STB86_BH_CH_Helmet : H_HelmetO_ViperSP_hex_F {
 	scope=2;
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "Combat Helmet [CH]";
 	hiddenSelectionsTextures[] = {
-		"STB86_Auxiliary\Black_hand\The_Chosen\textures\Blackhand_Helmet.paa"
+		"STB86_Factions\Black_hand\The_Chosen\textures\Blackhand_Helmet.paa"
 	};
 };
 class H_PilotHelmetHeli_B;
 class STB86_BH_CH_PilotHelmetHeli : H_PilotHelmetHeli_B {
 	scope=2;
-	author = "86ths STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "Heli Pilot Helmet [CH]";
 };

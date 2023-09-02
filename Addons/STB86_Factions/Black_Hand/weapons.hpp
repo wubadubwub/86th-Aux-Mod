@@ -10,7 +10,8 @@ class OPTRE_MA5K;
 //Weapon Base Classes
 class STB86_BH_HK416: arifle_SPAR_01_blk_F
 {
-	author="Sinder";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName="HK416 [BH]";
 	class linkedItems{
 		class linkedItemsOptic{
@@ -25,14 +26,15 @@ class STB86_BH_HK416: arifle_SPAR_01_blk_F
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"STB86_Auxiliary\Black_Hand\textures\weapons\HK416_co.paa",
-		"STB86_Auxiliary\Black_Hand\textures\square.paa",
+		"STB86_Factions\Black_Hand\textures\weapons\HK416_co.paa",
+		"STB86_Factions\Black_Hand\textures\square.paa",
 	};
 	baseWeapon="STB86_BH_HK416";
 };
 class STB86_BH_AK15: arifle_AK12_F 
 {
-	author="Sinder";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName="AK15 [BH]";
 	magazines[]=
 	{
@@ -42,14 +44,15 @@ class STB86_BH_AK15: arifle_AK12_F
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"STB86_Auxiliary\Black_Hand\textures\weapons\AK15_co.paa",
-		"STB86_Auxiliary\Black_Hand\textures\square.paa",
+		"STB86_Factions\Black_Hand\textures\weapons\AK15_co.paa",
+		"STB86_Factions\Black_Hand\textures\square.paa",
 	};
 	baseWeapon="STB86_BH_AK15";
 };
 class STB86_BH_AK15GL: arifle_AK12_GL_F 
 {
-	author="Sinder";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName="AK15G [BH]";
 	magazines[]=
 	{
@@ -72,14 +75,16 @@ class STB86_BH_AK15GL: arifle_AK12_GL_F
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"STB86_Auxiliary\Black_Hand\textures\weapons\AK15_co.paa",
-		"STB86_Auxiliary\Black_Hand\textures\square.paa",
-		"STB86_Auxiliary\Black_Hand\textures\square.paa",
+		"STB86_Factions\Black_Hand\textures\weapons\AK15_co.paa",
+		"STB86_Factions\Black_Hand\textures\square.paa",
+		"STB86_Factions\Black_Hand\textures\square.paa",
 	};
 	baseWeapon="STB86_BH_AK15GL";
 };
 
 class STB86_BH_BR55XHB : OPTRE_BR55HB { 
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "BR-55XHB [BH]";
 	class linkedItems{
 			class linkedItemsOptic{
@@ -89,6 +94,8 @@ class STB86_BH_BR55XHB : OPTRE_BR55HB {
 		};
 };
 class STB86_BH_SRS99C_Prefab : OPTRE_SRS99D { 
+		author = AUTHOR;
+		dlc = DLC;
 		scope=1; 
 		scopeArsenal=1;
 		scopeCurator=1;
@@ -105,14 +112,20 @@ class STB86_BH_SRS99C_Prefab : OPTRE_SRS99D {
 	};
 
 class STB86_BH_MA5K : OPTRE_MA5K { 
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "MA5K [BH]";
 };
 
 class STB86_BH_RPK : arifle_RPK12_F {
+	author = AUTHOR;
+	dlc = DLC;
 	displayName="RPK [BH]";
 };
 
 class STB86_BH_M7 : OPTRE_M7 {
+	author = AUTHOR;
+	dlc = DLC;
 	displayName="M7 [BH]";
 };
 
@@ -120,12 +133,13 @@ class STB86_BH_M7 : OPTRE_M7 {
 /* Secondary */
 class STB86_BH_M6G: OPTRE_M6G
 {
-	author="Sinder";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName="M6G [BH]";
 	baseWeapon="STB86_BH_M6G";
 	hiddenSelectionsTextures[]=
 	{
-		"STB86_Auxiliary\Black_Hand\textures\weapons\M6G_co.paa"
+		"STB86_Factions\Black_Hand\textures\weapons\M6G_co.paa"
 	};
 	magazines[]=
 	{

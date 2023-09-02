@@ -11,7 +11,7 @@ class CfgGroups {
 					name="Sentry";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_Rifleman";
@@ -236,7 +236,7 @@ class CfgGroups {
 					name="Bastard Team";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_Team_Lead";
@@ -272,7 +272,7 @@ class CfgGroups {
 					name="Belly Squad";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_Team_Lead";
@@ -348,7 +348,7 @@ class CfgGroups {
 					name = "Sentry";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_CH_Rifleman";
@@ -366,7 +366,7 @@ class CfgGroups {
 					name = "Infantry Squad";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_CH_SL";
@@ -420,7 +420,7 @@ class CfgGroups {
 					name = "Weapons Squad";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_CH_SL";
@@ -474,7 +474,7 @@ class CfgGroups {
 					name = "Sniper Team";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_CH_Marksman";
@@ -492,7 +492,7 @@ class CfgGroups {
 					name = "Fireteam";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_CH_SL";
@@ -522,7 +522,7 @@ class CfgGroups {
 					name = "Fireteam (AA)";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_CH_TL";
@@ -552,7 +552,7 @@ class CfgGroups {
 					name = "Devastator Team";
 					side = 0;
 					faction = "STB86_Black_Hand";
-					icon = "STB86_Auxiliary\Black_hand\The_Chosen\textures\icons\ico.paa";
+					icon = "STB86_Factions\Black_hand\The_Chosen\textures\icons\ico.paa";
 					class Unit0{
 						side = 0;
 						vehicle = "STB86_BH_CH_SL";

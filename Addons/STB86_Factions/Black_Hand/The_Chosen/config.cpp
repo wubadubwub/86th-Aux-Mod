@@ -1,9 +1,10 @@
+#include "\STB86_Factions\defines.hpp"
 class CfgPatches
 {
-	class STB86_BH_Chosen
+	class STB86_CH
 	{
 		//General mod info
-		author = "86th STB Modding Team";
+		author = AUTHOR;
 		name = "86th Auxiliary Black Hand";
 		//unknown
 		units[] = {
@@ -116,30 +117,6 @@ class CfgPatches
 	};
 };
 
-class CfgEditorSubcategories
-{
-	class STB86_BH_CH_SubCat // Category class, you point to it in editorSubcategory property
-	{
-		displayName = "The Chosen"; // Name visible in the list
-	};
-	class STB86_BH_CH_Veh_SubCat // Category class, you point to it in editorSubcategory property
-	{
-		displayName = "TC (Vehicles)"; // Name visible in the list
-	};
-	class STB86_BH_CH_Heli_SubCat
-	{
-		displayName = "TC (Helis)";
-	};
-	class STB86_BH_CH_Jet_SubCat
-	{
-		displayName = "TC (Jets)";
-	};
-	class STB86_BH_CH_UAV_SubCat
-	{
-		displayName = "TC (UAVs)";
-	};
-};
-
 class Mode_SemiAuto;
 class Mode_FullAuto;
 class CfgWeapons{
@@ -179,7 +156,7 @@ class CfgVehicles{
 
 class Extended_PreInit_EventHandlers {
     class STB86_BH_CH_Fanatic_Uncon_Kill {
-        init = "call compile preprocessFileLineNumbers 'STB86_Auxiliary\Black_Hand\The_Chosen\XEH_preInit.sqf'";
+        init = "call compile preprocessFileLineNumbers 'STB86_Factions\Black_Hand\The_Chosen\XEH_preInit.sqf'";
     };
 };
 

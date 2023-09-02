@@ -16,7 +16,8 @@ class STB86_Vehicle_Flamethrower : STB86_Flamethrower {
 class autocannon_35mm;
 
 class STB86_BH_CH_VK78 : OPTRE_Commando{
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "VK78 [CH]";
 	baseWeapon = "STB86_BH_CH_VK78";
 	class linkedItems{
@@ -27,7 +28,8 @@ class STB86_BH_CH_VK78 : OPTRE_Commando{
 	};
 };
 class STB86_BH_CH_SRS99D : OPTRE_SRS99D {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "SRS99D [CH]";
 	baseWeapon = "STB86_BH_CH_SRS99D";
 	class linkedItems{
@@ -38,7 +40,8 @@ class STB86_BH_CH_SRS99D : OPTRE_SRS99D {
 	};
 };
 class STB86_BH_CH_MA37K : OPTRE_MA37K {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "MA37K [CH]";
 	baseWeapon = "STB86_BH_CH_MA37K";
 	class linkedItems{
@@ -49,13 +52,15 @@ class STB86_BH_CH_MA37K : OPTRE_MA37K {
 	};
 };
 class STB86_BH_CH_M247 : OPTRE_M247 {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "M247 [CH]";
 	baseWeapon = "STB86_BH_CH_M247";
-	hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_Hand\textures\square.paa","STB86_Auxiliary\Black_Hand\textures\square.paa","\OPTRE_Weapons\MG\data\M247_magazine_CO.paa","\OPTRE_Weapons\MG\data\M247_stock_CO.paa","\OPTRE_Weapons\MG\data\M247_details_CO.paa","\OPTRE_Weapons\MG\data\M247_barrel_sights_CO.paa"};
+	hiddenSelectionsTextures[] = {"STB86_Factions\Black_Hand\textures\square.paa","STB86_Factions\Black_Hand\textures\square.paa","\OPTRE_Weapons\MG\data\M247_magazine_CO.paa","\OPTRE_Weapons\MG\data\M247_stock_CO.paa","\OPTRE_Weapons\MG\data\M247_details_CO.paa","\OPTRE_Weapons\MG\data\M247_barrel_sights_CO.paa"};
 };
 class STB86_BH_CH_MA5B : OPTRE_MA5B {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "MA5B [CH]";
 	baseWeapon = "STB86_BH_CH_MA5B";
 	class linkedItems{
@@ -66,7 +71,8 @@ class STB86_BH_CH_MA5B : OPTRE_MA5B {
 	};
 };
 class STB86_BH_CH_M7 : OPTRE_M7 {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "M7 [CH]";
 	baseWeapon = "STB86_BH_CH_M7";
 	class linkedItems{
@@ -77,7 +83,8 @@ class STB86_BH_CH_M7 : OPTRE_M7 {
 	};
 };
 class STB86_BH_CH_BR55 : OPTRE_BR55 {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "BR55 [CH]";
 	baseWeapon = "STB86_BH_CH_BR55";
 	class linkedItems{
@@ -88,7 +95,8 @@ class STB86_BH_CH_BR55 : OPTRE_BR55 {
 	};
 };
 class STB86_BH_CH_HMG38 : OPTRE_HMG38 {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "HMG38 [CH]";
 	baseWeapon = "STB86_BH_CH_HMG38";
 	class linkedItems{
@@ -99,13 +107,14 @@ class STB86_BH_CH_HMG38 : OPTRE_HMG38 {
 	};
 };
 class STB86_BH_CH_M247H : OPTRE_M247H_Etilka{
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "M247H [CH]";
 	baseWeapon = "STB86_BH_CH_M247H";
 	hiddenSelectionsTextures[] = {
-		"STB86_Auxiliary\Black_Hand\The_Chosen\textures\weapons\M247H.paa",
-		"STB86_Auxiliary\Black_Hand\The_Chosen\textures\weapons\M247H_Mag.paa",
-		"STB86_Auxiliary\Black_Hand\The_Chosen\textures\weapons\M247H_Cover.paa"
+		"STB86_Factions\Black_Hand\The_Chosen\textures\weapons\M247H.paa",
+		"STB86_Factions\Black_Hand\The_Chosen\textures\weapons\M247H_Mag.paa",
+		"STB86_Factions\Black_Hand\The_Chosen\textures\weapons\M247H_Cover.paa"
 	};
 };
 class STB86_BH_CH_ARC_9 : srifle_DMR_02_F {
@@ -115,7 +124,8 @@ class STB86_BH_CH_ARC_9 : srifle_DMR_02_F {
 		ace_overheating_closedBolt = 0;
 		scope=1;
 		scopeArsenal = 1;
-		author = "86th STB Auxiliary Mod Team";
+		author = AUTHOR;
+		dlc = DLC;
 		displayName = "ARC-9 Railgun [CH]";
 		baseWeapon = "STB86_BH_CH_ARC_9";
 		magazines[] = {"STB86_BH_CH_12rnd_Railgun_Slug"};
@@ -204,7 +214,8 @@ class STB86_BH_CH_ARC_9 : srifle_DMR_02_F {
 class TCF_M33;
 
 class STB86_BH_CH_M33 : TCF_M33 {
-	author = "86th STB Auxiliary Mod Team";
+	author = AUTHOR;
+	dlc = DLC;
 	displayName = "M33 [CH]";
 	baseWeapon = "STB86_BH_CH_M33";
 };

@@ -6,7 +6,8 @@ class STB86_BH_Rifleman : O_Soldier_A_F {
     scope = 2;
 	scopeCurator = 2;
 	side = 0; 			
-	author = "86th STB Mod team";
+	author = AUTHOR;
+	dlc = DLC;
     faction = "STB86_Black_Hand";
     identityTypes[] = {"LanguageFRE_F","Head_Tanoan"};
     editorSubcategory = "STB86_BH_SubCat";
@@ -14,7 +15,7 @@ class STB86_BH_Rifleman : O_Soldier_A_F {
 	model="\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
 	uniformClass = "STB86_BH_Battledress";
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"STB86_Auxiliary\Black_hand\textures\Blackhand_Uniform.paa"};
+	hiddenSelectionsTextures[] = {"STB86_Factions\Black_hand\textures\Blackhand_Uniform.paa"};
 
     /* Change this shit! */
 
