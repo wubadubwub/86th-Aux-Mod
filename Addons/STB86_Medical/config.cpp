@@ -228,7 +228,7 @@ class CfgSounds {
 	sounds[] = {};
 	class STB86_CocaineSniff {
 		name = "White lightning down the hatch";
-		sound[] = {"STB86_Medical\sounds\sniff.ogg",1,1,20};
+		sound[] = {"STB86_Medical\sounds\sniff.ogg",0.5,1,20};
 		titles[] = {0, ""};
 	};
 };

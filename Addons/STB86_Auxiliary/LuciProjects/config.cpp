@@ -125,7 +125,7 @@ class CfgWeapons
 		author = "Luci";
 		Scope = 1;
 		ScopeArsenal = 1;
-		model = "STB86_Auxiliary\LuciProjects\Ghost\gHOST.p3d";
+		model = "STB86_Auxiliary\LuciProjects\Ghost\ghost.p3d";
 		hiddenSelections[]=
 		{
 		};
@@ -140,8 +140,8 @@ class CfgWeapons
 		};
 			type = 616;
 			hmdType = 0;
-			uniformModel = "STB86_Auxiliary\LuciProjects\Ghost\gHOST.p3d";
-			modelOff = "STB86_Auxiliary\LuciProjects\Ghost\gHOST.p3d";
+			uniformModel = "STB86_Auxiliary\LuciProjects\Ghost\ghost.p3d";
+			modelOff = "STB86_Auxiliary\LuciProjects\Ghost\ghost.p3d";
 			mass = 4;
 		};
 	};
@@ -149,8 +149,7 @@ class CfgWeapons
 class CfgGlasses
 {
 	class None;
-	
-	class G_Katana : None {
+	class G_Katana :  None {
 		author = "Luci";
 		_generalMacro="86th_katana";
 		Scope = 2;
@@ -159,6 +158,11 @@ class CfgGlasses
 		displayname = "Katana";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\Sword.p3d";
 		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		identityTypes[] =
+		{
+			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
+			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",0,"G_CIVIL_female",0,"G_CIVIL_male",0
+		};
 		hiddenSelections[]=
 		{
 			"camo"
@@ -167,13 +171,8 @@ class CfgGlasses
 		{
 			"STB86_Auxiliary\LuciProjects\Textures\Sword_Text.paa"
 		};
-		identityTypes[] = 
-		{
-			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
-			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
-		};
 	};
-	class G_cape : None {
+	class G_cape :  None {
 		author = "Luci";
 		_generalMacro="86th_cape";
 		Scope = 2;
@@ -182,6 +181,11 @@ class CfgGlasses
 		displayname = "cape";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape.p3d";
 		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		identityTypes[] =
+		{
+			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
+			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",0,"G_CIVIL_female",0,"G_CIVIL_male",0
+		};
 		hiddenSelections[]=
 		{
 			"camo"
@@ -190,20 +194,9 @@ class CfgGlasses
 		{
 			"STB86_Auxiliary\LuciProjects\Textures\cape_co.paa";
 		};
-		identityTypes[] = 
-		{
-			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
-			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
-		};
-		class ItemInfo
-		{
-			hiddenSelections[]=
-			{
-				"camo"
-			};
-		};	
 	};
-	class G_cape_v2	: None {
+	class G_cape_v2	:  None
+	{
 		author = "Luci";
 		_generalMacro="86th_cape_v2";
 		Scope = 2;
@@ -212,6 +205,11 @@ class CfgGlasses
 		displayname = "capev2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape_v2.p3d";
 		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		identityTypes[] =
+		{
+			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
+			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",0,"G_CIVIL_female",0,"G_CIVIL_male",0
+		};
 		hiddenSelections[]=
 		{
 			"camo"
@@ -220,20 +218,9 @@ class CfgGlasses
 		{
 			"STB86_Auxiliary\LuciProjects\Textures\cape_v2_co.paa";
 		};
-		identityTypes[] = 
-		{
-			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
-			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
-		};
-		class ItemInfo
-		{
-			hiddenSelections[]=
-			{
-				"camo"
-			};
-		};	
 	};
-	class G_Katana_v2 : None {
+	class G_Katana_v2 :  None
+	{
 		author = "Luci";
 		_generalMacro="86th_katana_v2";
 		Scope = 2;
@@ -242,6 +229,11 @@ class CfgGlasses
 		displayname = "Katana_v2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\katana.p3d";
 		picture = "STB86_Auxiliary\LuciProjects\Icons\katana_CA.paa";
+		identityTypes[] =
+		{
+			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
+			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",0,"G_CIVIL_female",0,"G_CIVIL_male",0
+		};
 		hiddenSelections[]=
 		{
 			"camo"
@@ -249,18 +241,6 @@ class CfgGlasses
 		hiddenSelectionsTextures[]=
 		{
 			"STB86_Auxiliary\LuciProjects\Textures\Katana_co.paa"
-		};
-		identityTypes[] = 
-		{
-			"NoGlasses",0,"G_NATO_default",300,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",300,"G_NATO_sniper",0,
-			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0
-		};
-		class ItemInfo
-		{
-			hiddenSelections[]=
-			{
-				"camo"
-			};
 		};
 	};
 };
