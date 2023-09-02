@@ -149,12 +149,11 @@ class CfgWeapons
 class CfgGlasses
 {
 	class None;
-	class G_Goggles_VR;
-	
 	class G_Katana :  None {
 		author = "Luci";
 		_generalMacro="86th_katana";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "Katana";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\Sword.p3d";
@@ -172,12 +171,12 @@ class CfgGlasses
 		{
 			"STB86_Auxiliary\LuciProjects\Textures\Sword_Text.paa"
 		};
-		mass = 4;
 	};
 	class G_cape :  None {
 		author = "Luci";
 		_generalMacro="86th_cape";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "cape";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape.p3d";
@@ -201,6 +200,7 @@ class CfgGlasses
 		author = "Luci";
 		_generalMacro="86th_cape_v2";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "capev2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape_v2.p3d";
@@ -224,6 +224,7 @@ class CfgGlasses
 		author = "Luci";
 		_generalMacro="86th_katana_v2";
 		Scope = 2;
+		mass = 4;
 		ScopeArsenal = 2;
 		displayname = "Katana_v2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\katana.p3d";

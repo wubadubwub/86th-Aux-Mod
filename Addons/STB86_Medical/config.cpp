@@ -217,6 +217,7 @@ class ACE_Medical_Treatment_Actions // Handles the stuff you see in the menu
 		callbackSuccess = "STB86_Medical_fnc_cocaine";
 		callbackStart = "STB86_Medical_fnc_cocaine_start";
 		callbackFailure = "STB86_Medical_fnc_cocaine_fail";
+		condition = "STB86_Medical_fnc_medic_is_self";
 		items[] = {
 			"STB86_Cocaine"
 		};
