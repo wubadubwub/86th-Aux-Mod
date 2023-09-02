@@ -125,7 +125,7 @@ class CfgWeapons
 		author = "Luci";
 		Scope = 1;
 		ScopeArsenal = 1;
-		model = "STB86_Auxiliary\LuciProjects\Ghost\ghost.p3d";
+		model = "STB86_Auxiliary\LuciProjects\P3Ds\ghost.p3d";
 		hiddenSelections[]=
 		{
 		};
@@ -140,8 +140,8 @@ class CfgWeapons
 		};
 			type = 616;
 			hmdType = 0;
-			uniformModel = "STB86_Auxiliary\LuciProjects\Ghost\ghost.p3d";
-			modelOff = "STB86_Auxiliary\LuciProjects\Ghost\ghost.p3d";
+			uniformModel = "STB86_Auxiliary\LuciProjects\P3Ds\ghost.p3d";
+			modelOff = "STB86_Auxiliary\LuciProjects\P3Ds\ghost.p3d";
 			mass = 4;
 		};
 	};
