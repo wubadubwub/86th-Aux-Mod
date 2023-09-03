@@ -243,4 +243,52 @@ class CfgGlasses
 			"STB86_Auxiliary\LuciProjects\Textures\Katana_co.paa"
 		};
 	};
+	class G_Pauldron : None {
+		author = "Luci";
+		_generalMacro="86th_cape_v2";
+		Scope = 2;
+		mass = 4;
+		ScopeArsenal = 2;
+		displayname = "Vandal SL Pauldron";
+		model = "STB86_Auxiliary\LuciProjects\P3Ds\SL_Pauldron.p3d";
+		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"STB86_Auxiliary\LuciProjects\Textures\Vandal_SL_Pauldron.paa";
+		};
+		identityTypes[] = 
+		{
+			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
+			"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",00,"G_CIVIL_female",0,"G_CIVIL_male",0
+		};
+		class ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+		};	
+	};
+	class G_Misift_Pauldron : G_Pauldron {
+		author = "Luci";
+		_generalMacro="86th_cape_v2";
+		Scope = 2;
+		mass = 4;
+		ScopeArsenal = 2;
+		displayname = "Misift SL Pauldron";
+		model = "STB86_Auxiliary\LuciProjects\P3Ds\SL_Pauldron.p3d";
+		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"STB86_Auxiliary\LuciProjects\Textures\Misfit_SL_Pauldron.paa";
+		};
+	};
 };
