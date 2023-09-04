@@ -326,7 +326,7 @@ class STB86_M56R_Heimdall_Vest : STB86_M56R_Base_Vest {
         	"Reach_Sniper_Pauldron_Right",
         	"Reach_CQB_Pauldron_Left",
         	"Reach_CQB_Pauldron_Right",
-        	// "Thigh_Pouch",
+            "Thigh_Pouch",
         	"H3_Armor_Upper",
         	"H3_Armor_Lower",
         	// "Reach_Armor_Upper",
