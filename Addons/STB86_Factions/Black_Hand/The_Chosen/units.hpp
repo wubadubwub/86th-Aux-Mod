@@ -86,6 +86,7 @@ class STB86_BH_CH_AT : STB86_BH_CH_Rifleman {
 
 	magazines[] = {MAG_4(OPTRE_60Rnd_762x51_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT};
 	respawnMagazines[] = {MAG_4(OPTRE_60Rnd_762x51_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT};
+	
 	linkedItems[] = {STB86_BH_CH_Heavy_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 	respawnLinkedItems[] = {STB86_BH_CH_Heavy_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 };
@@ -97,7 +98,7 @@ class STB86_BH_CH_AA : STB86_BH_CH_Rifleman {
 	respawnWeapons[] = {STB86_BH_CH_MA5B, STB86_BH_M6G, OPTRE_M41_SSR, Throw, Put};
 
 	magazines[] = {MAG_4(OPTRE_60Rnd_762x51_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT_Thermal};
-	respawnMagazines[] = {MAG_4(OPTRE_60Rnd_762x51_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT_Thermal)};
+	respawnMagazines[] = {MAG_4(OPTRE_60Rnd_762x51_Mag), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT_Thermal};
 	linkedItems[] = {STB86_BH_CH_Heavy_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 	respawnLinkedItems[] = {STB86_BH_CH_Heavy_Vest, STB86_BH_CH_Helmet, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 };
@@ -148,13 +149,13 @@ Special Enemies
 */
 class STB86_BH_CH_Devastator : STB86_BH_CH_Rifleman {
 	displayName = "Devastator";
-	backpack = "STB86_BH_CH_Rucksack";
+	backpack = "STB86_BH_CH_Rucksack_Devastator";
 	
 	weapons[] = {STB86_BH_CH_M247H, STB86_BH_M6G, Throw, Put};
 	respawnWeapons[] = {STB86_BH_CH_M247H, STB86_BH_M6G, Throw, Put};
 
-	magazines[] = {MAG_4(OPTRE_200Rnd_127x99_M247H_Etilka_Ball), OPTRE_200Rnd_127x99_M247H_Etilka, MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
-	respawnMagazines[] = {MAG_4(OPTRE_200Rnd_127x99_M247H_Etilka_Ball), OPTRE_200Rnd_127x99_M247H_Etilka, MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
+	magazines[] = {OPTRE_200Rnd_127x99_M247H_Etilka_Ball, MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
+	respawnMagazines[] = {OPTRE_200Rnd_127x99_M247H_Etilka_Ball, MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke)};
 
 	linkedItems[] = {STB86_BH_CH_Devastator_Vest, STB86_BH_CH_Helmet, SC_MDFRecon, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 	respawnLinkedItems[] = {STB86_BH_CH_Devastator_Vest, STB86_BH_CH_Helmet, SC_MDFRecon, ItemMap, ItemCompass, ItemWatch, ItemRadio};

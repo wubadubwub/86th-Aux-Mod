@@ -43,3 +43,10 @@ class STB86_BH_CH_Rucksack_AT : STB86_BH_CH_Rucksack {
 		MAG_XX(OPTRE_M41_Twin_HEAT,2);
 	};
 };
+class STB86_BH_CH_Rucksack_Devastator : STB86_BH_CH_Rucksack {
+	scope = 1;
+	scopeArsenal = 1;
+	class TransportMagazines {
+		MAG_XX(OPTRE_200Rnd_127x99_M247H_Etilka_Ball,3);
+	};
+};

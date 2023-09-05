@@ -128,7 +128,7 @@ class CfgWeapons{
 	#include "weapons.hpp"
 };
 #define MAG_XX(a,b) class _xx_##a {magazine = a; count = b;}
-
+#define ITEM_XX(a,b) class _xx_##a {name = a; count = b;}
 #define MAG_6(a) a,a,a,a,a,a
 #define MAG_4(a) a,a,a,a
 #define MAG_3(a) a,a,a
