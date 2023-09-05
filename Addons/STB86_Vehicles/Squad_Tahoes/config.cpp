@@ -19,14 +19,20 @@ class CfgPatches
 		//Dependancies for C++ style inheritence.
 		//If building off of a mod piece it needs
 		//to be listed here.
-		requiredAddons[] = {}; //No dependencies since they are part of the aux mod. Requires Solib Tahoes
+		requiredAddons[] = {
+			"Test_car_F",
+		}; //No dependencies since they are part of the aux mod. Requires Solib Tahoes
 	};
 };
 class CfgVehicles {
-	class Solib_Tahoe_black;
+	class Solib_Tahoe_base;
+	class Solib_Tahoe_black : Solib_Tahoe_base {
+		class ACE_SelfActions;
+		class EventHandlers;
+	};
 	class STB86_TestTahoe : Solib_Tahoe_black  {	
 
-		class ACE_SelfActions {
+		class ACE_SelfActions: ACE_SelfActions {
 			class STB86_SelfDestruct {
 				displayName = "<t color='#FF0000'>Self Destruct</t>";
 				displayNameDefault = "Press The Button";
@@ -38,7 +44,7 @@ class CfgVehicles {
 			};
 		};
 		//Adds MG
-		class EventHandlers {
+		class EventHandlers: EventHandlers {
 			init = "[_this] call STB86_fnc_attachMgTahoe"; //7/16/22
 		};
 
