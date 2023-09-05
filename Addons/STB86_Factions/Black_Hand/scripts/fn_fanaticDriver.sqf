@@ -8,7 +8,7 @@ while { alive _unit } do {
 	if !(isNull _enemy) then {
 		_group move position _enemy;
 		if ((_unit distance _enemy) < _DET_DIST) then {
-			[_unit] call STB86_fnc_explode;
+			createVehicle ["HelicopterExploSmall", ASLToAGL getPosASL _unit];
 			_unit setDamage 1;
 		};
 	};

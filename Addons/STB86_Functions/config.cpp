@@ -34,11 +34,6 @@ class CfgFunctions {
 			class penis_bridge{};
 			class penis_server{};
 
-			/* 
-			Black Hand
-			*/
-			class kill_switch{};
-			class explode{};
 		};
 		class veh_scripts {
 			file = "\STB86_Functions\functions\Vehicle_Scripts";

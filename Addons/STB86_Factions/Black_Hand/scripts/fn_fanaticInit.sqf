@@ -29,7 +29,7 @@ _man disableAI "WEAPONAIM";
 
 _man addEventHandler ["Killed", {
 	params ["_unit", "_killer", "_instigator", "_useEffects"];
-	[_unit] call STB86_fnc_explode;
+	createVehicle ["HelicopterExploSmall", ASLToAGL getPosASL _unit];
 }];
 
 

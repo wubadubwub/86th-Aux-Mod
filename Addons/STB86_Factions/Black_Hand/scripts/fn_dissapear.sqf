@@ -1,5 +1,5 @@
 params ["_unit"];
-private _ps1 = "#particlesource" createVehicleLocal (getPosATL _unit);
+private _ps1 = "#particlesource" createVehicleLocal (getPosASL _unit);
 _ps1 setParticleParams [
 	["\A3\Data_F\ParticleEffects\Universal\Universal", 16, 9, 16, 0], "", "Billboard",
 	1, 8, [0, 0, 0], [0, 0, 4.5], 0, 10, 7.9, 0.066, [1, 3, 6],

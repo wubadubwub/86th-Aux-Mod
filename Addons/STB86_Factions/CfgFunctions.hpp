@@ -10,6 +10,7 @@ class CfgFunctions {
 			class chromaticAbberation {};
 			class hallucinatePeople {};
 			class shoulderTap {};
+			class killSwitch {};
 		};
 	};
 };
