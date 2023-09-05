@@ -6,9 +6,11 @@
 	Parameter: Car which has called the function
 */
 // Constants
+params ["_array"];
 private _NUM_MAGS = 3;
 // Args
-private _target_car = _this select 0;
+private _target_car = _array select 0;
+
 
 if ((isDedicated) or (hasInterface && isServer)) then {
 	_target_car addEventHandler["Killed", {
@@ -19,23 +21,22 @@ if ((isDedicated) or (hasInterface && isServer)) then {
 		// _x is the target of forEach, we don't define it's built into SQF
 	}];
 	_target_car addEventHandler ["Deleted",
+	{
+		params ["_entity"];
 		{
-			params ["_entity"];
-			{
-				deleteVehicle _x;
-			} forEach attachedObjects _entity;
-			// Deleted only give us the _entity paramater
-		}];
+			deleteVehicle _x;
+		} forEach attachedObjects _entity;
+		// Deleted only give us the _entity paramater
+	}];
 
-		sleep 3;
-		// Variables
-		private _mg = "OPTRE_Static_M247T_Tripod" createVehicle [0, 0, 0];
-		// Add MG ammo 
-		for "_i" from 1 to _NUM_MAGS do {
-			_mg addMagazine "OPTRE_100Rnd_95x40_Box";
-		};
-
-		// Attaches MG to car
-		_mg attachTo [_target_car, [0, -0.25, 0.25]];
-		// -1.78 for reversed
+	// Variables
+	private _mg = "OPTRE_Static_M247T_Tripod" createVehicle [0, 0, 0];
+	// Add MG ammo 
+	for "_i" from 1 to _NUM_MAGS do {
+		_mg addMagazine "OPTRE_100Rnd_95x40_Box";
 	};
+
+	// Attaches MG to car
+	_mg attachTo [_target_car, [0, -0.25, 0.25]];
+	// -1.78 for reversed
+};

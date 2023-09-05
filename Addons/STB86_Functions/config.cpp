@@ -38,7 +38,6 @@ class CfgFunctions {
 		class veh_scripts {
 			file = "\STB86_Functions\functions\Vehicle_Scripts";
 			class attachMgTahoe;
-			class selfDestruct;
 		};
 	};
 };
