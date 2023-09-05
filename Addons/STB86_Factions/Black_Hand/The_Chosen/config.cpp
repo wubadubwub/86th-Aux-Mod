@@ -28,6 +28,7 @@ class CfgPatches
 				"STB86_BH_CH_HeliPilot",
 				"STB86_BH_CH_Devastator",
 				"STB86_BH_CH_Fanatic",
+				"STB86_BH_CH_FakeFanatic",
 				"STB86_BH_CH_Ghost",
 				// Vics
 				"STB86_BH_CH_MBT",

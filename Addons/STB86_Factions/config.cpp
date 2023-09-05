@@ -72,3 +72,5 @@ class CfgEditorSubcategories
 		displayName = "TC (UAVs)";
 	};
 };
+
+#include "CfgFunctions.hpp"

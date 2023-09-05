@@ -38,8 +38,6 @@ class CfgFunctions {
 			Black Hand
 			*/
 			class kill_switch{};
-			class fanatic_init{};
-			class fanatic_driver{};
 			class explode{};
 		};
 		class veh_scripts {
