@@ -95,10 +95,7 @@ class CfgPatches
 			"A3_Characters_F",
 			"A3_characters_f_bootcamp",
 			"A3_Characters_F",
-			"OPTRE_Core",
-			"OPTRE_Vehicles",
-			"OPTRE_UNSC_Units",
-			"OPTRE_Weapons",
+			"OPTRE_ACE_Compat",
 			// Ground vics
 			"A3_Armor_F_Gamma_MBT_01",
 			"A3_Armor_F_Exp_APC_Tracked_02",

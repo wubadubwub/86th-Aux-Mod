@@ -32,6 +32,10 @@ class CfgPatches
 				"STB86_BH_Car_AT",
 				"STB86_BH_Car_armed",
 				"STB86_BH_Car_unarmed",
+				// Armor
+				"STB86_BH_APC",
+				"STB86_BH_IFV",
+				"STB86_BH_MBT",
 		};
 		//unknown
 		weapons[] = {
@@ -60,10 +64,7 @@ class CfgPatches
 			"A3_Characters_F",
 			"A3_characters_f_bootcamp",
 			"A3_Characters_F",
-			"OPTRE_Core",
-			"OPTRE_Vehicles",
-			"OPTRE_UNSC_Units",
-			"OPTRE_Weapons",
+			"OPTRE_ACE_Compat",
 			// Ground vehicles
 			"A3_Soft_F_Exp_LSV_02",
 			"A3_Soft_F_Exp_Truck_02",

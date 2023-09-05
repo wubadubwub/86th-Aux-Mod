@@ -191,3 +191,31 @@ class STB86_BH_Truck_Covered : O_truck_02_covered_F {
 	hiddenSelectionsTextures[] = {"STB86_Factions\Black_Hand\textures\veh\Truck_01.paa","STB86_Factions\Black_Hand\textures\veh\Truck_02.paa","STB86_Factions\Black_Hand\textures\Square.paa"};
 
 };
+
+class STB86_BH_CH_APC;
+class STB86_BH_CH_IFV;
+class STB86_BH_CH_MBT;
+
+class STB86_BH_APC : STB86_BH_CH_APC {
+	editorSubcategory = "STB86_BH_Veh_SubCat";
+	crew = "STB86_BH_Crewman";
+	class Library {
+		libTextDesc="The Blackhand's APC";
+	};
+};
+
+class STB86_BH_IFV : STB86_BH_CH_IFV {
+	editorSubcategory = "STB86_BH_Veh_SubCat";
+	crew = "STB86_BH_Crewman";
+	class Library {
+		libTextDesc="The Blackhand's IFV";
+	};
+};
+
+class STB86_BH_MBT : STB86_BH_CH_MBT {
+	editorSubcategory = "STB86_BH_Veh_SubCat";
+	crew = "STB86_BH_Crewman";
+	class Library {
+		libTextDesc="The Blackhand's MBT";
+	};
+};
