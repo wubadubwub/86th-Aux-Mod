@@ -9,8 +9,9 @@ while { alive _unit } do {
 		_group move position _enemy;
 		if ((_unit distance _enemy) < _DET_DIST) then {
 			[_unit] call STB86_Factions_fnc_dissapear;
+			_unit setDamage 1;
 		};
-	}:
+	};
 	sleep 0.5;
 };
 // Thanks to Douglass for helping me get this to work
