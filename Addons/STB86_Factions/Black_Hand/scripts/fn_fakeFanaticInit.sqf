@@ -1,6 +1,6 @@
 params ["_man"];
 hideObject _man;
-if !(isServer) exitWith {};
+if !(local _man) exitWith {}; // Server is unable to handle movement of AI.
 // WILL break if THE ZEUS LEAVES. THEY WILL JUST STAND STILL.
 /*
 	Constants
@@ -8,7 +8,7 @@ if !(isServer) exitWith {};
 private _SPEED_MULTI = 1.75;
 private _group = group _man;
 
-[_man, _SPEED_MULTI] remoteExec ["setAnimSpeedCoef", 2];
+[_man, _SPEED_MULTI] remoteExec ["setAnimSpeedCoef", 0];
 _man setVariable ["lambs_danger_disableAI", true, true]; // Disable LAMBS
 (group _man) setVariable ["Vcm_Disable", true, true]; // Disable VCOM
 // AI params
