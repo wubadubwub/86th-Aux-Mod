@@ -97,7 +97,7 @@ class STB86_BH_CH_IFV : O_APC_Tracked_02_cannon_F {
 		{
 			displayName="The Chosen";
 			author = AUTHOR;
-	dlc = DLC;
+			dlc = DLC;
 			textures[]=
 			{
                 "STB86_Factions\Black_hand\The_Chosen\textures\veh\IFV_1.paa",
@@ -136,41 +136,12 @@ class STB86_BH_CH_IFV : O_APC_Tracked_02_cannon_F {
 
 class STB86_BH_CH_IFV_02 : STB86_BH_CH_IFV {
 	displayName = "I-12AA Stormbreaker";
-	author = AUTHOR;
-	dlc = DLC;
-	commanderCanSee = 31;
-	gunnerCanSee = 2 + 4 + 8 + 16;
-	visualTarget = 1;
 	class Turrets : Turrets {
 		class MainTurret : MainTurret {
-			canUseScanner = 1;
 			magazines[] = {MAG_4(680Rnd_35mm_AA_shells_Tracer_Green),MAG_6(200Rnd_762x51_Belt_Green),MAG_2(2Rnd_GAT_missiles_O)};
 			weapons[] = {"STB86_BH_CH_IFV_02_Cannon","LMG_coax_ext","missiles_titan"};
 		};
 	};
-	class Components: Components
-	{
-		class SensorsManagerComponent
-		{
-			class Components
-			{
-				class ActiveRadarSensorComponent : SensorTemplateActiveRadar
-				{
-					class AirTarget
-					{
-						minRange = 100;
-						maxRange = 4000;
-						objectDistanceLimitCoef	= -1;
-						viewDistanceLimitCoef	= -1;
-					};
-					angleRangeHorizontal = 270;
-					angleRangeVertical = 90;
-				};
-				class IRSensorComponent : SensorTemplateIR {};
-			};
-		};
-	};
-
 };
 
 

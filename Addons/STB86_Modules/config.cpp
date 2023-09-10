@@ -192,7 +192,7 @@ class CfgVehicles //Because everything is a fucking vehicle GOD FUCKING DMAnit a
 		/*icon = "";  //Icon path// */
 		category = "STB86_Modules_Faction";
 
-		function = "STB86_fnc_kill_switch";
+		function = "STB86_Factions_fnc_killSwitch";
 
 		functionPriority = 1; // Lower number Executes first
 

@@ -28,6 +28,7 @@ class CfgPatches
 				"STB86_BH_CH_HeliPilot",
 				"STB86_BH_CH_Devastator",
 				"STB86_BH_CH_Fanatic",
+				"STB86_BH_CH_FakeFanatic",
 				"STB86_BH_CH_Ghost",
 				// Vics
 				"STB86_BH_CH_MBT",
@@ -94,10 +95,7 @@ class CfgPatches
 			"A3_Characters_F",
 			"A3_characters_f_bootcamp",
 			"A3_Characters_F",
-			"OPTRE_Core",
-			"OPTRE_Vehicles",
-			"OPTRE_UNSC_Units",
-			"OPTRE_Weapons",
+			"OPTRE_ACE_Compat",
 			// Ground vics
 			"A3_Armor_F_Gamma_MBT_01",
 			"A3_Armor_F_Exp_APC_Tracked_02",
@@ -130,7 +128,7 @@ class CfgWeapons{
 	#include "weapons.hpp"
 };
 #define MAG_XX(a,b) class _xx_##a {magazine = a; count = b;}
-
+#define ITEM_XX(a,b) class _xx_##a {name = a; count = b;}
 #define MAG_6(a) a,a,a,a,a,a
 #define MAG_4(a) a,a,a,a
 #define MAG_3(a) a,a,a

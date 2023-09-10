@@ -78,7 +78,7 @@ class STB86_BH_Medic : STB86_BH_Rifleman {
 	displayName="Medic";
 	attendant = 1;
 	icon = "iconManMedic";
-	backpack="B_TacticalPack_blk";
+	backpack="STB86_BH_TacticalPack_Medic";
 
 
 	weapons[] = {STB86_BH_MA5K, STB86_BH_M6G, Throw, Put};
@@ -89,9 +89,6 @@ class STB86_BH_Medic : STB86_BH_Rifleman {
 	
 	linkedItems[] = {STB86_BH_Medic_Vest, STB86_BH_Helmet, G_Bandanna_blk, ItemMap, ItemCompass, ItemWatch, ItemRadio};
 	respawnLinkedItems[] = {STB86_BH_Medic_Vest, STB86_BH_Helmet, G_Bandanna_blk, ItemMap, ItemCompass, ItemWatch, ItemRadio};
-
-	Items[] = {MAG_3(FirstAidKit), Medikit, OPTRE_Medkit};
-	RespawnItems[] = {MAG_3(FirstAidKit), Medikit, OPTRE_Medkit};
 };
 class STB86_BH_SAW : STB86_BH_Rifleman {   
 	displayName="SAW Gunner";
@@ -111,8 +108,8 @@ class STB86_BH_AT : STB86_BH_Rifleman {
 	weapons[] = {STB86_BH_AK15, STB86_BH_M6G, OPTRE_M41_SSR, Throw, Put};
 	respawnWeapons[] = {STB86_BH_AK15, STB86_BH_M6G, OPTRE_M41_SSR, Throw, Put};
 
-	magazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_3(OPTRE_M41_Twin_HEAT)};
-	respawnMagazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_3(OPTRE_M41_Twin_HEAT)};
+	magazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT};
+	respawnMagazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT};
 
 
 	linkedItems[] = {STB86_BH_GL_Vest, STB86_BH_Helmet, G_Bandanna_blk, ItemMap, ItemCompass, ItemWatch, ItemRadio};
@@ -124,8 +121,8 @@ class STB86_BH_AA : STB86_BH_AT {
 	displayName="AA Rifleman";
 	backpack="STB86_BH_FieldPack_AA";
 
-	magazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_3(OPTRE_M41_Twin_HEAT_Thermal)};
-	respawnMagazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), MAG_3(OPTRE_M41_Twin_HEAT_Thermal)};
+	magazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT_Thermal};
+	respawnMagazines[] = {MAG_6(STB86_762x39_32rnd_Tracer), MAG_2(OPTRE_8Rnd_127x40_Mag), MAG_2(OPTRE_M9_Frag), MAG_2(OPTRE_M2_Smoke), OPTRE_M41_Twin_HEAT_Thermal};
 
 };
 

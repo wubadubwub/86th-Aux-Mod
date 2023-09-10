@@ -32,6 +32,10 @@ class CfgPatches
 				"STB86_BH_Car_AT",
 				"STB86_BH_Car_armed",
 				"STB86_BH_Car_unarmed",
+				// Armor
+				"STB86_BH_APC",
+				"STB86_BH_IFV",
+				"STB86_BH_MBT",
 		};
 		//unknown
 		weapons[] = {
@@ -60,10 +64,7 @@ class CfgPatches
 			"A3_Characters_F",
 			"A3_characters_f_bootcamp",
 			"A3_Characters_F",
-			"OPTRE_Core",
-			"OPTRE_Vehicles",
-			"OPTRE_UNSC_Units",
-			"OPTRE_Weapons",
+			"OPTRE_ACE_Compat",
 			// Ground vehicles
 			"A3_Soft_F_Exp_LSV_02",
 			"A3_Soft_F_Exp_Truck_02",
@@ -88,7 +89,7 @@ class CfgWeapons{
 };
 
 #define MAG_XX(a,b) class _xx_##a {magazine = a; count = b;}
-
+#define ITEM_XX(a,b) class _xx_##a {name = a; count = b;}
 #define MAG_6(a) a,a,a,a,a,a
 #define MAG_4(a) a,a,a,a
 #define MAG_3(a) a,a,a
