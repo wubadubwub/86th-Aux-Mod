@@ -33,6 +33,7 @@ class CfgPatches
 				// Vics
 				"STB86_BH_CH_MBT",
 				"STB86_BH_CH_MBT_02",
+				"STB86_BH_CH_MBT_03",
 				"STB86_BH_CH_IFV",
 				"STB86_BH_CH_IFV_02",
 				"STB86_BH_CH_APC",
