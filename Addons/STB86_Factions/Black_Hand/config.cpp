@@ -36,6 +36,9 @@ class CfgPatches
 				"STB86_BH_APC",
 				"STB86_BH_IFV",
 				"STB86_BH_MBT",
+				// Ground Objects
+				"STB86_Flag_BlackHand",
+				"STB86_Banner_Blackhand",
 		};
 		//unknown
 		weapons[] = {
@@ -110,6 +113,19 @@ class CfgVehicles{
 	The vics
 	*/
 	#include "vehicles.hpp"
+	class Flag_CSAT_F;
+	class Banner_01_F;
+	class STB86_Flag_BlackHand : Flag_CSAT_F {
+		displayName = "Flag (Blackhand)";
+		class EventHandlers {
+			init = "(_this select 0) setFlagTexture 'STB86_Factions\Black_Hand\textures\icons\flag_blackhand_co.paa'";
+		};
+	};
+	class STB86_Banner_Blackhand : Banner_01_F {
+		displayName = "Banner (Blackhand)";
+		hiddenSelectionsTextures[] = {"STB86_Factions\Black_Hand\textures\icons\flag_blackhand_co.paa"};
+	};
+
 };
 
 /*
@@ -152,5 +168,14 @@ class CfgMagazines {
 		count=60;
 		descriptionshort="60 Round Magazine<ma5>7.62 ";
 		tracersEvery=1;
+	};
+};
+
+class CfgMarkers {
+	class flag_Altis;
+	class STB86_Marker_Blackhand : flag_Altis {
+		name = "Blackhand";
+		icon = "STB86_Factions\Black_hand\textures\icons\flag_icon_blackhand_co.paa";
+		texture = "STB86_Factions\Black_hand\textures\icons\flag_icon_blackhand_co.paa";
 	};
 };
