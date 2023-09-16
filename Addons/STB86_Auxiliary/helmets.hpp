@@ -52,16 +52,6 @@ class STB86_M56SR_Vandal_Helmet : STB86_M56SR_Base_Helmet {
 	};
 };
 
-class STB86_M56SR_Vandal_Bow_Helmet : STB86_M56SR_Base_Helmet {
-	displayName = "[86th] M56SR Bow [Vandal]";
-
-	hiddenSelectionsTextures[] = 
-	{
-		"STB86_Auxiliary\Data\Helmets\Vandal_Reach_Helmet_co.paa",
-		"STB86_Auxiliary\Data\Visors\Vandal_Bow_Visor_co.paa",
-	};
-};
-
 class STB86_M56SR_Vandal_Heathen_Helmet : STB86_M56SR_Base_Helmet {
 	displayName = "[86th] M56SR Heathen [Vandal]";
 
