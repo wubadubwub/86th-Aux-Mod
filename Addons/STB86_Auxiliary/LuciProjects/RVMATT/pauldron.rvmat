@@ -48,7 +48,7 @@ class Stage4
 };
 class Stage5
 {
-	texture= "STB86_Auxiliary\LuciProjects\Textures\SL_pauldron_smdi.paa"
+	texture= "STB86_Auxiliary\LuciProjects\Textures\SL_pauldron_smdi.paa";
 	uvSource = "tex";
 };
 class Stage6

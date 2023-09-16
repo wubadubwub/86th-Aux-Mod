@@ -45,7 +45,7 @@ class CfgVehicles {
 		};
 		//Adds MG
 		class EventHandlers: EventHandlers {
-			init = "[_this] call STB86_fnc_attachMgTahoe"; //7/16/22
+			init = "[{params ['_vic'];[_vic] call STB86_fnc_attachMgTahoe;}, _this, 3] call CBA_fnc_waitAndExecute;"; // 9/11
 		};
 
 

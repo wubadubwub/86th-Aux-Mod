@@ -11,8 +11,8 @@ ambient[] = {1,1,1,1};
 diffuse[] = {1,1,1,1};
 forcedDiffuse[] = {0,0,0,1};
 emmisive[] = {0,0,0,1};
-specular[] = {0.2,0.2,0.2,1};
-specularPower = 25;
+specular[] = {0.15,0.15,0.15,0.15};
+specularPower = 80;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
@@ -29,7 +29,7 @@ class Stage1
 };
 class Stage2
 {
-  texture = "#(argb,8,8,3)color(0.5,0.5,0.5,0.5,DT)";
+  texture = "#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
   uvSource = "tex";
   class uvTransform
   {
@@ -53,7 +53,7 @@ class Stage3
 };
 class Stage4
 {
-  texture = "STB86_Auxiliary\LuciProjects\Textures\Ears_as.paa";
+  texture = "#(argb,8,8,3)color(0.15,0.15,0.15,0.15,AS)";
   uvSource = "tex";
   class uvTransform
   {
@@ -77,7 +77,7 @@ class Stage5
 };
 class Stage6
 {
-  texture = "#(ai,64,64,1)fresnel(3,2)";
+  texture = "#(ai,64,64,1)fresnel(4.7,1.2)";
   uvSource = "tex";
   class uvTransform
   {
@@ -89,7 +89,7 @@ class Stage6
 };
 class Stage7
 {
-  texture = "a3\data_f\env_land_co.paa";
+  texture = "a3\data_f\env_co.paa";
   useWorldEnvMap = "true";
   uvSource = "tex";
   class uvTransform

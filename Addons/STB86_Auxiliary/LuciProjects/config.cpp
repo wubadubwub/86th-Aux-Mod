@@ -192,7 +192,7 @@ class CfgGlasses
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"STB86_Auxiliary\LuciProjects\Textures\cape_co.paa";
+			"STB86_Auxiliary\LuciProjects\Textures\cape_co.paa"
 		};
 	};
 	class G_cape_v2	:  None
@@ -216,7 +216,7 @@ class CfgGlasses
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"STB86_Auxiliary\LuciProjects\Textures\cape_v2_co.paa";
+			"STB86_Auxiliary\LuciProjects\Textures\cape_v2_co.paa"
 		};
 	};
 	class G_Katana_v2 :  None
@@ -258,7 +258,7 @@ class CfgGlasses
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"STB86_Auxiliary\LuciProjects\Textures\Vandal_SL_Pauldron.paa";
+			"STB86_Auxiliary\LuciProjects\Textures\Vandal_SL_Pauldron.paa"
 		};
 		identityTypes[] = 
 		{
@@ -288,7 +288,7 @@ class CfgGlasses
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"STB86_Auxiliary\LuciProjects\Textures\Misfit_SL_Pauldron.paa";
+			"STB86_Auxiliary\LuciProjects\Textures\Misfit_SL_Pauldron.paa"
 		};
 	};
 };

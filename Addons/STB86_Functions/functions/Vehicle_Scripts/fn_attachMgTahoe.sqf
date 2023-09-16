@@ -6,10 +6,9 @@
 	Parameter: Car which has called the function
 */
 // Constants
-params ["_array"];
+params ["_target_car"];
 private _NUM_MAGS = 3;
 // Args
-private _target_car = _array select 0;
 
 
 if ((isDedicated) or (hasInterface && isServer)) then {
