@@ -140,7 +140,7 @@ class STB86_BH_Truck : O_truck_02_transport_F {
 			{
 				"STB86_Factions\Black_Hand\textures\veh\Truck_01.paa",
 				"STB86_Factions\Black_Hand\textures\veh\Truck_02.paa",
-				"STB86_Factions\Black_Hand\textures\Square.paa"
+				"STB86_Factions\Black_Hand\textures\veh\Truck_03.paa"
 			};
 			factions[]=
 			{
@@ -153,7 +153,7 @@ class STB86_BH_Truck : O_truck_02_transport_F {
 		"STB86_BH_Truck_Tex",
 		1
 	};
-	hiddenSelectionsTextures[] = {"STB86_Factions\Black_Hand\textures\veh\Truck_01.paa","STB86_Factions\Black_Hand\textures\veh\Truck_02.paa","STB86_Factions\Black_Hand\textures\Square.paa"};
+	hiddenSelectionsTextures[] = {"STB86_Factions\Black_Hand\textures\veh\Truck_01.paa","STB86_Factions\Black_Hand\textures\veh\Truck_02.paa","STB86_Factions\Black_Hand\textures\veh\Truck_03.paa"};
 
 };
 
@@ -175,7 +175,7 @@ class STB86_BH_Truck_Covered : O_truck_02_covered_F {
 			{
 				"STB86_Factions\Black_Hand\textures\veh\Truck_01.paa",
 				"STB86_Factions\Black_Hand\textures\veh\Truck_02.paa",
-				"STB86_Factions\Black_Hand\textures\Square.paa"
+				"STB86_Factions\Black_Hand\textures\veh\Truck_03.paa"
 			};
 			factions[]=
 			{
@@ -188,7 +188,7 @@ class STB86_BH_Truck_Covered : O_truck_02_covered_F {
 		"STB86_BH_Truck_Tex",
 		1
 	};
-	hiddenSelectionsTextures[] = {"STB86_Factions\Black_Hand\textures\veh\Truck_01.paa","STB86_Factions\Black_Hand\textures\veh\Truck_02.paa","STB86_Factions\Black_Hand\textures\Square.paa"};
+	hiddenSelectionsTextures[] = {"STB86_Factions\Black_Hand\textures\veh\Truck_01.paa","STB86_Factions\Black_Hand\textures\veh\Truck_02.paa","STB86_Factions\Black_Hand\textures\veh\Truck_03.paa"};
 
 };
 
