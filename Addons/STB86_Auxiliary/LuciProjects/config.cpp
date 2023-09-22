@@ -273,13 +273,13 @@ class CfgGlasses
 			};
 		};	
 	};
-	class G_Misift_Pauldron : G_Pauldron {
+	class G_Misfit_Pauldron : G_Pauldron {
 		author = "Luci";
 		_generalMacro="86th_cape_v2";
 		Scope = 2;
 		mass = 4;
 		ScopeArsenal = 2;
-		displayname = "Misift SL Pauldron";
+		displayname = "Misfit SL Pauldron";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\SL_Pauldron.p3d";
 		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
 		hiddenSelections[]=
