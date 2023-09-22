@@ -2,131 +2,55 @@
 //*****        Mod information             *****
 //**********************************************
 
-class CfgPatches
+ class CfgPatches
 {
-	class STB86_Auxiliary_Armor
-	{
-		//General mod info
-		author = "86th STB Modding Team";
-		name = "86th Auxiliary Armor";
-		//unknown
-		units[] = {};
-		//unknown
-		weapons[] = {};
-		//unknown
-		requiredVersion = 0.1;
-		//Dependancies for C++ style inheritence.
-		//If building off of a mod piece it needs
-		//to be listed here.
-		requiredAddons[] = {
-			"OPTRE_Core",
-			"OPTRE_Vehicles",
-			"OPTRE_UNSC_Units",
-			"OPTRE_Weapons"
-		};
-	};
+    class Test_Bot_Uniform
+    {
+        version = "1.1.3";
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = "1.1.3";
+        requiredAddons[] = {};
+    };
+};
+class CfgVehicles
+{
+
+        class B_Soldier_base_F;
+        class Test_Bot_Uniform : B_Soldier_base_F
+    {
+        scope = 2;
+        author = "Luci";
+        model = "STB86_Auxiliary\LuciProjects\TESTING\leg.p3d";
+        hiddenSelections[] = {};
+        hiddenSelectionsTextures[] = {};
+        hiddenSelectionsMaterials[] = {};
+
+};
 };
 
-class CfgWeapons
+class cfgWeapons
 {
-	//For helmet damage changes
-	class HeadgearItem;
-	class ItemInfo;
-	//For helmets
-	class OPTRE_UNSC_CH252D_Helmet;
-	class OPTRE_UNSC_CH252D_Helmet_dp;
-	class OPTRE_UNSC_Recon_Helmet;
-	class OPTRE_UNSC_Recon_Helmet_dp;
-	class ItemCore;
-	//For body armor
-	class OPTRE_UNSC_M52D_Armor;
-	class V_PlateCarrier2_rgr;
-	class VestItem;
-	//For Uniforms
-	class UniformItem;
-	class VES_BDU_Evolved_slim;
-	class OPTRE_UNSC_Army_Uniform_BLK;
-	//class LM_OPCAN_SU_Uni;
-	class Uniform_Base;
-	class OPTRE_UNSC_Army_Uniform_OLI;
-	class OPTRE_UNSC_M52A_Armor3_WDL;
-	//**********************************************
-	//*****        Body Armor                  *****
-	//**********************************************
-	class STB86_TestArmor : V_PlateCarrier2_rgr {
-		dlc = "STB86_Auxiliary";
-		displayname = "TestArmor";
-		scope = 2;
-		scopeArsenal = 2;
-		author = "86th STB Mod Team";
-		model = "\STB86_Auxiliary\LuciProjects\TestArmor\TestArmor.p3d";
-		class ItemInfo : VestItem
-		{
+  class UniformItem;
+    class Uniform_Base;
 
-			vestType = "Rebreather";
-			uniformModel = "\STB86_Auxiliary\LuciProjects\TestArmor\TestArmor.p3d";
-
-			mass = 80;
-
-			modelSides[] = { 6 };
-
-			containerClass = "Supply100";
-
-			hiddenSelections[] =
-			{
-			"camo"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName = "HitNeck";
-					armor = 45;
-					passThrough = 0.1;
-				};
-				class Legs
-				{
-					hitpointName = "HitLegs";
-					armor = 45;
-					passThrough = 0.1;
-				};
-				class Arms
-				{
-					hitpointName = "HitArms";
-					armor = 45;
-					passThrough = 0.1;
-				};
-				class Hands
-				{
-					hitpointName = "HitHands";
-					armor = 45;
-					passThrough = 0.1;
-				};
-				class Chest
-				{
-					hitpointName = "HitChest";
-					armor = 45;
-					passThrough = 0.1;
-				};
-				class Diaphragm
-				{
-					hitpointName = "HitDiaphragm";
-					armor = 45;
-					passThrough = 0.1;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 45;
-					passThrough = 0.1;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					armor = 45;
-					passThrough = 0.1;
-				};
-			};
-		};
-	};
+    class Test_Bot_Uniform : Uniform_Base
+    {
+        scope = 2;
+        author = "Luci";
+        displayName = "Test_Bot";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "Test_Bot_Uniform";
+            containerClass = "Supply40";
+            mass = 1;
+            allowedSlots[] = {"701","801","901"};
+            armor = 0;
+        };
+    };
 };
+
+
+

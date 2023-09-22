@@ -25,7 +25,17 @@ class CfgPatches
 class CfgVehicles
 {	
 	class OPTRE_UNSC_Army_Soldier_DressGray;
+	class B_Soldier_base_F;
 	
+	 class Test_Bot_Uniform : B_Soldier_base_F {
+        scope = 2;
+        author = "Luci";
+        model = "STB86_Auxiliary\LuciProjects\TESTING\leg.p3d";
+        hiddenSelections[] = {};
+        hiddenSelectionsTextures[] = {};
+        hiddenSelectionsMaterials[] = {};
+
+	};
    class STB86_Dress_Soldier: OPTRE_UNSC_Army_Soldier_DressGray {	
 		dlc = "86th";
 		author = "Luci";
@@ -50,6 +60,8 @@ class CfgWeapons
 	class H_Beret_02;
 	class Binocular;
 	class ItemInfo;
+	class UniformItem;
+	class Uniform_Base;
 	
 	class NVGoggles: Binocular {
 		class ItemInfo;
@@ -145,6 +157,21 @@ class CfgWeapons
 			mass = 4;
 		};
 	};
+		class Test_Bot_Uniform : Uniform_Base {
+        scope = 2;
+        author = "Luci";
+        displayName = "Test_Bot";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "STB86_Auxiliary\LuciProjects\TESTING\leg.p3d";
+            uniformClass = "Test_Bot_Uniform";
+            containerClass = "Supply40";
+            mass = 1;
+            allowedSlots[] = {"701","801","901"};
+            armor = 0;
+        };
+    };
 };
 class CfgGlasses
 {
