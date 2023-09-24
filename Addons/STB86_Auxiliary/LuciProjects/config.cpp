@@ -160,17 +160,20 @@ class CfgWeapons
 		class Test_Bot_Uniform : Uniform_Base {
         scope = 2;
         author = "Luci";
+		dlc="PGR";
         displayName = "Test_Bot";
+		picture ="\lucia\data\icon.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-        class ItemInfo: UniformItem
-        {
-            uniformModel = "STB86_Auxiliary\LuciProjects\TESTING\leg.p3d";
-            uniformClass = "Test_Bot_Uniform";
-            containerClass = "Supply40";
-            mass = 1;
-            allowedSlots[] = {"701","801","901"};
-            armor = 0;
-        };
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="Test_Bot_Uniform";
+			containerClass="Supply40";
+			mass=1;
+			allowedSlots[]={"701","801","901"};
+			armor=0;
+			uniformType="Neopren";
+		};
     };
 };
 class CfgGlasses
@@ -317,5 +320,54 @@ class CfgGlasses
 		{
 			"STB86_Auxiliary\LuciProjects\Textures\Misfit_SL_Pauldron.paa"
 		};
+	};
+};
+class Man;
+class Custom;
+class Default;
+class CfgFaces
+{
+	class Default
+	{
+		class Custom;
+	};
+	class Man_A3: Default
+	{
+		class Default;
+		class Test_Bot: Default
+		{
+			author="Kuro Game";
+			dlc="LuciProjects";
+			name="Test_bot";
+			displayname="Test_Bot_face";
+			texture="-";
+			textureHL="-";
+			head="TestBothead";
+			identityTypes[]=
+			{
+				"lucia"
+			};
+		};
+	};
+};
+class CfgHeads
+{
+	class Default_A3;
+	class TestBothead: Default_A3
+	{
+		model="STB86_Auxiliary\LuciProjects\TESTING\Face.p3d";
+		selectionHeadWound="injury_head";
+		selectionPersonality="personality";
+	};
+};
+class CfgIdentities
+{
+	class Test_Bot
+	{
+		name="TestBot";
+		face="Test_Bot";
+		speaker="-";
+		pitch=1;
+		glasses="none";
 	};
 };
