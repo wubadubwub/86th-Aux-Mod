@@ -134,17 +134,6 @@ class CfgWeapons
 			"STB86_Auxiliary\LuciProjects\Textures\86thSTB_beret02_co.paa"
 		};
 	};
-	class BH_Beret : H_Beret_Colonel {
-		author = "Luci";
-		Scope = 2;
-		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
-		displayName = "BH Beret";
-
-		hiddenSelectionsTextures[] =
-		{
-			"STB86_Auxiliary\LuciProjects\Textures\BlackHand_beret02_co.paa"
-		};
-	};
 	class STB86_Ghost_Mask: NVGoggles {
 		displayName = "[86th] Ghost";
 		author = "Luci";
