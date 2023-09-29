@@ -25,7 +25,17 @@ class CfgPatches
 class CfgVehicles
 {	
 	class OPTRE_UNSC_Army_Soldier_DressGray;
+	class B_Soldier_base_F;
 	
+	 class Test_Bot_Uniform : B_Soldier_base_F {
+        scope = 2;
+        author = "Luci";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
+        model = "STB86_Auxiliary\LuciProjects\TESTING\leg.p3d";
+        hiddenSelections[] = {};
+        hiddenSelectionsTextures[] = {};
+        hiddenSelectionsMaterials[] = {};
+	};
    class STB86_Dress_Soldier: OPTRE_UNSC_Army_Soldier_DressGray {	
 		dlc = "86th";
 		author = "Luci";
@@ -48,8 +58,11 @@ class CfgWeapons
 {
 	class OPTRE_UNSC_Dress_Uniform_gray;
 	class H_Beret_02;
+	class H_Beret_Colonel;
 	class Binocular;
 	class ItemInfo;
+	class UniformItem;
+	class Uniform_Base;
 	
 	class NVGoggles: Binocular {
 		class ItemInfo;
@@ -57,6 +70,7 @@ class CfgWeapons
 	class STB86_Ears: NVGoggles {
 		displayName = "[86th] Ears";
 		author = "Luci";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\Ears.p3d";
 		hiddenSelections[]=
 		{
@@ -120,10 +134,22 @@ class CfgWeapons
 			"STB86_Auxiliary\LuciProjects\Textures\86thSTB_beret02_co.paa"
 		};
 	};
+	class BH_Beret : H_Beret_Colonel {
+		author = "Luci";
+		Scope = 2;
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
+		displayName = "BH Beret";
+
+		hiddenSelectionsTextures[] =
+		{
+			"STB86_Auxiliary\LuciProjects\Textures\BlackHand_beret02_co.paa"
+		};
+	};
 	class STB86_Ghost_Mask: NVGoggles {
 		displayName = "[86th] Ghost";
 		author = "Luci";
 		Scope = 1;
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		ScopeArsenal = 1;
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\ghost.p3d";
 		hiddenSelections[]=
@@ -145,6 +171,24 @@ class CfgWeapons
 			mass = 4;
 		};
 	};
+	class Test_Bot_Uniform : Uniform_Base {
+        scope = 2;
+        author = "Luci";
+		dlc="LuciProjects";
+        displayName = "Test_Bot";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="Test_Bot_Uniform";
+			containerClass="Supply40";
+			mass=1;
+			allowedSlots[]={"701","801","901"};
+			armor=0;
+			uniformType="Neopren";
+		};
+    };
 };
 class CfgGlasses
 {
@@ -157,7 +201,7 @@ class CfgGlasses
 		ScopeArsenal = 2;
 		displayname = "Katana";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\Sword.p3d";
-		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		identityTypes[] =
 		{
 			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
@@ -180,7 +224,7 @@ class CfgGlasses
 		ScopeArsenal = 2;
 		displayname = "cape";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape.p3d";
-		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		identityTypes[] =
 		{
 			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
@@ -204,7 +248,7 @@ class CfgGlasses
 		ScopeArsenal = 2;
 		displayname = "capev2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\cape_v2.p3d";
-		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		identityTypes[] =
 		{
 			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
@@ -228,7 +272,7 @@ class CfgGlasses
 		ScopeArsenal = 2;
 		displayname = "Katana_v2";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\katana.p3d";
-		picture = "STB86_Auxiliary\LuciProjects\Icons\katana_CA.paa";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		identityTypes[] =
 		{
 			"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",0,"G_NATO_SF",0,"G_NATO_sniper",0,
@@ -251,7 +295,7 @@ class CfgGlasses
 		ScopeArsenal = 2;
 		displayname = "Vandal SL Pauldron";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\SL_Pauldron.p3d";
-		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -273,15 +317,15 @@ class CfgGlasses
 			};
 		};	
 	};
-	class G_Misift_Pauldron : G_Pauldron {
+	class G_Misfit_Pauldron : G_Pauldron {
 		author = "Luci";
 		_generalMacro="86th_cape_v2";
 		Scope = 2;
 		mass = 4;
 		ScopeArsenal = 2;
-		displayname = "Misift SL Pauldron";
+		displayname = "Misfit SL Pauldron";
 		model = "STB86_Auxiliary\LuciProjects\P3Ds\SL_Pauldron.p3d";
-		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -290,5 +334,77 @@ class CfgGlasses
 		{
 			"STB86_Auxiliary\LuciProjects\Textures\Misfit_SL_Pauldron.paa"
 		};
+	};
+};
+class CfgFaces
+{	
+	class Man;
+	class Custom;
+	class Default;
+	
+	class Man_A3: Default
+	{
+		class Test_Bot: Default
+		{
+			author="LUCI";
+			dlc="LuciProjects";
+			name="Test_bot";
+			displayname="Test_Bot_face";
+			texture="-";
+			textureHL="-";
+			head="TestBothead";
+			identityTypes[]=
+			{
+				"Test_Bot"
+			};
+		};
+		class Nightstalker : Default
+		{
+			author="LUCI";
+			displayName = "Nightstalker";
+			dlc="LuciProjects";
+			name="Nightstalker";
+			head="Nightstalker";
+			texture="STB86_Auxiliary\LuciProjects\Textures\Nightstalker_co.paa"; 
+			identityTypes[] = 
+			{
+				"Nightstalker"
+			};
+		};
+	};
+};
+class CfgHeads
+{
+	class Default_A3;
+	class TestBothead: Default_A3
+	{
+		model="STB86_Auxiliary\LuciProjects\TESTING\Face.p3d";
+		selectionHeadWound="injury_head";
+		selectionPersonality="personality";
+	};
+	class Nightstalker: Default_A3
+	{
+		model="STB86_Auxiliary\LuciProjects\P3Ds\Nightstalker.p3d";
+		selectionHeadWound="injury_head";
+		selectionPersonality="personality";
+	};
+};
+class CfgIdentities
+{
+	class Test_Bot
+	{
+		name="TestBot";
+		face="Test_Bot";
+		speaker="-";
+		pitch=1;
+		glasses="none";
+	};
+	class Nightstalker
+	{
+		name="Nightstalker";
+		face="Nightstalker";
+		speaker="-";
+		pitch=1;
+		glasses="none";
 	};
 };

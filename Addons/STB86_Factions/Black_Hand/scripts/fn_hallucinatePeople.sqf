@@ -3,6 +3,7 @@ private _units = ["STB86_BH_CH_FakeFanatic"];
 private _group = createGroup [east, true];
 private _selected_unit = _units call BIS_fnc_selectRandom;
 private _unit = _group createUnit [_selected_unit, getPosATL _target, [], 10, "NONE"];
+_unit setDir (_unit getDir _target);
 private _ps1 = "#particlesource" createVehicleLocal (getPosATL _unit);
 _ps1 setParticleParams [
 	["\A3\Data_F\ParticleEffects\Universal\Universal", 16, 9, 16, 0], "", "Billboard",
