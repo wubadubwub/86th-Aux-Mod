@@ -27,8 +27,10 @@ class CfgPatches
 				"STB86_BH_Crewman",
 				"STB86_BH_Autorifleman",
 				// Vics
-				"STB86_BH_Truck_Covered",
 				"STB86_BH_Truck",
+				"STB86_BH_Truck_Covered",
+				"STB86_BH_Truck_Ammo",
+				"STB86_BH_Truck_Fuel",
 				"STB86_BH_Car_AT",
 				"STB86_BH_Car_armed",
 				"STB86_BH_Car_unarmed",
