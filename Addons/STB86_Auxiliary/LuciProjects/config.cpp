@@ -28,7 +28,7 @@ class CfgVehicles
 	class B_Soldier_base_F;
 	
 	 class Test_Bot_Uniform : B_Soldier_base_F {
-        scope = 2;
+        scope = 1;
         author = "Luci";
 		picture = "STB86_Auxiliary\LuciProjects\Icons\Luci_CA.paa";
         model = "STB86_Auxiliary\LuciProjects\TESTING\leg.p3d";
@@ -161,7 +161,7 @@ class CfgWeapons
 		};
 	};
 	class Test_Bot_Uniform : Uniform_Base {
-        scope = 2;
+        scope = 1;
         author = "Luci";
 		dlc="LuciProjects";
         displayName = "Test_Bot";
@@ -367,6 +367,7 @@ class CfgHeads
 	class Default_A3;
 	class TestBothead: Default_A3
 	{
+		scope = 1;
 		model="STB86_Auxiliary\LuciProjects\TESTING\Face.p3d";
 		selectionHeadWound="injury_head";
 		selectionPersonality="personality";
