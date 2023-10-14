@@ -413,22 +413,6 @@ class STB86_M56R_Misfit_Clanka_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 };
-// Jester
-class STB86_M56R_Jester_Luci_Vest : STB86_M56R_Base_Vest {
-	displayName = "[86th] M56R Luci [Jester]";
-	hiddenSelectionsTextures[] = {
-		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
-		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
-		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-		"STB86_Auxiliary\Data\Vests\Jester_Luci_Upper_co.paa",
-		"STB86_Auxiliary\Data\Vests\Jester_Luci_Lower_co.paa",
-		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
-		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
-        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
-        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
-	};
-};
 class STB86_M56R_Felwinter_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R Felwinter [Misfit]";
 	hiddenSelectionsTextures[] = {
@@ -437,7 +421,7 @@ class STB86_M56R_Felwinter_Vest : STB86_M56R_Base_Vest {
 		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
 		"STB86_Auxiliary\Data\Vests\Misfit_Felwinter_Upper_co.paa",
 		"STB86_Auxiliary\Data\Vests\Misfit_Felwinter_Lower_co.paa",
-		"STB86_Auxiliary\Data\Vests\Misfit_Felwinter_Canisters_co.paa",      
+		"STB86_Auxiliary\Data\Misc\Misfit_Felwinter_Canisters_co.paa",      
 		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
         "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
         "STB86_Auxiliary\Data\Misc\Misfit_Felwinter_CQB_co.paa", 
@@ -478,6 +462,22 @@ class STB86_M56R_Felwinter_Vest : STB86_M56R_Base_Vest {
         	// "Forearm_Vent_Right",
         	//"Canisters"
 		};
+	};
+};
+// Jester
+class STB86_M56R_Jester_Luci_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R Luci [Jester]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Jester_Luci_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Jester_Luci_Lower_co.paa",
+		"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 };
 // Misc
