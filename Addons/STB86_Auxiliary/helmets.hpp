@@ -164,6 +164,14 @@ class STB86_M56SR_Misfit_Clanka_Helmet : STB86_M56SR_Base_Helmet {
 		"STB86_Auxiliary\Data\Visors\Misfit_Clanka_Visor_co.paa",
 	};
 };
+class STB86_M56SR_Misfit_Felwinter_Helmet : STB86_M56SR_Base_Helmet {
+	displayName = "[86th] M56SR Felwinter [Misfit]";
+
+	hiddenSelectionsTextures[] = {
+		"STB86_Auxiliary\Data\Helmets\Misfit_Felwinter_Helmet_co.paa",
+		"STB86_Auxiliary\Data\Visors\Misfit_Felwinter_Visor_co.paa",
+	};
+};
 // Jester
 class STB86_M56SR_Jester_Luci_Helmet : STB86_M56SR_Base_Helmet {
 	displayName = "[86th] M56SR Luci [Jester]";

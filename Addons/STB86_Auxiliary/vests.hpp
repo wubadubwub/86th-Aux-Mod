@@ -429,6 +429,57 @@ class STB86_M56R_Jester_Luci_Vest : STB86_M56R_Base_Vest {
         "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
 	};
 };
+class STB86_M56R_Felwinter_Vest : STB86_M56R_Base_Vest {
+	displayName = "[86th] M56R Felwinter [Misfit]";
+	hiddenSelectionsTextures[] = {
+		"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       
+		"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Felwinter_Upper_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Felwinter_Lower_co.paa",
+		"STB86_Auxiliary\Data\Vests\Misfit_Felwinter_Canisters_co.paa",      
+		"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+        "STB86_Auxiliary\Data\Misc\Misfit_Felwinter_CQB_co.paa", 
+        "MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",   
+	};
+	class ItemInfo : ItemInfo {
+		hiddenSelections[] = {
+        	"camo1",
+        	"camo2",
+        	"camo3",
+        	"camo4",
+        	"camo5",
+        	"camo6",
+        	"camo7",
+        	"camo8",
+        	"camo9",
+        	"camo10",
+        	"H3_Forearm_Left",
+        	"H3_Forearm_Right",
+        	// "Reach_Forearm_Left",
+        	// "Reach_Forearm_Right",
+        	"H3_Pauldron_Left",
+        	"H3_Pauldron_Right",
+        	// "Reach_Pauldron_Left",
+        	"Reach_Pauldron_Right",
+        	// "Reach_Shoulder_Radio_Left",
+        	"Reach_Shoulder_Radio_Right",
+        	"Reach_Sniper_Pauldron_Left",
+        	"Reach_Sniper_Pauldron_Right",
+        	"Reach_CQB_Pauldron_Left",
+        	//"Reach_CQB_Pauldron_Right",
+            "Thigh_Pouch",
+        	"H3_Armor_Upper",
+        	"H3_Armor_Lower",
+        	// "Reach_Armor_Upper",
+        	// "Reach_Armor_Lower",
+        	"Forearm_Vent_Left",
+        	// "Forearm_Vent_Right",
+        	//"Canisters"
+		};
+	};
+};
 // Misc
 class STB86_M56R_Kitty_Vest : STB86_M56R_Base_Vest {
 	displayName = "[86th] M56R Kitty";
