@@ -44,74 +44,74 @@ class CfgAmmo
 class CfgMagazines
 {
 	class 10Rnd_93x64_DMR_05_Mag;
-	class Commando_30Rnd_95_Mag: 10Rnd_93x64_DMR_05_Mag
+	class Commando_20Rnd_95_Mag: 10Rnd_93x64_DMR_05_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
-		displayname="30 9.5 Creedmoor Magazine";
+		displayname="20 9.5 Creedmoor Magazine";
 		displaynameshort="9.5 Creedmoor";
 		ammo="OPTRE_65_Creedmoor";
-		count=30;
+		count=20;
 		initspeed=1000;
 		picture="\OPTRE_weapons\ar\icons\magazine.paa";
-		descriptionshort="30 Round Magazine<br>9.5 Creedmoor";
-		mass=13;
+		descriptionshort="20 Round Magazine<br>9.5 Creedmoor";
+		mass=16;
 		tracersEvery=0;
 		lastRoundsTracer=0;
 	};
-	class Commando_30Rnd_95_TracerY_Mag: Commando_30Rnd_95_Mag
+	class Commando_20Rnd_95_TracerY_Mag: Commando_20Rnd_95_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
 		displayname="30 9.5 Magazine (Tracers Yellow)";
 		displaynameshort="9.5 Creed Tracer";
 		ammo="OPTRE_65_Tracer_Y";
-		count=30;
+		count=20;
 		initspeed=1000;
 		picture="\OPTRE_weapons\ar\icons\magazine.paa";
 		descriptionshort="30 Round Magazine<br>9.5 Tracer Yellow";
-		mass=14;
+		mass=16;
 		tracersEvery=1;
-		lastRoundsTracer=40;
+		lastRoundsTracer=20;
 	};
-	class Command_30Rnd_95_TracerR_Mag: Commando_30Rnd_95_Mag
+	class Command_20Rnd_95_TracerR_Mag: Commando_20Rnd_95_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
-		displayname="30Rnd 9.5 Magazine (Tracers Red)";
+		displayname="20Rnd 9.5 Magazine (Tracers Red)";
 		displaynameshort="9.5 Creed Tracer";
 		ammo="OPTRE_65_Tracer_R";
-		count=30;
+		count=20;
 		initspeed=1000;
 		picture="\OPTRE_weapons\ar\icons\magazine.paa";
 		descriptionshort="30 Round Magazine<br>9.5 Tracer Red";
-		mass=14;
+		mass=16;
 		tracersEvery=1;
-		lastRoundsTracer=30;
+		lastRoundsTracer=20;
 	};
-	class Commando_30Rnd_95_ReloadY_Mag: Commando_30Rnd_95_Mag
+	class Commando_20Rnd_95_ReloadY_Mag: Commando_20Rnd_95_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
-		displayname="30Rnd 9.5 Reload Tracer (Yellow)";
+		displayname="20Rnd 9.5 Reload Tracer (Yellow)";
 		displaynameshort="9.5 Creedmoor";
 		ammo="OPTRE_65_Tracer_Y";
-		count=30;
+		count=20;
 		initspeed=1000;
 		picture="\OPTRE_weapons\ar\icons\magazine.paa";
-		descriptionshort="30 Round Magazine<br>9.5 Creedmoor";
-		mass=14;
+		descriptionshort="20 Round Magazine<br>9.5 Creedmoor";
+		mass=16;
 		tracersEvery=0;
 		lastRoundsTracer=5;
 	};
-	class Commando_30Rnd_95_ReloadR_Mag: Commando_30Rnd_95_Mag
+	class Commando_20Rnd_95_ReloadR_Mag: Commando_20Rnd_95_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
-		displayname="30Rnd 9.5 Reload Tracer (Red)";
+		displayname="20Rnd 9.5 Reload Tracer (Red)";
 		displaynameshort="9.5 Creedmoor";
 		ammo="OPTRE_65_Tracer_R";
-		count=30;
+		count=20;
 		initspeed=1000;
 		picture="\OPTRE_weapons\ar\icons\magazine.paa";
 		descriptionshort="30 Round Magazine<br>9.5 Creedmoor";
@@ -145,12 +145,12 @@ class CfgWeapons
 		cursor="OPTRE_M392";
 		magazines[]=
 		{
-			"Commando_30Rnd_95_Mag",
-			"Commando_30Rnd_95_Mag",
-			"Commando_30Rnd_95_TracerY_Mag",
-			"Command_30Rnd_95_TracerR_Mag",
-			"Commando_30Rnd_95_ReloadY_Mag",
-			"Commando_30Rnd_95_ReloadR_Mag"
+			"Commando_20Rnd_95_Mag",
+			"Commando_20Rnd_95_Mag",
+			"Commando_20Rnd_95_TracerY_Mag",
+			"Command_20Rnd_95_TracerR_Mag",
+			"Commando_20Rnd_95_ReloadY_Mag",
+			"Commando_20Rnd_95_ReloadR_Mag"
 		};
 		magazineWell[]={};
 		hiddenSelections[]=
